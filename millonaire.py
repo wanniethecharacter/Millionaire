@@ -464,7 +464,10 @@ def quiz():
         marking(answer,current_line,a,b,c,d,first_choice,second_choice,third_choice,fourth_choice,table_line_length,shuffled_line,question_lines,i)
         for round_ in range(len(prices)+1):
             if counter==round_:
-                print(fg.orange +prices[counter]+fg.rs)
+                if counter==0:
+                    print(fg.orange+prices[0]+fg.rs)
+                if counter!=0:
+                    print(fg.orange +prices[counter-1]+fg.rs)
                 time.sleep(1)
         if counter == 5:
             print(fg.orange + "You have guaranteed 100.000 Ft" + fg.rs)
