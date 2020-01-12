@@ -59,7 +59,7 @@ def help_modules(a,b,c,d,current_line,question_lines,i,vago_feje_sorai,table_lin
         if Audience==False:
             print("You have already used the audience help!")
         else:    
-            audience_help(a,b,c,d,current_line,question_lines)
+            audience_help(a,b,c,d,current_line,question_lines,table_line_length,first_choice,second_choice,third_choice,fourth_choice,shuffled_line,i)
             Audience=False
     if help_.lower()=="t":
         if Telephone==False:
@@ -79,7 +79,7 @@ def help_modules(a,b,c,d,current_line,question_lines,i,vago_feje_sorai,table_lin
     
 
 
-def audience_help(a,b,c,d,current_line,question_lines):
+def audience_help(a,b,c,d,current_line,question_lines,table_line_length,first_choice,second_choice,third_choice,fourth_choice,shuffled_line,i):
     play_sound("kozonseg.mp3",0)
     for choise in [a,b,c,d]:
         if choise ==current_line[0]:
@@ -106,13 +106,53 @@ def audience_help(a,b,c,d,current_line,question_lines):
             if a_percent+b_percent+c_percent+d_percent != 100:
                 print(" AUDIENCE HELP IS BROKEN!!!")
                 break
-            print(f'A: {a_percent}%')
+            os.system('clear')
+            for choise_ in [a,b,c,d]:
+                if choise ==current_line[0]:
+                    if choise_==a:
+                        fake_a_percent=random.randrange(40,89)
+                        fake_b_percent=random.randrange(0,(100-fake_a_percent))
+                        fake_c_percent=random.randrange(0,(100-fake_a_percent-fake_b_percent))
+                        fake_d_percent=100-(fake_a_percent+fake_b_percent+fake_c_percent)
+                    if choise_==b:
+                        fake_b_percent=random.randrange(40,89)
+                        fake_a_percent=random.randrange(0,(100-fake_b_percent))
+                        fake_c_percent=random.randrange(0,(100-fake_b_percent-fake_a_percent))
+                        fake_d_percent=100-(fake_a_percent+fake_b_percent+fake_c_percent)
+                    if choise_==c:
+                        fake_c_percent=random.randrange(40,89)
+                        fake_b_percent=random.randrange(0,(100-fake_c_percent))
+                        fake_a_percent=random.randrange(0,(100-fake_c_percent-fake_b_percent))
+                        fake_d_percent=100-(fake_a_percent+fake_b_percent+fake_c_percent)
+                    if choise_==d:
+                        fake_d_percent=random.randrange(40,89)
+                        fake_b_percent=random.randrange(0,(100-fake_d_percent))
+                        fake_c_percent=random.randrange(0,(100-fake_d_percent-fake_b_percent))
+                        fake_a_percent=100-(fake_d_percent+fake_b_percent+fake_c_percent)
+                    if fake_a_percent+fake_b_percent+fake_c_percent+fake_d_percent != 100:
+                        print("Sheibe")
+                print("A:"+bg.blue+fake_a_percent*" "+" "+str(fake_a_percent)+"%"+"\n"+bg.rs+"B:"+bg.blue+fake_b_percent*" "+" "+str(fake_b_percent)+"%"+"\n"+bg.rs+"C:"+bg.blue+fake_c_percent*" "+" "+str(fake_c_percent)+"%"+"\n"+bg.rs+"D:"+bg.blue+fake_d_percent*" "+" "+str(fake_d_percent)+"%"+"\n"+bg.rs)
+                time.sleep(1)
+                os.system('clear')
+                sys.stdout.write("\033[F")
+            elems=[a_percent,b_percent,c_percent,d_percent]
+            max_element=max(elems[0],elems[1],elems[2],elems[3])
+            a__=(f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  A: {bg.rs+bg.blue+a_percent*" "+bg.black+fg.rs+str(a_percent)}% ')
+            b__=(f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  B: {bg.rs+bg.blue+b_percent*" "+bg.black+fg.rs+str(b_percent)}% ')
+            c__=(f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  C: {bg.rs+bg.blue+c_percent*" "+bg.black+fg.rs+str(c_percent)}% ')
+            d__=(f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  D: {bg.rs+bg.blue+d_percent*" "+bg.black+fg.rs+str(d_percent)}% ')
+            print((table_line_length+1)*" "+bg.black+(max_element+10)*"-"+bg.rs)
+            print(a__+(max_element-len(a__))*" "+"|"+bg.rs)
             time.sleep(1)
-            print(f'B: {b_percent}%')
+            print(b__+(max_element-len(b__))*" "+"|"+bg.rs)
             time.sleep(1)
-            print(f'C: {c_percent}%')
+            print(c__+(max_element-len(c__))*" "+"|"+bg.rs)
             time.sleep(1)
-            print(f'D: {d_percent}%')
+            print(d__+(max_element-len(d__))*" "+"|"+bg.rs)
+            print((table_line_length+1)*" "+bg.black+(max_element+10)*"-"+bg.rs)
+
+            quiz_table(table_line_length,first_choice,second_choice,third_choice,fourth_choice,shuffled_line,question_lines,i)
+
 def telephone_help(question_lines,current_line,i):
     phone=input("Who'd you like to call?\nfor mum, press 'm'\nfor dad press 'd'\nfor old teacher from high school press 't'\nfor Maester Yoda press 'y': ")
     if phone.lower()=='m':
