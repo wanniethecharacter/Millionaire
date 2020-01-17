@@ -442,6 +442,7 @@ def check_answer(answer,current_line,a,b,c,d,choises,table_line_length,shuffled_
         fg.green = Style(RgbFg(0, 255, 0))
         print(fg.green + "Well done!" + fg.rs)
         time.sleep(2)
+        os.system('clear')
     else:
         play_sound("rossz valasz.mp3",0)
         time.sleep(2)
@@ -496,7 +497,7 @@ def quiz():
         answer = input("Select the correct answer(a,b,c,d): \n(In case you need help type 'h')")
         if answer.lower()=='h':
             vago_feje_sorai = open_drawing('vago.txt', 'r')
-            Help_available=help_modules(a,b,c,d,current_line,question,vago_feje_sorai,table_line_length,shuffled_line,choises,Audience,Telephone,Halving)
+            Help_available=help_modules(a,b,c,d,current_line,question,vago_feje_sorai,table_line_length,shuffled_line,choises,Audience,Telephone,Halving,Help_available,prices,prices1,prices2,counter)
             Audience=Help_available[0]
             Telephone=Help_available[1]
             Halving=Help_available[2]
@@ -513,7 +514,6 @@ def quiz():
             won_prize=fg.orange + "Congratulations!\nYou've just won the unbelivable 40.000.000 Ft\n"+fg.purple+"You became the new Millionaire!!!" + fg.rs
             time.sleep(3)
             sys.exit(0)
-        spaces_won_prize=int((int(table_line_length)-int(len(won_prize)))/2)*" "
         print_quizmaster_with_prices_table(Help_available,table_line_length,prices,prices1,prices2,counter)
         print("  "+bg.black+"/"+"‾"*(table_line_length-6)+"\\"+bg.rs)
         width = table_line_length
