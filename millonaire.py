@@ -39,12 +39,24 @@ def open_drawing(filename, mode):
     with open(filename, mode) as file:
         list_of_file = []
         for line in file:
-            line  =  line.split(',')
+            line  = line.split(',')
             list_of_file.append(line)
     return list_of_file
 
 
-def quiz_table(table_line_length, choises,question, shuffled_line):
+def safe_input(input_text, allowed_list_of_letters):
+    answer = input(input_text)
+    while answer not in allowed_list_of_letters:
+        if allowed_list_of_letters == ["a","b","c","d","h"]:
+            print("Error! Only letters: a, b, c, d, or h allowed!")
+            answer = input("Select the correct answer!")
+        else:
+            print("Error! Only letters: a, b, c, d allowed!")
+            answer = input("Select the correct answer!")
+    return answer
+
+
+def quiz_table(table_line_length, choises, question, shuffled_line):
     print("  "+bg.black+"/"+"‾"*(table_line_length-6)+"\\"+bg.rs)
     width = table_line_length
     print("-"+bg.black+"‹"+''.join(question).center((width-4),' ')+"›"+bg.rs+"-")
@@ -130,8 +142,7 @@ def help_modules(a, b, c, d, current_line, question, vago_feje_sorai, table_line
             quiz_table(table_line_length,choises,question,shuffled_line)
         else:
             print("You have already used the halving help!")
-
-    answer = input("Select the correct answer(a,b,c,d): \n(In case you need help type 'h')")
+    answer=safe_input("Select the correct answer(a,b,c,d):", ["a", "b", "c", "d"])
     return Audience, Telephone, Halving, answer
     
 
@@ -319,30 +330,30 @@ def telephone_help(question,current_line):
 def halving(vago_feje_sorai,table_line_length,question,shuffled_line,choises,current_line,a,b,c,d):
     os.system('clear')
     time.sleep(2)
-    play_sound("felezo.mp3",0)
-    vago_feje_sorai  =  open_drawing('vago.txt', 'r')
-    for head_lines in vago_feje_sorai:
-        print(''.join(head_lines).rstrip())
-    possibilities = []
+    play_sound("felezo.mp3", 0)
+    vago_feje_sorai = open_drawing('vago.txt', 'r')
+    possibilities=[]
     for shuffled_element in shuffled_line:
-            if shuffled_element == a:
-                possibilities.append(random.choice([b,c,d]))
-            elif shuffled_element == b:
-                possibilities.append(random.choice([a,c,d]))
-            elif shuffled_element == c:
-                possibilities.append(random.choice([a,b,d]))
-            elif shuffled_element == d:
-                possibilities.append(random.choice([a,c,b]))
+        if shuffled_element == current_line[0]:
+            possibilities.append(shuffled_element)
+            for index in range(1):
+                if shuffled_element==a:
+                    possibilities.append(random.choice([b,c,d]))
+                elif shuffled_element==b:
+                    possibilities.append(random.choice([a,c,d]))
+                elif shuffled_element==c:
+                    possibilities.append(random.choice([a,b,d]))
+                elif shuffled_element==d:
+                    possibilities.append(random.choice([a,c,b]))
     if a not in possibilities:
-        choises[0] = fg.orange + '◆ A: ' +" "*len(a)+ fg.rs
+        choises[0]=fg.orange + '◆ A: ' +" "*len(a)+ fg.rs
     if b not in possibilities:
-        choises[1] = fg.orange + '◆ B: ' +" "*len(b)+ fg.rs
+        choises[1]=fg.orange + '◆ B: ' +" "*len(b)+ fg.rs
     if c not in possibilities:
-        choises[2] = fg.orange + '◆ C: '+" "*len(c) + fg.rs
+        choises[2]=fg.orange + '◆ C: '+" "*len(c) + fg.rs
     if d not in possibilities:       
-        choises[3] = fg.orange + '◆ D: ' +" "*len(d)+ fg.rs
-
-
+        choises[3]=fg.orange + '◆ D: ' +" "*len(d)+ fg.rs
+    
 def marking(answer,current_line,a,b,c,d,choises,table_line_length,shuffled_line,question,Help_available,prices,prices1,prices2,counter):
     bg.white  =  bg(255, 255, 255)
     if answer.lower() == 'a':
@@ -460,14 +471,14 @@ def quiz():
             table_line_length = max_question_length
         print_quizmaster_with_prices_table(Help_available,table_line_length,prices,prices1,prices2,counter)
         quiz_table(table_line_length,choises,question,shuffled_line)    
-        answer  =  input("Select the correct answer(a,b,c,d): \n(In case you need help type 'h')")
+        answer=safe_input("\nSelect the correct answer (a,b,c,d) or 'h' for help! ", ["a","b","c","d","h"])
         if answer.lower() == 'h':
             vago_feje_sorai  =  open_drawing('vago.txt', 'r')
             Help_available = help_modules(a,b,c,d,current_line,question,vago_feje_sorai,table_line_length,shuffled_line,choises,Audience,Telephone,Halving,Help_available,prices,prices1,prices2,counter)
             Audience = Help_available[0]
             Telephone = Help_available[1]
             Halving = Help_available[2]
-        answer  =  input("Are you sure?")
+        answer=safe_input("Are you sure?",["a","b","c","d"])
         marking(answer,current_line,a,b,c,d,choises,table_line_length,shuffled_line,question,Help_available,prices,prices1,prices2,counter)
         won_prize = fg.orange+prices[i]+fg.rs
         if i  ==  4:
