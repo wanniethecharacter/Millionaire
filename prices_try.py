@@ -1,3 +1,4 @@
+print(len("0 Ft."))
 input_ = input("Please provide some info: ")
 while input_ not in ["a","b","c","d"]:
     print ("Error! Only letters a-z allowed!")
