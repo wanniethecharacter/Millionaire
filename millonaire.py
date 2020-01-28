@@ -498,7 +498,7 @@ def quiz():
 
 
 def main():
-    #game_start()
+    game_start()
     quiz()
 
 
