@@ -1,3 +1,73 @@
+def audience_help(answers, current_line, question, table_line_length, choises, shuffled_line):
+    
+    play_sound("./msc/kozonseg.mp3", 0)
+    for choise in [answers]:
+        if choise == current_line[0]:
+            if choise == a:
+                a_percent = random.randrange(40, 89)
+                b_percent = random.randrange(0, (100-a_percent))
+                c_percent = random.randrange(0, (100-a_percent-b_percent))
+                d_percent = 100-(a_percent+b_percent+c_percent)
+            if choise == b:
+                b_percent = random.randrange(40, 89)
+                a_percent = random.randrange(0, (100-b_percent))
+                c_percent = random.randrange(0, (100-b_percent-a_percent))
+                d_percent = 100-(a_percent+b_percent+c_percent)
+            if choise == c:
+                c_percent = random.randrange(40, 89)
+                b_percent = random.randrange(0, (100-c_percent))
+                a_percent = random.randrange(0, (100-c_percent-b_percent))
+                d_percent = 100-(a_percent+b_percent+c_percent)
+            if choise == d:
+                d_percent = random.randrange(40, 89)
+                b_percent = random.randrange(0, (100-d_percent))
+                c_percent = random.randrange(0, (100-d_percent-b_percent))
+                a_percent = 100-(d_percent+b_percent+c_percent)
+            time.sleep(4)
+            os.system('clear')
+            for choise_ in [answers]:
+                if choise == current_line[0]:
+                    if choise_ == a:
+                        fake_a_percent = random.randrange(40, 89)
+                        fake_b_percent = random.randrange(0, (100 - fake_a_percent))
+                        fake_c_percent = random.randrange(0, (100 - fake_a_percent-fake_b_percent))
+                        fake_d_percent = 100-(fake_a_percent + fake_b_percent + fake_c_percent)
+                    if choise_ == b:
+                        fake_b_percent = random.randrange(40, 89)
+                        fake_a_percent = random.randrange(0, (100 - fake_b_percent))
+                        fake_c_percent = random.randrange(0, (100 - fake_b_percent-fake_a_percent))
+                        fake_d_percent = 100 - (fake_a_percent+fake_b_percent + fake_c_percent)
+                    if choise_ == c:
+                        fake_c_percent = random.randrange(40, 89)
+                        fake_b_percent = random.randrange(0, (100-fake_c_percent))
+                        fake_a_percent = random.randrange(0, (100-fake_c_percent-fake_b_percent))
+                        fake_d_percent = 100-(fake_a_percent+fake_b_percent+fake_c_percent)
+                    if choise_ == d:
+                        fake_d_percent = random.randrange(40, 89)
+                        fake_b_percent = random.randrange(0, (100-fake_d_percent))
+                        fake_c_percent = random.randrange(0, (100-fake_d_percent-fake_b_percent))
+                        fake_a_percent = 100-(fake_d_percent+fake_b_percent+fake_c_percent)
+                    if fake_a_percent+fake_b_percent+fake_c_percent+fake_d_percent != 100:
+                        print("Sheibe")
+                print("A:"+bg.blue+fake_a_percent*" "+" "+str(fake_a_percent)+"%"+"\n"+bg.rs+"B:"+bg.blue+fake_b_percent*" "+" "+str(fake_b_percent)+"%"+"\n"+bg.rs+"C:"+bg.blue+fake_c_percent*" "+" "+str(fake_c_percent)+"%"+"\n"+bg.rs+"D:"+bg.blue+fake_d_percent*" "+" "+str(fake_d_percent)+"%"+"\n"+bg.rs)
+                time.sleep(4)
+                os.system('clear')
+                sys.stdout.write("\033[F")
+            elems = [a_percent, b_percent, c_percent, d_percent]
+            max_element = max(elems[0], elems[1], elems[2], elems[3])
+            a__ = (f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  A: {bg.rs+bg.blue+a_percent*" "+bg.black+fg.rs+str(a_percent)}%')
+            b__ = (f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  B: {bg.rs+bg.blue+b_percent*" "+bg.black+fg.rs+str(b_percent)}%')
+            c__ = (f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  C: {bg.rs+bg.blue+c_percent*" "+bg.black+fg.rs+str(c_percent)}%')
+            d__ = (f'{(table_line_length+1)*" "+bg.black+"|"+fg.orange}  D: {bg.rs+bg.blue+d_percent*" "+bg.black+fg.rs+str(d_percent)}%')
+            print((table_line_length+1)*" " + bg.black + (max_element+11)*"-" + bg.rs)
+            print(a__+(((max_element)-a_percent)+3)*" "+"|"+bg.rs)
+            time.sleep(1)
+            print(b__+(((max_element)-b_percent)+2)*" "+"|"+bg.rs)
+            time.sleep(1)
+            print(c__+(((max_element)-c_percent)+2)*" "+"|"+bg.rs)
+            time.sleep(1)
+            print(d__+(((max_element)-d_percent)+3)*" "+"|"+bg.rs)
+            print((table_line_length+1)*" "+bg.black+(max_element+11)*"-" + bg.rs)
 """     """ print(answers)
     play_sound("./msc/jo valasz.mp3", 0)
     fg.green = Style(RgbFg(0, 255, 0))
@@ -60,17 +130,4 @@
         fg.red = Style(RgbFg(255, 0, 0))
         print(fg.red+answer+"\nBetter luck next time!"+fg.rs)
         sys.exit(0)
-        """   print("  "+bg.black+"/"+"‾"*(table_line_length)+"\\"+bg.rs)
-    width = table_line_length
-    print("-"+bg.black+"‹"+''.join(question).center((width), ' ')+"›"+bg.rs+"-")
-    print("  "+bg.black+"\\"+"_"*(table_line_length)+"/"+bg.rs)
-    upper_line_first_second_choise = "  "+bg.black+"/"+(len(shuffled_line[0])+5)*"‾"+"\\"+bg.rs+(" "*(table_line_length-(len(shuffled_line[0])+len(shuffled_line[1])+21)))+bg.black+"/"+len(shuffled_line[1])*"‾"+"\\"+bg.rs
-    under_line_first_second_choise = "  "+bg.black+"\\"+(len(shuffled_line[0])+5)*"_"+"/"+bg.rs+(" "*(table_line_length-(len(shuffled_line[0])+len(shuffled_line[1])+21)))+bg.black+"\\"+len(shuffled_line[1])*"_"+"/"+bg.rs
-    upper_line_third_fourth_choise = "  "+bg.black+"/"+(len(shuffled_line[3])+5)*"‾"+"\\"+bg.rs+(" "*(table_line_length-(len(shuffled_line[2])+len(shuffled_line[3])+21)))+bg.black+"/"+len(shuffled_line[3])*"‾"+"\\"+bg.rs
-    under_line_third_fourth_choise = "  "+bg.black+"\\"+(len(shuffled_line[3])+5)*"_"+"/"+bg.rs+(" "*(table_line_length-(len(shuffled_line[2])+len(shuffled_line[3])+21)))+bg.black+"\\"+len(shuffled_line[3])*"_"+"/"+bg.rs
-    print(upper_line_first_second_choise)
-    print("-"+bg.black+"‹ " + choises[0] + " ›" + bg.rs + ("-"*(table_line_length-(len(shuffled_line[0])+len(shuffled_line[1])+20))) + bg.black+"‹ "+choises[1] + " ›"+bg.rs+"-")
-    print(under_line_first_second_choise)
-    print(upper_line_third_fourth_choise)
-    print("-"+bg.black+"‹ " + choises[2] + " ›" + bg.rs + ("-"*(table_line_length-(len(shuffled_line[1])+len(shuffled_line[3])+20)))+bg.black+"‹ "+choises[3] + " ›"+bg.rs+"-")
-    print(under_line_third_fourth_choise)"""
+        
