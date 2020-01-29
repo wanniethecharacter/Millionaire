@@ -137,21 +137,21 @@ def quiz_table(table_line_length, choises, question, shuffled_line):
     choice_length = []
     for i in range(4):
         lengths.append((len(choises[i].letter)+len(choises[i].answer)+len(choises[i].mark)+len(choises[i].f_end)+len(choises[i].s_end)))
-        choice_length.append(len(choises[i].letter)+len(choises[i].answer)+len(choises[i].mark))
-    spaces_ = table_line_length-(lengths[0]+lengths[1]+2)
-    spaces__ = table_line_length-(lengths[2]+lengths[3]+2)
-
-    print("  "+bg.black+table_line_length*"‾"+bg.rs)
-    print("  "+bg.black+table_line_length*" "+bg.rs)
-    print("-"+bg.black+"‹"+''.join(question).center((table_line_length), ' ')+"›"+bg.rs+"-")
-    print("  "+bg.black+table_line_length*" "+bg.rs)
-    print("  "+bg.black+table_line_length*"_"+bg.rs)
-    print("    "+choice_length[0]*"_"+(table_line_length-(lengths[0]+lengths[1]))*" "+choice_length[1]*"_")
-    print("  "+choises[0].line+choises[0].f_end+choises[0].firstpart+choises[0].mark+choises[0].additional+choises[0].letter+choises[0].secondpart+choises[0].answer+choises[0].thirdpart+choises[0].s_end+spaces_*"-"+choises[1].f_end+choises[1].firstpart+choises[1].mark+choises[1].additional+choises[1].letter+choises[1].secondpart+choises[1].answer+choises[1].thirdpart+choises[1].s_end+choises[2].line)
-    print("    "+choice_length[0]*"‾"+(table_line_length-(lengths[0]+lengths[1]))*" "+choice_length[1]*"‾")
-    print("    "+choice_length[2]*"_"+(table_line_length-(lengths[2]+lengths[3]))*" "+choice_length[3]*"_")
-    print("  "+choises[2].line+choises[2].f_end+choises[2].firstpart+choises[2].mark+choises[2].additional+choises[2].letter+choises[2].secondpart+choises[2].answer+choises[2].thirdpart+choises[2].s_end+spaces__*"-"+choises[3].f_end+choises[3].firstpart+choises[3].mark+choises[3].additional+choises[3].letter+choises[3].secondpart+choises[3].answer+choises[3].thirdpart+choises[3].s_end+choises[3].line)
-    print("    "+choice_length[2]*"‾"+(table_line_length-(lengths[2]+lengths[3]))*" "+choice_length[3]*"‾")
+        choice_length.append(len(choises[i].letter)+len(choises[i].answer)+len(choises[i].mark)+len(choises[i].quote))
+    spaces_ = table_line_length-(lengths[0]+lengths[1]+4)
+    spaces__ = table_line_length-(lengths[2]+lengths[3]+4)
+    answer_line_length=table_line_length-4
+    print("   "+choises[0].slash+bg.black+answer_line_length*"‾"+bg.rs+choises[0].slash_)
+    print("  "+choises[0].slash+bg.black+(table_line_length-2)*" "+bg.rs+choises[0].slash_)
+    print(" -◀"+bg.black+choises[0].slash_+bg.black+''.join(question).center((answer_line_length), ' ')+choises[0].slash+bg.rs+"▶-")
+    print("  "+choises[0].slash+bg.black+(table_line_length-3)*" "+choises[0].slash+bg.rs)
+    print("   "+choises[0].slash+bg.black+answer_line_length*"_"+bg.rs+choises[0].slash_)
+    print("    "+choice_length[0]*"_"+(spaces_+2)*" "+choice_length[1]*"_")
+    print("  "+choises[0].line+choises[0].f_end+choises[0].firstpart+choises[0].mark+choises[0].additional+choises[0].quote+choises[0].letter+choises[0].secondpart+choises[0].answer+choises[0].thirdpart+choises[0].s_end+spaces_*"-"+choises[1].f_end+choises[1].firstpart+choises[1].mark+choises[1].additional+choises[1].quote+choises[1].letter+choises[1].secondpart+choises[1].answer+choises[1].thirdpart+choises[1].s_end+choises[2].line)
+    print("    "+choice_length[0]*"‾"+(spaces_+2)*" "+choice_length[1]*"‾")
+    print("    "+choice_length[2]*"_"+(spaces__+2)*" "+choice_length[3]*"_")
+    print("  "+choises[2].line+choises[2].f_end+choises[2].firstpart+choises[2].mark+choises[2].additional+choises[2].quote+choises[2].letter+choises[2].secondpart+choises[2].answer+choises[2].thirdpart+choises[2].s_end+spaces__*"-"+choises[3].f_end+choises[3].firstpart+choises[3].mark+choises[3].additional+choises[3].quote+choises[3].letter+choises[3].secondpart+choises[3].answer+choises[3].thirdpart+choises[3].s_end+choises[3].line)
+    print("    "+choice_length[2]*"‾"+(spaces__+2)*" "+choice_length[3]*"‾")
 
 
 def print_quizmaster_with_prices_table(Help_available, table_line_length, prices, prices1, prices2, counter, head='vago.txt'):
@@ -324,7 +324,7 @@ def halving(table_line_length, question, shuffled_line, choises, current_line, a
 
 def marking(Choise, answer, current_line, answers, choises, table_line_length, shuffled_line, question, Help_available, prices, prices1, prices2, counter):
     letterses = ['a','b','c','d']
-    abcd = [" A: ", " B: ", " C: ", " D: "]
+    abcd = [' A: ', ' B: ', ' C: ', ' D: ']
     for letters_ in range(len(letterses)):
         if answer.lower() == letterses[letters_]:
             answer = answers[letters_]
@@ -336,20 +336,28 @@ def marking(Choise, answer, current_line, answers, choises, table_line_length, s
 
 
 def check_answer(answer, Choise, current_line, answers, choises, table_line_length, shuffled_line, question):
-    betuk = ['◆ A: ', '◆ B: ', '◆ C: ', '◆ D: ']
+    betuk = [' A: ', ' B: ', ' C: ', ' D: ']
     for pos in range(len(answers)):
         if shuffled_line[pos]==current_line[0]:
             index = shuffled_line.index(shuffled_line[pos])
     if answer == current_line[0]:
         choises[index]=Choise(betuk[index],shuffled_line[index],'\x1b[42m','\x1b[39m','\x1b[49m','\x1b[30m')
-        time.sleep(4)
+        play_sound("./msc/jo valasz.mp3", 0)
+        fg.green = Style(RgbFg(0, 255, 0))
+        print(fg.green + "Well done!" + fg.rs)
+        time.sleep(2)
         os.system('clear')
     else:
         play_sound("./msc/rossz valasz.mp3", 0)
         time.sleep(2)
         fg.red = Style(RgbFg(255, 0, 0))
         print(fg.red+answer+"\nBetter luck next time!"+fg.rs)
-        sys.exit(0)
+        ask=safe_input("Would you like to play again? ('y'/'n')", ['y'])
+        if ask=='y':
+            game_start()
+            quiz()
+        else:
+            sys.exit(0)
     
     return choises
 
@@ -420,15 +428,18 @@ def quiz():
     class Choise():
         def __init__(self,letter,answer,firstpart,secondpart,thirdpart,additional):
             self.additional=additional
-            self.mark = "◆"
+            self.mark = "▏"
+            self.quote = "◆"
             self.letter = letter
-            self.answer = answer+" "
+            self.answer = answer+"     "+"▕"
             self.firstpart=firstpart
             self.secondpart=secondpart
             self.thirdpart=thirdpart
-            self.f_end="‹"
-            self.s_end="›"
+            self.f_end="◀"
+            self.s_end="▶"
             self.line="-"
+            self.slash="▕"
+            self.slash_="▏"
 
     letters_=[" A: "," B: "," C: "," D: ",]
     for i in range(15):
@@ -448,7 +459,8 @@ def quiz():
         d = shuffled_line[3]
         choises = [' ',' ',' ',' ']
         for letter_ in range(len(letters_)):
-            choises[letter_]=Choise(letters_[letter_],shuffled_line[letter_],'\x1b[38;2;255;150;50m\x1b[40m','\x1b[39m','\x1b[49m','')
+
+            choises[letter_]=Choise(letters_[letter_],shuffled_line[letter_],'\x1b[40m','\x1b[39m','\x1b[49m','\x1b[38;2;255;150;50m')
         answers=[a, b, c, d]
         fg.orange = Style(RgbFg(255, 150, 50))
         table_line_length=calculate_quiz_table_size(question_lines,list_of_answers)
@@ -498,7 +510,7 @@ def quiz():
 
 
 def main():
-    game_start()
+    #game_start()
     quiz()
 
 

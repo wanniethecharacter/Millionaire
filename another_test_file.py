@@ -1,5 +1,5 @@
 from sty import Style, RgbFg, fg, bg
-
+a=bg.black+"▏"+fg.orange+"3"+fg.rs+>+bg.rs
 fg.orange=Style(RgbFg(148, 0, 211))
 '\x1b[38;2;255;150;50m\x1b[40m◆ A: \x1b[39m297 meters  \x1b[49m'
 '\x1b[38;2;255;150;50m\x1b[40m◆ A: \x1b[39m297 meters  \x1b[49m'
