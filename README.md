@@ -49,3 +49,10 @@
 
 		 Please enjoy!
 		 Best wishes from the Gooses!
+
+
+How to run? 
+
+pip install sty
+pip install pygame
+py millonaire.py
