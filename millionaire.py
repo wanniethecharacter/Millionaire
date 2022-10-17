@@ -13,7 +13,7 @@ bg.orange = bg(255, 150, 50)
 def game_start():
     pygame.mixer.init()
     clear_screen(operatingSystem)
-    play_sound("data/sound_files/loim_intro.wav", 0)
+    play_sound("loim_intro.wav", 0)
     time.sleep(2)
     print("This is the game of games..\nIn the arena..\nMr Steven Vágó is awaiting You!\n" + fg.purple + "Become the next Millionaire!\n" + fg.rs)
     time.sleep(5)
@@ -28,6 +28,7 @@ def play_sound(filename, starting_time):
 
 
 def open_file(filename, mode):
+    
     with open(filename, mode) as file:
         list_of_file = []
         for line in file:
@@ -453,6 +454,7 @@ def quiz():
     clear_screen(operatingSystem)
     for i in range(15):
         question_lines = open_file('questions.txt', "r")
+        random.shuffle(question_lines)
         print(question_lines[i][0])
         answers = {'a': question_lines[i][1], 'b': question_lines[i][2], 'c': question_lines[i][3],
                    'd': question_lines[i][4]}
@@ -488,7 +490,7 @@ def quiz():
                 sys.exit(0)
         else:
             print(fg.red + "Bad answer! Better luck next time!" + fg.rs)
-            if safe_input("Would you like to play again? ('y'/'n')", ['y']) == 'y':
+            if safe_input("Would you like to play again? ('y'/'n')", ['y', 'n']) == 'y':
                 clear_screen(operatingSystem)
                 main()
             else:
@@ -541,6 +543,36 @@ def quiz():
         quiz_table(table_line_length, choises, question, shuffled_line)
         play_sound("./sound_files/marked.mp3", 0)
         time.sleep(4)
+        #check_answer(answer, Choise, current_line, answers, choises, table_line_length, shuffled_line, question)
+        choises=check_answer(answer, current_line, answers, choises, table_line_length, shuffled_line, question)
+        print_lists(Help_available, table_line_length)
+        quiz_table(table_line_length, choises, question, shuffled_line)
+        time.sleep(2)
+        os.system('cls')
+        won_prize = prices[i]
+        if i == 4:
+            won_prize = "You have guaranteed 100.000 Ft"
+            time.sleep(1)
+        elif i == 9:
+            won_prize = "You have guaranteed 1.500.000 Ft"
+            time.sleep(1)
+        elif i == 14:
+            won_prize = fg.orange + "Congratulations!\nYou've just won the unbelivable 40.000.000 Ft\n"+fg.purple+"You became the new Millionaire!!!" + fg.rs
+            print(won_prize)
+            time.sleep(3)
+            sys.exit(0)
+        price_len=len("▏40.000.000 Ft▕")-4
+        print_lists(Help_available, table_line_length)
+        print("  "+bg.black+"/"+"‾"*(table_line_length)+"\\"+price_len*" "+bg.rs)
+        width = table_line_length
+        len_table = len("‾"*(table_line_length-len(won_prize)))
+        print(bg.black+"-"+"‹" + fg.orange + ''.join(won_prize).center((width), ' ') + fg.rs +"  "+ "›" + "-"+(price_len-2)*" "+bg.rs)
+        print(bg.black+"  "+"\\"+"_"*(table_line_length)+"/"+price_len*" "+bg.rs)
+        for line in range(6):
+            print(bg.black+108*" "+bg.rs)
+        starting_range = ending_range + 1
+        ending_range = starting_range + 4
+        time.sleep(1)
         """
 
 
