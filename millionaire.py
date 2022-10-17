@@ -546,7 +546,7 @@ def quiz():
 
 def main():
     clear_screen(operatingSystem)
-    #game_start()
+    game_start()
     quiz()
 
 
