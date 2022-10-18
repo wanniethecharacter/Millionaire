@@ -115,3 +115,6 @@
 			   Or run from separate windows command line.
 
 			   Current supported os platform is windows.
+
+		run python scripts in batch and wait for return from their executions
+		https://stackoverflow.com/questions/24935107/run-python-scripts-in-batch-and-wait-for-return-from-their-executions
