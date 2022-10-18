@@ -2,7 +2,8 @@
 		ⒷⓎ
 		ⒼⒺⓁⓁⒺ́ⓇⓉ ⓈⓏⓉⒶⓃⓀⓄⓋⓈⓏⓀⓎ
 
- 
+  ![loim](https://user-images.githubusercontent.com/55703557/196563057-562d0512-bc30-4332-8827-0af03fb63aeb.png)
+
 
 
 		This is the README file of The Helpless Gooses' Millionare game.
