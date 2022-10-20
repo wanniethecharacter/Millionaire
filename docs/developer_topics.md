@@ -7,7 +7,7 @@ credits: https://towardsdatascience.com/how-to-easily-convert-a-python-script-to
 
 pip3 install pillow (convert the icon for the executable file)
 
-generated command: pyinstaller ~ can be found in 
+generated command: pyinstaller ~ can be found in https://github.com/SztGellert/Millionaire/blob/0efac47504ff58fef08f50c45660e45734aa9c47/install.bat#L2
 
 How to Automatically Install Required Packages From a Python Script?	
 
