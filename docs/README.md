@@ -1,11 +1,3 @@
-			🅦̲🅗̲🅞̲ 🅦̲🅐̲🅝̲🅣̲🅢̲ 🅣̲🅞̲ 🅑̲🅔̲ 🅐̲ 🅜̲🅘̲🅛̲🅛̲🅘̲🅞̲🅝̲🅐̲🅘̲🅡̲🅔̲ ❔̲ 
-		ⒷⓎ
-		ⒼⒺⓁⓁⒺ́ⓇⓉ ⓈⓏⓉⒶⓃⓀⓄⓋⓈⓏⓀⓎ
-
-   ![loim](https://user-images.githubusercontent.com/55703557/196563057-562d0512-bc30-4332-8827-0af03fb63aeb.png)
-
-
-
 		This is the README file of The Helpless Gooses' Millionare game.
 
 		This game is developed by Gellért Sztankovszky based on a team work 
@@ -27,13 +19,16 @@
 			Audience'help
 			Telephone help
 			Halving the questions by the computer
-		 
+		
 		If you choose an incorrect answer you will instantly lose the game.
 
 		The money that you bring home depends on your performance.
-		  - You earn guaranteed money after the 5th correct question.
-		  - You earn guaranteed money after the 10th correct question.
-		  - You earn guaranteed money after the 15th correct question.
+		  - You earn guaranteed prize after the 5th correct question.
+		  - You earn guaranteed prize after the 10th correct question.
+		  - You earn guaranteed prize after the 15th correct question.
+		 
+		 
+		You can also make a guess out of the game to win guaranteed prizes.
 		 
 		And you win the game of course, if you've guessed all the answers correct.
 
