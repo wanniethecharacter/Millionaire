@@ -63,8 +63,7 @@
 		MODULES USED:
 
 		third party: pygame, sty
-		built in: random, copy, sys, os, time
-		(+ circle is an own module) 
+		built in: random, copy, sys, os, time, copy
 
 		Future goals:
 
