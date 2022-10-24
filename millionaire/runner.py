@@ -1,4 +1,6 @@
-from millionaire.quiz import quiz
+#!/usr/bin/python3
+
+from quiz import quiz
 
 
 def main():
