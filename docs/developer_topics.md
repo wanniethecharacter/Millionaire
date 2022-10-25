@@ -7,13 +7,16 @@ credits: https://towardsdatascience.com/how-to-easily-convert-a-python-script-to
 
 pip3 install pillow # to convert the icon for the executable file to .ico
 
-pip3 install auto-py-to-exe
+pip3 install auto-py-to-exe - gui for generating .exe from .py
+https://pypi.org/project/auto-py-to-exe/
 
-auto-py-to-exe
+pyinstaller
 https://pyinstaller.org/en/v3.6/usage.html
 
+generated command: pyinstaller ~ can be found in
+https://github.com/SztGellert/Millionaire/blob/0efac47504ff58fef08f50c45660e45734aa9c47/install.bat#L2
 
-generated command: pyinstaller ~ can be found in https://github.com/SztGellert/Millionaire/blob/0efac47504ff58fef08f50c45660e45734aa9c47/install.bat#L2
+Attention: for importing modules use --paths PATH
 
 How to Automatically Install Required Packages From a Python Script?
 -------------

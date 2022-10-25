@@ -16,8 +16,16 @@ help_types = {"audience": False, "telephone": False, "halving": False}
 prizes = ["5.000 Ft", "10.000 Ft", "25.000 Ft", "50.000 Ft", "100.000 Ft", "200.000 Ft", "300.000 Ft", "500.000 Ft",
           "800.000 Ft", "1.500.000 Ft", "3.000.000 Ft", "5.000.000 Ft", "10.000.000 Ft", "20.000.000 Ft",
           "40.000.000 Ft"]
-path = str(pathlib.Path(__file__).parent.parent.parent.resolve())
-data_path = path + "/data"
+
+
+def get_data_path() -> str:
+    if operating_system == "posix":
+        path = str(pathlib.Path(__file__).parent.parent.parent.resolve())
+        data_path = path + "/data"
+    else:
+        data_path = "../data"
+
+    return data_path
 
 
 def intro():
@@ -38,7 +46,7 @@ def clear_screen():
 
 
 def play_sound(filename, starting_time):
-    file_path = data_path + "/sound_files/" + filename
+    file_path = get_data_path() + "/sound_files/" + filename
     pygame.mixer.init()
     pygame.mixer.music.load(file_path)
     pygame.mixer.music.set_volume(0.07)
@@ -155,7 +163,7 @@ def quiz():
 
 
 def open_file(filename, mode):
-    file_path = data_path + "/text_files/" + filename
+    file_path = get_data_path() + "/text_files/" + filename
     with open(file_path, mode) as file:
         list_of_file = []
         for line in file:
@@ -196,7 +204,7 @@ def print_phone_conversation(text, question, answers, good_answer):
         time.sleep(2)
         if i == 0:
             print(text[i][0] + " " + question + " " + ",".join(list(answers.values())))
-        elif i == len(text)-1:
+        elif i == len(text) - 1:
             print(text[i][0] + " " + good_answer.upper())
         else:
             print(text[i][0])

@@ -58,7 +58,10 @@ INSTALLATION:
 	To install game & download dependencies: double-click on "install_win.bat" file
 	this will auto-install required python dependencies
 
-	To run: use "millionaire.exe"
+	To run: use the shortcut icon "millionaire" in repository filder
+
+Desktop launcher can be created by "create_windows_desktop_launcher.bat"
+
 
 **LINUX:**
 	To install game & download dependencies: double-click on "install_linux.sh" file
