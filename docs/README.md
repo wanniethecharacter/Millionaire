@@ -69,6 +69,6 @@ Desktop launcher can be created by "create_windows_desktop_launcher.bat"
 
 	To run: use "bin/millionaire.sh" (Right click/Run as a Program)
 
-Desktop launcher can be created by "create_dekstop_launcher.sh" 
+Desktop launcher can be created by "create_linux_dekstop_launcher.sh" 
 (Right click/Run as a Program)
 
