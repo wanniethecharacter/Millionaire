@@ -16,8 +16,13 @@ prizes = ["5.000 Ft", "10.000 Ft", "25.000 Ft", "50.000 Ft", "100.000 Ft", "200.
           "40.000.000 Ft"]
 
 
-def play():
-    help_types = {"audience": True, "telephone": True, "halving": True}
+def play(inputs: dict):
+    out_of_game_inputs = inputs["out_of_game_answers"]
+    game_inputs = inputs["game_answers"]
+    audience_inputs = inputs["audience_answers"]
+    halving_inputs = inputs["halving_answers"]
+    phone_inputs = inputs["phone_answers"]
+    help_types = {"audience": True, "halving": True, "phone": True}
     util.clear_screen()
     util.play_sound("lom.mp3", 0)
     time.sleep(2)
@@ -33,16 +38,25 @@ def play():
         shuffled_answers = dict(zip(answers, answer_list))
         for k in range(len(answer_list)):
             print(list(answers.keys())[k] + ": " + answer_list[k])
-        answer = safe_input(
-            "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
-            ["a", "b", "c", "d", "h", "t"])
         correct_answer_key = get_dictionary_key_by_value(shuffled_answers, question_lines[i][1])
         correct_answer_value = question_lines[i][1]
+        if game_inputs[i] == "OK":
+            answer = safe_input(
+                "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
+                ["a", "b", "c", "d", "h", "t"], correct_answer_key)
+        else:
+            answer = safe_input(
+                "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
+                ["a", "b", "c", "d", "h", "t"], game_inputs[i])
         while answer not in list(answers.keys()):
             if answer == "t":
                 util.play_sound("music_off.mp3", 0)
-                answer = safe_input("\nSelect the correct answer ('a','b','c','d') ! ",
-                                    ["a", "b", "c", "d"])
+                if out_of_game_inputs[0] == "OK":
+                    answer = safe_input("\nSelect the correct answer ('a','b','c','d') ! ",
+                        ["a", "b", "c", "d"], correct_answer_key)
+                else:
+                    answer = safe_input("\nSelect the correct answer ('a','b','c','d') ! ",
+                                        ["a", "b", "c", "d"], out_of_game_inputs[0])
                 time.sleep(2)
                 util.clear_screen()
                 util.play_sound("marked.mp3", 0)
@@ -65,26 +79,63 @@ def play():
                     print(fg.red + "Bad answer! Better luck next time!" + fg.rs)
                     util.play_sound("so_sorry.mp3", 0)
                     time.sleep(1)
-                if safe_input("Would you like to play again? ('y'/'n')", ['y', 'n']) == 'y':
+                if safe_input("Would you like to play again? ('y'/'n')", ['y', 'n'], out_of_game_inputs[1]) == 'y':
                     util.clear_screen()
-                    play()
+                    play(inputs)
                 else:
                     sys.exit(0)
             if answer == "h":
-                help_functions = {"audience": audience_help, "telephone": telephone_help, "halving": halving}
-                chosen_help_type = safe_input("Choose help: 'a' for audience, 't' for telephone, 'h' for halving! ",
-                                              ["a", "t", "h"])
+                help_functions = {"audience": audience_help, "halving": halving, "telephone": telephone_help}
+                help_inputs = [audience_inputs, halving_inputs, phone_inputs]
+                chosen_help = str
+                for x in range(len(help_types)):
+                    if help_types[list(help_types)[x]] and (len(help_inputs[x]) > 0):
+                        chosen_help = list(help_types)[x]
+                chosen_input = ""
+                chosen_help_values = []
+                for help in help_inputs:
+                    if len(help) > 0:
+                        if chosen_help == "audience":
+                            chosen_help_values = help_inputs[0]
+                            chosen_input = "a"
+                        if chosen_help == "halving":
+                            chosen_help_values = help_inputs[1]
+                            chosen_input = "h"
+                        if chosen_help == "phone":
+                            chosen_help_values = help_inputs[2]
+                            chosen_input = "t"
+                chosen_help_type = safe_input("Choose help: 'a' for audience, 'h' for halving, 't' for telephone! ",
+                                              ["a", "h", "t"], chosen_input)
                 for x in range(len(help_types)):
                     if chosen_help_type.lower() == list(help_types)[x][0]:
                         if help_types[list(help_types)[x]]:
-                            list(help_functions.values())[x](question, shuffled_answers, correct_answer_value)
+                            if chosen_help != "phone":
+                                list(help_functions.values())[x](question, shuffled_answers, correct_answer_value)
+                            else:
+                                list(help_functions.values())[x](question, shuffled_answers, correct_answer_value, chosen_help_values[1])
                             help_types[list(help_types)[x]] = False
                             break
                         else:
                             print("You have already used the " + list(help_types)[x] + " help!")
-                answer = safe_input(
-                    "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
-                    ["a", "b", "c", "d", "h", "t"])
+                if chosen_help != "phone":
+                    if chosen_help_values[1] == "OK":
+                        answer = safe_input(
+                            "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
+                            ["a", "b", "c", "d", "h", "t"], correct_answer_key)
+                    else:
+                        answer = safe_input(
+                            "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
+                            ["a", "b", "c", "d", "h", "t"], chosen_help_values[1])
+                else:
+                    if chosen_help_values[2] == "OK":
+                        answer = safe_input(
+                            "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
+                            ["a", "b", "c", "d", "h", "t"], correct_answer_key)
+                    else:
+                        answer = safe_input(
+                            "\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help! ",
+                            ["a", "b", "c", "d", "h", "t"], chosen_help_values[2])
+
                 time.sleep(2)
                 util.clear_screen()
         util.play_sound("marked.mp3", 0)
@@ -123,9 +174,10 @@ def play():
         util.clear_screen()
 
 
-def safe_input(input_text: str, allowed_list_of_letters: list) -> str:
+def safe_input(input_text: str, allowed_list_of_letters: list, hotkey: str) -> str:
     print(input_text)
-    answer = keyboard.read_key()
+    keyboard.press_and_release(hotkey)
+    answer = hotkey
     if answer not in allowed_list_of_letters:
         print("Error! Only letters: " + ' '.join(allowed_list_of_letters) + " allowed!")
     while answer not in allowed_list_of_letters:
@@ -172,14 +224,14 @@ def print_phone_conversation(text: list, question: str, answers: {}, good_answer
     util.stop_sound()
 
 
-def telephone_help(question: str, answers: {}, correct_answer: str):
+def telephone_help(question: str, answers: {}, correct_answer: str, hotkey:str):
     phone = safe_input(
         "Who'd you like to call?\n"
         "for mum, press 'm'\n"
         "for dad press 'd'\n"
         "for old teacher from high school press 't'\n"
         "for Maester Yoda press 'y': ",
-        ["m", "d", "t", "y"])
+        ["m", "d", "t", "y"], hotkey)
     call_text_files = ["mum_phone.txt", "dad_phone.txt", "teacher_phone.txt", "yoda_master_phone.txt"]
     for i in range(len(call_text_files)):
         if phone.lower() == call_text_files[i][0]:
@@ -220,7 +272,6 @@ def audience_help(question: str, answers: {}, correct_value: str):
     answers_list = list(answers.keys())
     for i in range(len(answers_list)):
         print(question)
-
         chances = get_chances(answers, correct_value)
         for k in range(len(chances)):
             print(str(answers_list[k]) + " : " + str(answers[answers_list[k]]) + " || " + str(chances[k]) + "%")
@@ -243,4 +294,3 @@ def get_chances(answers: {}, correct_value: str) -> list:
     chances = sorted(chances_dict.values(), reverse=True)
 
     return chances
-
