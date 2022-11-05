@@ -33,7 +33,7 @@ Melyik hercegnő vesztette el az üveg cipellőjét?,Hamupipőke,Hófehérke,Mul
 Melyik amerikai autó márka gyártja a Mustángot, az F-150-est és az 'Escape'-et?,Ford,Toyota,Volkswagen,Nissan
 Ki volt az első nő aki egyedül repülte át az Atlanti Óceánt?,Amelia Earhart,Geraldine Ferraro,Martha Stewart,Sally Ride
 Melyik amerikai városban fellelhető a Szabadság Harangja és a Függetlenség Csarnoka?,Philadelphia,Vancouver,Mexikó város,Peking
-Luke Skywalker, Han Solo és Darth Vader melyik popkultúra-franchise karakterei?,Star Wars,Harry Potter,Star Trek,James Bond
+Luke Skywalker Han Solo és Darth Vader melyik popkultúra-franchise karakterei?,Star Wars,Harry Potter,Star Trek,James Bond
 Hány napos egy szökőév?,366,28,30,400
 Melyik oldalnak van a legnépszerűbb keresőmotorja?,Google,DuckDuckGo,Myspace,Bing
 Ki a jelenlegi Brit uralkodó?,III. Károly,Fülöp Király,II. Erzsébet Királyné,György Király
@@ -42,10 +42,10 @@ Ki épített bárkát a következő Bibliai személyek közül?,Noah,Jesus Chris
 Melyik az amerikai pénznem legkisebb fizetőegysége?,Penny,Dime,Quarter,Dollar
 Mi a keresztneve a McDonald's kabalájának?,Ronald,Susan,George,Karl
 Ki a jelenlegi házigazdája a "The Tonight Show?"-nak?,Jimmy Fallon,Oprah Winfrey,Anne Curry,Bob Barker
-Mi a görög abc első betűje?,Alpha,Omega,Zed,E
-Melyik tömegközlekedési módnak van hagyományosan két kereke?,Bicycle,Tricycle,Car,Bus
+Mi a görög abc első betűje?,Alfa,Omega,Zed,Epszilon
+Melyik tömegközlekedési módnak van hagyományosan két kereke?,Bicikli,Tricikli,Autó,Busz
 Mennyi a szolgálati ideje az Egyesült Államok elnökének?,4 years,1 year,10 years,20 years
-Melyik a legnagyobb külső szerve az emberi testnek?,Skin,Eyes,Ears,Nose
+Melyik a legnagyobb külső szerve az emberi testnek?,Bőr,Szem,Fül,Orr
 Mi Izland fővárosa?,Reykjavik,Tegucigalpa,Kingston,Astana
 Ki találta fel a szeletelt kenyeret?,Otto Frederick Rohwedder,Samuel Morse,Alfred Nobel,Wright brothers
 Ki volt híres fizikus az alábbiak közül?,Enrico Fermi,Berenice Abbott,Gertrude Abercrombie,Carla Accardi
