@@ -13,17 +13,23 @@ bg.orange = bg(255, 150, 50)
 languages = util.available_languages
 language_dictionary = util.language_dictionary
 game_language = "en"
+question_topics = "All "
 
 
 def play():
     global game_language
     game_language = util.game_language
+    global question_topics
+    question_topics = util.question_topics
     help_types = {"audience": True, "telephone": True, "halving": True}
     util.clear_screen()
     util.play_sound("lom.mp3", 0)
     time.sleep(2)
     question_file = 'questions_' + game_language + ".txt"
-    question_lines = util.open_file(question_file, "r")
+    question_lines = util.open_file(question_file, "r", ";")
+    if question_topics != language_dictionary[game_language].menu.settings_menu_question_topics[0]:
+        populated = filter(lambda c: c[5] == str(question_topics).lower().strip(), question_lines)
+        question_lines = list(populated)
     random.shuffle(question_lines)
     for i in range(15):
         question = question_lines[i][0]
