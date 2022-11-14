@@ -94,6 +94,8 @@ def play(inputs: dict):
                         util.play_sound("show_stop.mp3", 0)
                         time.sleep(1)
                 else:
+                    util.play_sound("bad_answer.mp3", 0)
+                    print(fg.green + correct_answer_value + fg.rs)
                     print(fg.red + language_dictionary[game_language].quiz.incorrect_answer + fg.rs)
                     util.play_sound("so_sorry.mp3", 0)
                     time.sleep(1)
@@ -191,12 +193,14 @@ def play(inputs: dict):
                 time.sleep(35)
                 safe_input(language_dictionary[game_language].menu.return_prompt, ["enter"], return_inputs[0])
         else:
-            if score != 0:
-                write_content_to_file("scores.json", {"user": player_name, "topic": question_topics, "score": score,
-                                                      "time": time.ctime(time.time())})
+            util.play_sound("bad_answer.mp3", 0)
+            print(fg.green + correct_answer_value + fg.rs)
             print(fg.red + language_dictionary[game_language].quiz.incorrect_answer + fg.rs)
             safe_input(language_dictionary[game_language].menu.return_prompt, ["enter"], return_inputs[0])
             util.clear_screen()
+            if score != 0:
+                write_content_to_file("scores.json", {"user": player_name, "topic": question_topics, "score": score,
+                                                      "time": time.ctime(time.time())})
             return
         util.clear_screen()
 
@@ -267,7 +271,7 @@ def telephone_help(question: str, answers: {}, correct_answer: str, hotkey: str)
                        ]
     for i in range(len(call_text_files)):
         if phone.lower() == call_text_files[i][0]:
-            conversation = (util.open_file(call_text_files[i], 'r'))
+            conversation = (util.open_file(call_text_files[i], 'r', separator=";"))
             print_phone_conversation(conversation, question, answers, correct_answer)
 
 
@@ -306,30 +310,26 @@ def audience_help(question: str, answers: {}, correct_value: str):
     for i in range(len(answers_list)):
         print(question)
         chances = get_chances(answers, correct_value)
-        for k in range(len(chances)):
-            if str(answers[answers_list[k]]) != "":
-                print(str(answers_list[k]) + " : " + str(answers[answers_list[k]]) + " || " + str(chances[k]) + "%")
-            else:
-                print(str(answers_list[k]) + " : ")
+        for key, value in sorted(chances.items()):
+            print(key + " : " + str(answers[key]) + " || " + str(value) + "%")
         time.sleep(1)
         if i != len(answers_list) - 1:
             util.clear_screen()
 
 
-def get_chances(answers: {}, correct_value: str) -> list:
+def get_chances(answers: {}, correct_value: str) -> dict:
     answers_list = list(answers.keys())
     chances_dict = {}
     correct_answer = get_dictionary_key_by_value(answers, correct_value)
     chances_dict[correct_answer] = random.randrange(40, 89)
     answers_list.pop(answers_list.index(correct_answer))
     for k in range(len(answers_list)):
-        if k == len(answers_list)-1:
+        if k == len(answers_list) - 1:
             chances_dict[answers_list[k]] = 100 - sum(chances_dict.values())
         else:
             chances_dict[answers_list[k]] = random.randrange(0, 100 - sum(chances_dict.values()))
-    chances = sorted(chances_dict.values(), reverse=True)
 
-    return chances
+    return chances_dict
 
 
 def write_content_to_file(filename: str, content: {}):
