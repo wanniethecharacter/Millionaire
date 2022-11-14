@@ -1,8 +1,10 @@
+import os
 import sys
 import time
 import keyboard
 from util import util
 from sty import Style, RgbFg, fg, bg
+import json
 
 from quiz_game import quiz_game
 
@@ -79,6 +81,26 @@ def select_credits():
     return_prompt()
 
 
+def select_scores():
+    util.clear_screen()
+    if os.path.isfile("scores.json"):
+        f = open("scores.json")
+        data = json.load(f)
+        scores_sorted = sorted(data, key=lambda d: d['score'], reverse=True)
+        print("-" * 100)
+        for item in scores_sorted:
+            i = 0
+            for k, v in item.items():
+                print(language_dictionary[game_language].menu.scores[i], ":", v, end=" ")
+                i += 1
+            print("\n")
+            print("-" * 100)
+        f.close()
+    else:
+        print(language_dictionary[game_language].menu.empty_scores)
+    return_prompt()
+
+
 def select_settings():
     util.clear_screen()
     show_options(language_dictionary[game_language].menu.settings_menu_options, default_width)
@@ -149,4 +171,7 @@ def handle_main_menu():
             select_credits()
             show_options(language_dictionary[game_language].menu.main_menu_options, options_length, 3)
         if chosen_option == language_dictionary[game_language].menu.main_menu_options[4]:
+            select_scores()
+            show_options(language_dictionary[game_language].menu.main_menu_options, options_length, 4)
+        if chosen_option == language_dictionary[game_language].menu.main_menu_options[5]:
             select_exit()

@@ -9,10 +9,18 @@
                          "Display size",
                          "Question types",
                          "Back"],
-        "main_menu_options" : ["Play", "Tutorial", "Settings", "Credits ", "Exit"],
-        "settings_menu_question_topics": ["All ","General knowledge ","History ", "Geography ","Physics ","Chemistry ","Biology ","Mathematics ","Arts","Literature","Music ","Gastronomy","Economy ","Sports"]
+        "main_menu_options" : ["Play", "Tutorial", "Settings", "Credits ","Scores", "Exit"],
+        "settings_menu_question_topics": ["All ","General knowledge ","History ", "Geography ","Physics ","Chemistry ","Biology ","Mathematics ","Arts","Literature","Music ","Gastronomy","Economy ","Sports"],
+        "empty_scores": "First you need to play a game to achieve some points!",
+        "scores": {
+            "user":  "Player",
+            "topic": "Topic",
+            "score": "Score",
+            "time":  "Time"
+        }
     },
     "quiz": {
+        "player_name_prompt": "How can I call you? ",
         "select_answer":"\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help!",
         "select_answer_out": "\nSelect the correct answer ('a','b','c','d') ! ",
         "correct_answer": "Well Done!",

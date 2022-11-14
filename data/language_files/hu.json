@@ -10,11 +10,19 @@
                      "Kérdés témakörök",
                      "Vissza"],
         "main_menu_options": [
-            "Játék ", "Útmutató", "Beállítások ", "Stáblista ", "Kilépés "
+            "Játék ", "Útmutató", "Beállítások ","Stáblista ","Pontszámok", "Kilépés "
         ],
-        "settings_menu_question_topics": ["Mind","Általános műveltség ","Történelem", "Földrajz","Fizika","Kémia ","Biológia","Matematika","Művészet","Irodalom","Zene","Gasztronómia ","Közgazdaságtan","sport "]
+        "settings_menu_question_topics": ["Mind","Általános műveltség ","Történelem", "Földrajz","Fizika","Kémia ","Biológia","Matematika","Művészet","Irodalom","Zene","Gasztronómia ","Közgazdaságtan","sport "],
+        "empty_scores": "Indítson egy kvízjátékot hogy pontokat szerezzen!",
+        "scores": {
+            "user":  "Játékos",
+            "topic": "Témakör",
+            "score": "Pontszám",
+            "time":  "Idő"
+        }
     },
     "quiz": {
+        "player_name_prompt": "Hogyan szólíthatom? ",
         "select_answer":"\nVálassza ki a helyes választ ('a','b','c','d'), 't' a játékon kívüli válaszadáshoz, 'h' ha segítséget szeretne!",
         "select_answer_out": "\nVálassza ki a helyes választ ('a','b','c','d') ! ",
         "correct_answer": "Szép volt!",
