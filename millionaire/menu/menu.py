@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-import keyboard
 from util import util
 from sty import Style, RgbFg, fg, bg
 import json
@@ -33,13 +32,13 @@ def show_title():
     line_length = default_width + 3
     util.clear_screen()
     print("=" * line_length)
-    print(fg.purple + " ♦  W H O    W A N T S   T O   B E   A  ♦" + fg.rs)
+    print(fg.purple + language_dictionary[game_language].menu.title_first_line + fg.rs)
     print("=" * line_length)
     print(fg.yellow + "|" * line_length + fg.rs)
-    print(fg.purple + "     M  I  L  L  I  O  N  A  I  R  E" + fg.rs)
+    print(fg.purple + language_dictionary[game_language].menu.title_second_line + fg.rs)
     print(fg.yellow + "|" * line_length + fg.rs)
     print("=" * line_length)
-    print(fg.purple + " ♦  W H O    W A N T S   T O   B E   A  ♦" + fg.rs)
+    print(fg.purple + language_dictionary[game_language].menu.title_first_line + fg.rs)
     print("=" * line_length + "\n\n")
 
 
@@ -123,35 +122,56 @@ def select_settings():
 
 
 def return_prompt():
+    if util.operating_system == "posix":
+        import getch
+        user_input = getch.getch()
+    else:
+        import msvcrt
+        user_input = msvcrt.getch()
+
     print(fg.red + "\n" + language_dictionary[game_language].menu.return_prompt + fg.rs)
-    if keyboard.read_key() == "esc":
+    # escape
+    if user_input == b'\x1b':
         return
 
 
 def get_user_input(option_list: [], max_option_length: int) -> str:
     i = 0
     while True:
-        if keyboard.read_key() == "enter":
-            return option_list[i]
-        if keyboard.read_key() == "esc":
+        if util.operating_system == "posix":
+            import getch
+            user_input = getch.getch()
+        else:
+            import msvcrt
+            user_input = msvcrt.getch()
+        first_char = user_input
+        # escape
+        if first_char == b'\x1b':
             return option_list[-1]
-        if keyboard.read_key() == 'down':
-            if i == len(option_list) - 1:
-                i = 0
-                show_options(option_list, max_option_length)
-            else:
-                i += 1
-                show_options(option_list, max_option_length, i)
-            if keyboard.read_key() == "enter":
-                return option_list[i]
-        if keyboard.read_key() == 'up':
+        # enter
+        if first_char == b'\r':
+            return option_list[i]
+        # up
+        if first_char == b'H':
             if i == 0:
                 i = len(option_list) - 1
                 show_options(option_list, max_option_length, len(option_list) - 1)
             else:
                 i -= 1
                 show_options(option_list, max_option_length, i)
-            if keyboard.read_key() == "enter":
+            # enter
+            if user_input == b'\r':
+                return option_list[i]
+        # down
+        if first_char == b'P':
+            if i == len(option_list) - 1:
+                i = 0
+                show_options(option_list, max_option_length)
+            else:
+                i += 1
+                show_options(option_list, max_option_length, i)
+            # enter
+            if user_input == b'\r':
                 return option_list[i]
 
 

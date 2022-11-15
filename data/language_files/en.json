@@ -2,6 +2,8 @@
     "en": "english",
     "hu": "hungarian",
     "menu": {
+        "title_first_line": " ♦  W H O    W A N T S   T O   B E   A  ♦",
+        "title_second_line": "     M  I  L  L  I  O  N  A  I  R  E",
         "return_prompt": "press ESC for main menu..",
         "settings_menu_options": ["Language selection",
                          "Sound Volume selection",
@@ -21,7 +23,7 @@
     },
     "quiz": {
         "player_name_prompt": "How can I call you? ",
-        "select_answer":"\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help!",
+        "select_answer":"\nSelect the correct answer ('a','b','c','d'), 't' for guessing out of game or 'h' for help!\n",
         "select_answer_out": "\nSelect the correct answer ('a','b','c','d') ! ",
         "correct_answer": "Well Done!",
         "correct_answer_out": "Correct answer! Better luck next time!",
