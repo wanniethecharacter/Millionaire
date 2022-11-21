@@ -18,10 +18,12 @@ question_topics = "All "
 
 
 def play():
-    global game_language
+    global game_language, question_lines_easy, question_lines_medium, question_lines_hard
     game_language = util.game_language
     global question_topics
     question_topics = util.question_topics
+    global question_difficulty
+    question_difficulty = util.question_difficulty
     player_name = input(language_dictionary[game_language].quiz.player_name_prompt)
     score = 0
     help_types = {"audience": True, "telephone": True, "halving": True}
@@ -30,11 +32,28 @@ def play():
     time.sleep(2)
     question_file = 'questions_' + game_language + ".txt"
     question_lines = util.open_file(question_file, "r", ";")
+    random.shuffle(question_lines)
     if question_topics != language_dictionary[game_language].menu.settings_menu_question_topics[0]:
         populated = filter(lambda c: c[5] == str(question_topics).lower().strip(), question_lines)
         question_lines = list(populated)
-    random.shuffle(question_lines)
+    if question_difficulty != "":
+        populated = filter(lambda c: c[6] == str(question_difficulty).lower().strip(), question_lines)
+        question_lines = list(populated)
+    else:
+        populated_easy_questions = filter(lambda c: c[6] == str(language_dictionary[game_language].menu.question_difficulty_levels[1]).lower().strip(), question_lines)
+        question_lines_easy = list(populated_easy_questions)
+        populated_medium_questions = filter(lambda c: c[6] == str(language_dictionary[game_language].menu.question_difficulty_levels[2]).lower().strip(), question_lines)
+        question_lines_medium = list(populated_medium_questions)
+        populated_hard_questions = filter(lambda c: c[6] == str(language_dictionary[game_language].menu.question_difficulty_levels[3]).lower().strip(), question_lines)
+        question_lines_hard = list(populated_hard_questions)
     for i in range(15):
+        if question_difficulty == "":
+            if i < 5:
+                question_lines = question_lines_easy
+            elif i < 10:
+                question_lines = question_lines_medium
+            else:
+                question_lines = question_lines_hard
         question = question_lines[i][0]
         print(question)
         answers = {"a": question_lines[i][1], "b": question_lines[i][2], "c": question_lines[i][3],
