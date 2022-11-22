@@ -241,11 +241,11 @@ Taylor Swift két albumot adott ki 2020-ban. Hogy hívták őket?;Folklore and E
 Billie Eilish 2019-ben adta ki első albumát. Mi a neve?;When We All Fall Asleep, Where Do We Go?;Introducing Billie Eilish;It's Eilish, not Eyelash;Nevermind;zene;közepes
 Melyik országból származik Rita Ora?;Jugoszlávia (ma Koszovó);Franciaország;Dánia;Wales;zene;közepes
 Melyik West End musicalben szerepelt Anne-Marie 6 évesen?;A nyomorultak (Les Misérables);Chicago;Macskák (Cats);Rocksuli (School of Rock);zene;nehéz
-Eritrea, which became the 182nd member of the UN in 1993, is in the continent of?;Africa;Asia;Europe;Australia;geography;medium
-Grand Central Terminal, Park Avenue, New York is the world's?;largest railway station;highest railway station;longest railway station;None of the above;geography;medium
-FFC stands for ?;Film Finance Corporation;Foreign Finance Corporation;Federation of Football Council;None of the above;general knowledge;medium
-Epsom (England) is the place associated with?;Horse racing;Polo;Shooting;Snooker;sports;medium
-First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in..?;1967;1968;1958;1922;general knowledge;hard
+Eritrea, amely 1993-ban az ENSZ 182. tagja lett, melyik kontinensen található?;Afrika;Ázsia;Európa;Ausztrália;földrajz;közepes
+Grand Central Terminal, Park Avenue, New York..;A világ legnagyobb vasútállomása;A világ legmagasabb pályaudvara;A világ leghosszabb vasútállomás;A fentiek egyike sem;földrajz;közepes
+Mi az FFC jelentése?;Film Finance Corporation;Foreign Finance Corporation;Federation of Football Council;A fentiek egyike sem;általános műveltség;közepes
+Epsom (Anglia) az a hely, amelyhez a ____ kapcsolódik?;Lóverseny;Lovaspóló;Céllövészet;Sznúker;sport;közepes
+Mikor hajtotta végre az első emberi szívátültetés műtétet Dr. Christiaan Barnard Louis Washkanskyn..?;1967;1968;1958;1922;általános műveltség;nehéz
 Habeas Corpus Act 1679..;All of the above;safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders;provided facilities to a prisoner to obtain either speedy trial or release in bail;states that no one was to be imprisoned without a writ or warrant stating the charge against him;history;hard
 Exposure to sunlight helps a person improve his health because..?;the ultraviolet rays convert skin oil into Vitamin D;the pigment cells in the skin get stimulated and produce a healthy tan;resistance power increases;the infrared light kills bacteria in the body;biology;medium
 Golf player Vijay Singh belongs to which country?;Fiji;USA;India;UK;sports;hard
