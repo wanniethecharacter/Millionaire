@@ -498,64 +498,64 @@ Which brand are the Soup Cans on the famous Andy Warhol painting?;Campbell's;Nes
 What is the world’s most visited museum?;Le Louvre;State Hermitage;Vatican Museums;British Museum;arts;easy
 In which country can you find the Terracota warriors?;China;Russia;India;North Korea;arts;easy
 Which country is Gustav Klimt from?;Austria;Czech Republic;Germany;France;arts;easy
-What philosopher wrote the book titled "Beyond Good and Evil"?;Friedrich Nietzsche;Georg W. F. Hegel;Gilles Deleuze;Arthur Schopenhauer;literature;hard
-Every word contains at least one …?;Syllable;Parenthesis;Object;Caption;literature;easy
-Who is known for writing "The Art of War"?;Sun Tzu;Pythagoras;Seneca;Aristotle;literature;hard
-Who wrote "Around the World in 80 Days" in 1873?;Jules Verne;Edgar Allan Poe;Herman Melville;Harriet Beecher Stove;literature;easy
-In Gullivers Travels, what is the name of the flying island?;Laputa;Sirungi;Fapesu;Janaun;literature;easy
-Who wrote the Jungle Book?;Rudyard Kipling;Dr. Seuss;Shel Silverstein;Wilson Rawls;literature;easy
-For what is H.G. Wells known?;Science fiction;Cave diving;Method acting;Action painting;literature;hard
-The "New King James Version" (NKJV) is a version of what book?;Bible;Odyssey;Hamlet;Decameron;literature;easy
-Which of the book was written by Graham Greene?;The Power and Glory;O' Jerusalem;Crisis in India;Of Human Bondage;literature;hard
-Who is the author of famous statement: "That Government is the best which governs least"?;Henry David Thoreau;Alexis De Tocqueville;Harold Laski;Herbert Spencer;literature;hard
-The famous character 'Pickwick' was created by?;Charles dickens;Walt Disney;Leo Tolstoy;Steven Spielberg;literature;hard
-Who is the author of the novel 'Les Miserable'?;Victor Hugo;ALium tofler;G.Wynne;Fedric;literature;easy
-What horrible event befell Greece when Hades abducted Persephone?;famine;the Trojan War;no babies born;outbreak of plague;literature;easy
-Which of these mighty warriors was dipped in the River Styx as a baby, making him nearly invulnerable?;Achilles;Jason;Hercules;Odysseus;literature;easy
-What was the only thing left in Pandora’s jar?;Hope;Disease;War;Poverty;literature;medium
-Zeus’s father, Cronus, did which of the following to his children?;Ate them alive;Trained them for combat;Weaned them on wolf's milk;Abandoned them on a desert island;literature;easy
-In what unusual way was Athena born?;She sprang out of Zeus's head;She emerged from a giant clam;Transformed from a wolf;She was carved from marble;literature;easy
-What is the name of Beethoven's Piano Sonata No. 14?;Moonlight Sonata;Sunshine Sonata;Venus Sonata;Sundance Sonata;music;easy
-What instrument does the concertmaster (leader) of an orchestra play?;Violin;Tuba;Horn;Cello;music;easy
-Anthony Kiedis, Flea, Chad Smith, and John Frusciante founded which American rock band?;Red Hot Chilli Peppers;Foo Fighters;Pearl Jam;Stone Temple Pilots;music;medium
-Name the debut hit from Britney Spears released in 1999.;Hit My Baby One More Time;From the bottom of my broken heart;You drive me crazy;The Beat Goes On;music;hard
-‘Bad Blood’, ‘Love Story’, and ‘Cardigan’ are hits for which best-selling American singer?;Taylor Swift;Tina Turner;Whitney Houston;Christina Aguilera;music;medium
-Celine Dion had a hit with ‘My Heart Will Go On’ from the soundtrack of which movie?;Titanic;The Lion King;;Frozen;Good Will Hunting;music;easy
-‘Hotel California’ was a hit for which American band?;Eagles;Paris;Bang;Sorcery;music;easy
-Immigrant Song was a hit for which band in 1970?;Led Zeppelin;Aerosmith;Pink Floyd;Eagles;music;medium
-Which artist is also known as Slim Shady?;Enimem;Tech N9ne;Jay-Z;Lil Wayne;music;easy
-Who sang with the Wailers?;Bob Marley;John Lennon;Kim Carnes;Lionel Richie;music;hard
-Who went solo in 1987 with the song ‘Faith’?;George Michael;Dan Hill;Gregory Abbott;Whitney Houston;music;medium
-In which song did Queen sing: “I’ve fallen in love / I’ve fallen in love for the first time”?;I Want To Break Free;We Will Rock You;Love of My Life;Don't Stop Me Now;music;medium
-In 2017 Luis Fonsi and Daddy Yankee topped the chart in 47 countries with which song?;Despacito;Macarena;Oye Cmo va;Bailando;music;easy
-Guy Berryman, Jon Buckland, Will Champion, Chris Martin are members of which band?;Coldplay;U2;Gorillaz;Villagers;music;medium
-With which Cuban-American singer did Shawn Mendes team up with on the track “Señorita”?;Camila Cabello;Shakira;Luis Fonsi;Paco de Lucia;music;easy
-Who is the best-selling female artist of all time?;Madonna;Katy Perry;Whitney Houston;Celine Dion;music;easy
-At 99 years old, who become the oldest person to top the UK Singles Chart in 2020?;Captain Sir Thomas Moore;Frank Wappat;Bernard Manning;Peter Hope;music;hard
-Name the band that Phil Collins is a part of.;Genesis;Hobo Blues Band;Bon Jovi;U2;music;easy
-Who had a No.1 hit with “Ice Ice Baby”?;Vanilla Ice;Tupac Shakur;Steven Tyler;Jay-Z;music;easy
-In which year did the Spice Girls release Wannabe?;1996;1997;1998;1995;music;hard
-Will.i.am is best known for being part of which hip hop group?;Black Eyed Peas;Jawbreakers;Atban Klann;N.W.A;music;medium
-In which video did Michael Jackson first perform his famous moonwalk in 1983?;Billie Jean;Jam;You Are Not Alone;Dirty Diana;music;medium
-‘Getting to Know You’ is one of the best known songs from which musical?;The King and I;Singin' in the Rain;West Side Story;The Sound of Music;music;hard
-Stormzy collaborated with Burna Boy and which other British musician on ‘Own It’?;Ed Sheeran;Elton John;Phil Collins;Harry Styles;music;hard
-‘Children’ was a 1996 instrumental hit for which DJ?;Robert Miles;A-Trak;Alesso;DJ Icey;music;hard
-Which synth-pop duo reached UK number one with ‘West End Girls’ in 1986?;Pet Shop Boys;The Bangles;Wham!;Depeche Mode;music;hard
-Which Mark Ronson and Bruno Mars track spent 14 weeks on top of the Billboard Hot 100 in 2015?;Uptown Funk;Marry You;24K Magic;None;music;hard
-Which musical is based on the 1992 film of the same name which starred and featured songs by Whitney Houston?;The Bodyguard;Marketplace;Prince Ali;A Whole New World;music;hard
-In which Mama and Papas song are: “all the leaves are brown and the sky is grey”?;California Dreamin;Go Where You Wanna Go;I saw Her Again;Twelve Thirty;music;hard
-The Barbadian singer Robyn Fenty is better known by her middle name of what?;Rihanna;Beyoncé;Adele;Shakira;music;hard
-Björn Again is a tribute band for which world-famous pop group?;Abba;Queen;BTS;Sly and the Family Stopne;music;hard
-Beyonce rose to stardom as part of which girl band?;Destiny’s Child;Salt-N-Pepa;Dixie Chicks;En Vogue;music;hard
-In what decade was American jazz trumpeter Miles Davis born?;1920s;1930s;1940s;1950s;music;hard
-Which dish is originally from Italy?;Pizza;Pozole;Beer;Hamburger;gastronomy;easy
-Tacos are typically from..?;Mexico;Argentina;Spain;Venezuela;gastronomy;easy
-What gastronomy means?;The study and appreciation of good food and good eating.; The study of the stars.;The study of algebra.;The study of architecture;gastronomy;easy
-The chef is the _____ of Gastronomy..;Master;Student;Writer;Caretaker;gastronomy;easy
-What is the most popular beverage in the world?;Tea;Coffe;Beer;Wine;gastronomy;easy
-What is the most popular fruit in the world?;Banana;Apple;Orange;Watermelon;gastronomy;easy
-Barbecue is a gastronomic icon of U.S.A.?;True;False;It is a shared icon amongst USA and Mexico;It is a shared icon amongst USA and Canada;gastronomy;easy
-The definition of nutrition is:;The study of the effect of food and how it is processed in the body.;The science of how nutrients are obtained for people to use.;The study of how energy flows throughout the body and how it is processed.;None;gastronomy;hard
+Melyik filozófus írta a "Túl a jón és a rosszon" ("Beyond Good and Evil") című könyvet?;Friedrich Nietzsche;Georg W. F. Hegel;Gilles Deleuze;Arthur Schopenhauer;irodalom;nehéz
+Minden szó tartalmaz legalább egy …?;Szótag;Zárójel;Tárgy;Felirat;irodalom;könnyű
+Ki vált ismertté a "The Art of War" (Háború művészete) megírásáról?;Sun Tzu;Pythagoras;Seneca;Arisztotelész;irodalom;nehéz
+Ki írta a "80 nap alatt a föld körül" című művét 1873-ban?;Jules Verne;Edgar Allan Poe;Herman Melville;Harriet Beecher Stove;irodalom;könnyű
+A Gulliver Utazásaiban mi a neve a repülő szigetnek?;Laputa;Sirungi;Fapesu;Janaun;irodalom;könnyű
+Ki írta a dzsungel könyvét?;Rudyard Kipling;Dr. Seuss;Shel Silverstein;Wilson Rawls;irodalom;könnyű
+Miről ismert H.G. Wells?;Sci-fi;barlangi búvárkodás;módszeres színészi játék;akciófestészet;irodalom;nehéz
+A "New King James Version" (King James Biblia) - (NKJV) melyik könyv egy változata?;Biblia;Odüsszeia;Hamlet;Dekameron;irodalom;könnyű
+Melyik könyvet írta Graham Greene?;Hatalom és dicsőség (The Power and Glory);O' Jeruzsálem;Válság Indiában(Crisis in India);Az emberi rabságról(Of Human Bondage);irodalom;nehéz
+Ki a szerzője a híres kijelentésnek: "Az a kormány a legjobb, amelyik legkevésbé kormányoz"?;Henry David Thoreau;Alexis De Tocqueville;Harold Laski;Herbert Spencer;irodalom;nehéz
+A híres „Pickwick” karaktert ki alkotta?;Charles Dickens;Walt Disney;Lev Tolsztoj;Steven Spielberg;irodalom;nehéz
+Ki a "Les Miserable" (Nyomorultak) regény szerzője?;Victor Hugo;ALium tofler;G.Wynne;Fedric;irodalom;könnyű
+Milyen szörnyű esemény történt Görögországban, amikor Hádész elrabolta Perszephoné-t?;éhínség;a trójai háború;nem születik baba;járványkitörés;irodalom;könnyű
+Ezek közül a hatalmas harcosok közül melyiket mártották a Styx folyóba csecsemőként, amitől szinte sebezhetetlen?;Achilles;Jason;Hercules;Odüsszeusz;irodalom;könnyű
+Mi maradt csak Pandora szelencéjében?;Remény;Betegség;Háború;Szegénység;irodalom;közepes
+Zeusz apja, Kronosz az alábbiak közül melyiket tette gyermekeivel?;Élve ette meg őket;Harcra idomította őket;Farkastejjel választotta el őket;Elhagyta őket egy lakatlan szigeten;irodalom;könnyű
+Milyen szokatlan módon született Athéné?;Zeusz fejéből pattant ki;Óriás kagylóból emelkedett ki;Farkasból átalakult;Márványból faragták ki;irodalom;könnyű
+Mi a neve Beethoven 14. zongoraszonátájának?;Holdfény-szonáta;Napfény-szonáta;Vénusz-szonáta;Sundance-szonáta;zene;könnyű
+Milyen hangszeren játszik egy zenekar koncertmestere (vezetője)?;Hegedű;Tuba;Kürt;Cselló;zene;könnyű
+Melyik amerikai rockzenekart alapította Anthony Kiedis, Flea, Chad Smith és John Frusciante?;Red Hot Chilli Peppers;Foo Fighters;Pearl Jam;Stone Temple Pilots;zene;közepes
+Nevezze meg Britney Spears 1999-ben kiadott debütáló slágerét.;Hit My Baby One More Time;From the bottom of my broken heart;You drive me crazy;The Beat Goes On;zene;nehéz
+A „Bad Blood”, a „Love Story” és a „Cardigan” a legkelendőbb amerikai énekesnő slágerei?;Taylor Swift;Tina Turner;Whitney Houston;Christina Aguilera;zene;közepes
+Celine Dion melyik film filmzenéje volt nagy slágere a My Heart Will Go On-el?;Titanic;Az oroszlánkirály;;Frozen;Good Will Hunting;zene;könnyű
+Melyik amerikai együttes slágere volt a „Hotel California”?;Eagles;Paris;Bang;Sorcery;zene;könnyű
+Melyik zenekar slágere volt 1970-ben az Immigrant Song?;Led Zeppelin;Aerosmith;Pink Floyd;Eagles;zene;közepes
+Melyik előadót ismerik Slim Shady néven is?;Enimem;Tech N9ne;Jay-Z;Lil Wayne;zene;könnyű
+Ki énekelt a Wailers-szel?;Bob Marley;John Lennon;Kim Carnes;Lionel Richie;zene;nehéz
+Ki vált szóló előadóvá 1987-ben a „Faith” című dallal?;George Michael;Dan Hill;Gregory Abbott;Whitney Houston;zene;közepes
+Melyik dalban énekelte Queen: "I've fallen in love / I've fallen love for the first time"?;I Want To Break Free;We Will Rock You;Love of My Life;Don't Stop Me Now ;zene;közepes
+2017-ben Luis Fonsi és Daddy Yankee 47 országban vezették a listát, melyik dallal?;Despacito;Macarena;Oye Como va;Bailando;zene;könnyű
+Guy Berryman, Jon Buckland, Will Champion, Chris Martin melyik zenekar tagjai?;Coldplay;U2;Gorillaz;Villagers;zene;közepes
+Melyik kubai-amerikai énekessel állt össze Shawn Mendes a „Señorita” című számban?;Camila Cabello;Shakira;Luis Fonsi;Paco de Lucia;zene;könnyű
+Ki minden idők legkelendőbb női előadója?;Madonna;Katy Perry;Whitney Houston;Celine Dion;zene;könnyű
+99 évesen, ki volt az aki 2020-ban a legidősebb ember, aki a brit egyéni előadói lista élére került?;Sir Thomas Moore kapitány;Frank Wappat;Bernard Manning;Peter Hope;zene;nehéz
+Nevezze meg a zenekart, amelynek Phil Collins tagja.;Genesis;Hobo Blues Band;Bon Jovi;U2;zene;könnyű
+Kinek volt No.1 sikere az Ice Ice Baby-vel?;Vanilla Ice;Tupac Shakur;Steven Tyler;Jay-Z;zene;könnyű
+Melyik évben adta ki a Spice Girls a Wannabe-t?;1996;1997;1998;1995;zene;nehéz
+A Will.i.am leginkább melyik hip-hop csoportról híres?;Black Eyed Peas;Jawbreakers;Atban Klann;N.W.A;zene;közepes
+Melyik videóban adta elő először Michael Jackson híres holdjárását 1983-ban?;Billie Jean;Jam;You Are Not Alone;Dirty Diana;zene;közepes
+A „Getting to Know You” az egyik legismertebb dal, mely musicalből?;A király és én(The King and I);Ének az esőben (Singin' in the Rain);West Side Story;Muzsika hangjai (The Sound of Music);zene;nehéz
+Stormzy együttműködött Burna Boy-jal és melyik másik brit zenésszel a „Own It”-ben?;Ed Sheeran;Elton John;Phil Collins;Harry Styles;zene;nehéz
+A „Children” egy 1996-os instrumentális sláger, melyik DJ-től?;Robert Miles;A-Trak;Alesso;DJ Icey;zene;nehéz
+Melyik szinti-pop duó érte el az első helyet az Egyesült Királyságban a „West End Girls”-szel 1986-ban?;Pet Shop Boys;The Bangles;Wham!;Depeche Mode;zene;nehéz
+Melyik Mark Ronson és Bruno Mars szám volt 14 hetet a Billboard Hot 100 élén 2015-ben?;Uptown Funk;Marry You;24K Magic;Egyik sem;zene;nehéz
+Melyik musical alapul 1992-es, azonos című filmen, amelyben Whitney Houston volt a főszereplő és dalai is szerepeltek?;The Bodyguard;Marketplace;Prince Ali;A Whole New World;zene;nehéz
+Mely Mama and Papas dal szól így: „minden levél barna, az ég szürke”?;California Dreamin;Go Where You Wanna Go;I saw Her Again;Twelve Thirty;zene;nehéz
+A barbadosi énekesnőt, Robyn Fenty-t inkább a középső nevén ismerik. Melyik az alábbiak közül?;Rihanna;Beyoncé;Adele;Shakira;zene;nehéz
+A Björn Again melyik világhírű popegyüttes emlék bandája?;Abba;Queen;BTS;Sly and the Family Stone;zene;nehéz
+Beyonce melyik lánybanda tagjaként emelkedett a sztárok közé?;Destiny’s Child;Salt-N-Pepa;Dixie Chicks;En Vogue;zene;nehéz
+Melyik évtizedben született Miles Davis amerikai jazztrombitás?;1920-as évek;1930-as évek;1940-es évek;1950-es évek;zene;nehéz
+Melyik étel származik eredetileg Olaszországból?;Pizza;Pozole;Sör;Hamburger;gasztronómia;könnyű
+A tacók jellemzően a következő országból származnak..?;Mexikó;Argentína;Spanyolország;Venezuela;gasztronómia;könnyű
+Mit jelent a gasztronómia?;A jó étel és a jó étkezés tanulmányozása és megbecsülése.;A csillagok tanulmányozása.;Az algebra tanulmányozása.;Az építészet tanulmányozása;gasztronómia;könnyű
+Mi a séf szerepe a gasztronómiában?;mester;tanuló;író;gondnok;gasztronómia;könnyű
+Melyik a legnépszerűbb ital a világon?;Tea;Kávé;Sör;Bor;gasztronómia;könnyű
+Mi a legnépszerűbb gyümölcs a világon?;Banán;Alma;Narancs;Görögdinnye;gasztronómia;könnyű
+A barbecue az Egyesült Államok gasztronómiai ikonja?;Igaz;Hamis;Ez egy megosztott ikon az Egyesült Államok és Mexikó között;Közösen használja ezt az ikont az Egyesült Államok és Kanada;gasztronómia;könnyű
+A táplálkozástudomány definíciója a következő:;Az élelmiszer hatásának és a szervezetben történő feldolgozásának tanulmányozása.;Az a tudomány amely azt tanulmányozza, hogyan nyerik ki a tápanyagokat;Annak tanulmányozása, hogyan áramlik az energia a testben, és hogyan dolgozza fel.;Egyik sem;gasztronómia;nehéz
 A tápanyagok a következők:;Azok az anyagok, amelyek táplálják a testet, és energiát nyernek a szervezet számára.;Azok az anyagok, amelyeket a szervezet arra használ fel, hogy kémiai reakciókat váltson ki az egész szervezetben.;Vegyi anyagok, amelyek elősegítik az izmok és szervek működését a szervezetben .;Egyik sem;gasztronómia;nehéz
 A hat alapvető tápanyagcsoport a következő:;Szénhidrátok, lipidek, enzimek, vitaminok, ásványi anyagok és víz.;Szénhidrátok, fehérjék, antioxidánsok, vitaminok, ásványi anyagok és víz;Szénhidrátok, fehérjék, zsírok, vitaminok, ásványi anyagok és víz;Egyik sem;gasztronómia;nehéz
 Mennyi a hivatalos élelmiszercsoportok száma az USDA élelmiszerpiramisában?;6;5;4;7;gasztronómia;nehéz
