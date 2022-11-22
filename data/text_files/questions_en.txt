@@ -611,7 +611,7 @@ In which 2 countries did the 2019 Cricket World Cup take place?;England & Wales;
 Follower and rover are positions in which sport?;Australian Rules Football;Sepak takraw;Underwater hockey;Disc golf;sports;easy
 Which nation won the 2019 Rugby World Cup?;South Africa;Chile;Paraguay;Jemen;sports;easy
 What is the term for a score of 1 over par on a golf hole?;Bogey;Birdie;Ace;Eagle;sports;easy
-Andy Murray’s first Grand Slam title was at which tennis tournament?;U.S. Open;Australian Open;French Open;Wimbledon;sports;easy
+Andy Murray’s first Grand Slam title was at which tennis tournament?;U.S. Open;Australian Open;Roland Garros (French Open);Wimbledon;sports;easy
 At which football stadium would you find The Shankly Gates?;Anfield, Liverpool;Wembley, London;Old Trafford, Manchester;Westfalenstadion, Dortmund;sports;easy
 How many Olympic gold medals did Michael Phelps win?;23;24;25;30;sports;hard
 Which sport do the New York Giants play?;American Football;Soccer;Volleyball;Basketball;sports;easy

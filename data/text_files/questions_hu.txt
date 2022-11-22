@@ -594,26 +594,26 @@ Which of the following is an example of a direct tax?;Corporation tax;Value adde
 A government decides to subsidise the building of new houses. Which situation is likely to lead to the smallest increase in new house building:;Elasticity of supply of land is less than 1;Elasticity of supply of demand for houses is less than 1;Elasticity of supply of land is greater than 1;There is ample availability of land;economy;hard
 Which of the following is a likely motive for the imposition of a specific unit tax?;To reduce the consumption of harmful demerit goods;To stimulate spending on the good or service;To encourage the consumption of goods which generate positive externalities;To reduce the consumption of benefical merit goods;economy;hard
 Where did the first modern Summer Olympic games take place in 1896?;Athen;Sydney;Rome;Paris;sports;easy
-What is the nickname for Arsenal FC?;The Gunners;The Sky Blues;The Citizens;The Red Devils;sports;easy
-What number shirt is worn by a fullback in rugby union?;15;18;21;13;sports;medium
-Which boxer did Muhammad Ali fight in ‘The Rumble in the Jungle’?;George Foreman;Floyd Mayweather;Mike Tyson;Julio César Chávez;sports;medium
-How many Premier League titles did Manchester United win under Sir Alex Ferguson?;13;15;10;1;sports;medium
-In what year was the first edition of The Hundred cricket tournament?;2021;2022;2016;2018;sports;medium
-Which Irish footballer was sent home before the start of the 2002 FIFA World Cup after a public quarrel with his manager?;Roy Keane;Shay Given;Kiely Dean;Nick Colgan;sports;medium
-Ricky Hatton’s first career loss was to which other boxer?;Floyd Mayweather Jr.;Rocky Marciano;Manny Pacquiao;Joe Louis;sports;hard
-What date do all racehorses in the Northern Hemisphere celebrate their birthday?;1st January;31st December;16th May;6th January;sports;medium
-In which sport would you commonly use the terms; chukka, neckshot and millionaire’s shot?;Polo;Shooting;Archery;Horse Riding;sports;medium
-Which French city is known for its 24 hour motor race?;Le Mans;Marseille;Paris;Nizza;sports;easy
-What is the name of the only racehorse to win the Grand National 3 times?;Red Rum;Arkle;American Pharaoh;Winx;sports;easy
-Which football club has stands named after Graham Taylor and Sir Elton John?;Watford FC;Wulfrunians FC;Ashton FC;Bashley FC;sports;hard
-Which sport takes place in a velodrome?;Cycling;Running;Hurdles;Relay race;sports;easy
-In which 2 countries did the 2019 Cricket World Cup take place?;England & Wales;England & Germany;England & Denmark;England & France;sports;easy
-Follower and rover are positions in which sport?;Australian Rules Football;Sepak takraw;Underwater hockey;Disc golf;sports;easy
-Which nation won the 2019 Rugby World Cup?;South Africa;Chile;Paraguay;Jemen;sports;easy
-What is the term for a score of 1 over par on a golf hole?;Bogey;Birdie;Ace;Eagle;sports;easy
-Andy Murray’s first Grand Slam title was at which tennis tournament?;U.S. Open;Australian Open;French Open;Wimbledon;sports;easy
-At which football stadium would you find The Shankly Gates?;Anfield, Liverpool;Wembley, London;Old Trafford, Manchester;Westfalenstadion, Dortmund;sports;easy
-How many Olympic gold medals did Michael Phelps win?;23;24;25;30;sports;hard
-Which sport do the New York Giants play?;American Football;Soccer;Volleyball;Basketball;sports;easy
-What is the national sport of Japan?;Sumo wrestling;Karate;Judo;Jiu-jitsu;sports;easy
-The Boat Race is an annual event between which 2 universities?;Oxford & Cambridge;MIT & Chicago;Yale & Harvard;Boston & Chicago;sports;medium
+Mi az Arsenal FC beceneve?;The Gunners;The Sky Blues;The Citizens;The Red Devils;sport;könnyű
+Milyen számú mezt hord egy hátvéd a rögbi szövetségben?;15;18;21;13;sport;közepes
+Melyik bokszolóval küzdött Muhammad Ali a „The Rumble in the Jungle” című filmben?;George Foreman;Floyd Mayweather;Mike Tyson;Julio César Chávez;sport;közepes
+Hány Premier League-címet nyert a Manchester United Sir Alex Ferguson vezetésével?;13;15;10;1;sport;közepes
+Melyik évben volt "A Száz" kriketttorna első versenysorozata?;2021;2022;2016;2018;sport;közepes
+Melyik ír labdarúgót küldték haza a 2002-es labdarúgó-világbajnokság kezdete előtt, miután nyilvánosan veszekedett menedzserével?;Roy Keane;Shay Given;Kiely Dean;Nick Colgan;sport;közepes
+Ricky Hatton pályafutása első vereségét melyik híres bokszoló okozta?;Floyd Mayweather Jr.;Rocky Marciano;Manny Pacquiao;Joe Louis;sport;nehéz
+Melyik napon ünnepli a születésnapját az összes versenyló az északi féltekén?;január 1.; december 31.; május 16.; január 6.;sport;közepes
+Melyik sportban használná az alábbi kifejezéseket: Chukka, nyaklövés(neckshot) és milliomoslövés(millionaire’s shot)?;Póló;Lövés;Íjászat;Lovaglás;sport;közepes
+Melyik francia város ismert a 24 órás autóversenyéről?;Le Mans;Marseille;Párizs;Nizza;sport;könnyű
+Mi a neve az egyetlen versenylónak, aki háromszor nyerte meg a Grand National-t?;Red Rum;Arkle;American Pharaoh;Winx;sport;könnyű
+Melyik futballklub nevezte el lelátóit Graham Taylor és Sir Elton John után?;Watford FC;Wulfrunians FC;Ashton FC;Bashley FC;sport;nehéz
+Melyik sportágat játsszák ovális versenypályán?;Kerékpározás;Futás;Gátfutás;Váltófutás;sport;könnyű
+Melyik 2 országban rendezték meg a 2019-es Krikett Világbajnokságot?;Anglia és Wales;Anglia és Németország;Anglia és Dánia;Anglia és Franciaország;sport;könnyű
+Melyik sportágban használják a "follower" és a "rover" pozíciókat?;Ausztrál Rules Football;Sepak takraw;Víz alatti jégkorong;Disc golf;sport;könnyű
+Melyik ország nyerte meg a 2019-es Rögbi Világbajnokságot?;Dél-Afrika;Chile;Paraguay;Jemen;sport;könnyű
+Mit jelent a golflyukon elért 1-gyel magasabb pontszám?;Bogey;Birdie;Ace;Eagle;sport;könnyű
+Melyik teniszversenyen szerezte meg Andy Murray első Grand Slam-bajnoki címét?;US Open;Australian Open;Roland Garros (French Open);Wimbledon;sport;könnyű
+Melyik futballstadionban találná a The Shankly Gates-t?;Anfield, Liverpool;Wembley, London;Old Trafford, Manchester;Westfalenstadion, Dortmund;sport;könnyű
+Hány olimpiai aranyérmet nyert Michael Phelps?;23;24;25;30;sport;nehéz
+Melyik sportágat űzi a New York Giants?Amerikai futball;Futball;Röplabda;Kosárlabda;sport;könnyű
+Mi Japán nemzeti sportja?;Szumóbirkózás;Karate;Dzsúdó;Dzsúdzsucu;sport;könnyű
+A Boat Race egy éves rendezvény. Mely két egyetem között zajlik?;Oxford & Cambridge;MIT & Chicago;Yale & Harvard;Boston & Chicago;sport;közepes
