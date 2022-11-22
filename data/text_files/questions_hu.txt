@@ -246,6 +246,12 @@ Grand Central Terminal, Park Avenue, New York..;A világ legnagyobb vasútállom
 Mi az FFC jelentése?;Film Finance Corporation;Foreign Finance Corporation;Federation of Football Council;A fentiek egyike sem;általános műveltség;közepes
 Epsom (Anglia) az a hely, amelyhez a ____ kapcsolódik?;Lóverseny;Lovaspóló;Céllövészet;Sznúker;sport;közepes
 Mikor hajtotta végre az első emberi szívátültetés műtétet Dr. Christiaan Barnard Louis Washkanskyn..?;1967;1968;1958;1922;általános műveltség;nehéz
+A következő angol törvény: Habeas Corpus Act, 1679...;A fentiek mindegyike;megvédte az emberek személyes szabadságjogait a király parancsa általi önkényes bebörtönzés ellen;lehetőséget biztosított a fogoly számára, hogy gyors tárgyalást vagy óvadék ellenében szabadulhasson; kimondja, hogy senkit sem kell bebörtönözni az ellene felhozott vádat tartalmazó végzés vagy parancs nélkül;történelem;kemény
+A napfénynek való kitettség javítja egészségi állapotát, mert…?;az ultraibolya sugarak a bőr olaját D-vitaminná alakítják; a bőr pigmentsejtjei stimulálódnak, és egészséges barnulást eredményeznek; az ellenálló képesség megnő; az infravörös fény elpusztítja a baktériumokat a szervezetben ;biológia;médium
+Vijay Singh golfjátékos melyik országhoz tartozik?;Fidzsi-szigetek;USA;India;UK;sport;hard
+Az első afgán háború ben zajlott:
+Az első kínai háború között zajlott?;Kína és Nagy-Britannia;Kína és Franciaország;Kína és Egyiptom;Kína és Görögország;történelem;könnyű
+Olimpián és világbajnokságon mekkora a kosárlabdapálya méretei?; 26 m x 14 m; 28 m x 15 m; 27 m x 16 m; 28 m x 16 m; sport; kemény
 Habeas Corpus Act 1679..;All of the above;safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders;provided facilities to a prisoner to obtain either speedy trial or release in bail;states that no one was to be imprisoned without a writ or warrant stating the charge against him;history;hard
 Exposure to sunlight helps a person improve his health because..?;the ultraviolet rays convert skin oil into Vitamin D;the pigment cells in the skin get stimulated and produce a healthy tan;resistance power increases;the infrared light kills bacteria in the body;biology;medium
 Golf player Vijay Singh belongs to which country?;Fiji;USA;India;UK;sports;hard
@@ -550,17 +556,17 @@ What is the most popular beverage in the world?;Tea;Coffe;Beer;Wine;gastronomy;e
 What is the most popular fruit in the world?;Banana;Apple;Orange;Watermelon;gastronomy;easy
 Barbecue is a gastronomic icon of U.S.A.?;True;False;It is a shared icon amongst USA and Mexico;It is a shared icon amongst USA and Canada;gastronomy;easy
 The definition of nutrition is:;The study of the effect of food and how it is processed in the body.;The science of how nutrients are obtained for people to use.;The study of how energy flows throughout the body and how it is processed.;None;gastronomy;hard
-Nutrients are:;Substances which nourish the body and are  also used to get energy for a body.;Substances which the body uses to make chemical reactions occur throughout the body systems.;Chemicals which aid in the function of muscles and organs in the body.;None;gastronomy;hard
-The six essential nutrients are:;Carbohydrates, lipids, enzymes, vitamins, minerals, and water.;Carbohydrates, proteins, antioxidants, vitamins, minerals, and water.;Carbohydrates, proteins, fats, vitamins, minerals, and water.;None;gastronomy;hard
-What is the number of official food groups on the USDA's Food Pyramid?;6;5;4;7;gastronomy;hard
-Carbohydrates must compose ___________ of a person's daily calorie intake.;55-65%;40-50%;60-70%;45-55%;gastronomy;hard
-What are the two forms of carbohydrates?;Simple and complex;Single and Double;Sugars and starches;Sugars and Fats;gastronomy;hard
-Which of the following is the main purpose of carbohydrates in the body?;They are the main source of energy for everybody;They help regulate hormones and maintain body temperature within the body.;They provide chemicals repairing cells, and aid in digestion.;None;gastronomy;hard
-What can happen to a person who eats too many carbohydrates over time?;Diabetes or hypoglycemia;Heart disease or cancer.;Hypertension or COPD;None;gastronomy;hard
-Proteins must compose ___________of a person's daily Calorie intake.;20-30%;30-40%;10-20%;40-50%;gastronomy;hard
-What are the main purposes of proteins in a body?;They help in repairing cells and aiding the processing of other nutrients.;They help in building and repairing body tissue and also help regulate enzymes.;They aid in energy formation and help in clearing the digestive tract.;None;gastronomy;hard
-What happens to the body if a person consumes excess protein?;The person could develop kidney failure or calcium loss.;The person could develop liver failure or hypertension.;The person needs to eat less nutrients;Nothing would happen to the person.;gastronomy;hard
-Which waxy substance is found in all animal sources of protein?;Cholesterol;Unsaturated fat;Trans fat;None of the above;gastronomy;hard
+A tápanyagok a következők:;Azok az anyagok, amelyek táplálják a testet, és energiát nyernek a szervezet számára.;Azok az anyagok, amelyeket a szervezet arra használ fel, hogy kémiai reakciókat váltson ki az egész szervezetben.;Vegyi anyagok, amelyek elősegítik az izmok és szervek működését a szervezetben .;Egyik sem;gasztronómia;nehéz
+A hat alapvető tápanyagcsoport a következő:;Szénhidrátok, lipidek, enzimek, vitaminok, ásványi anyagok és víz.;Szénhidrátok, fehérjék, antioxidánsok, vitaminok, ásványi anyagok és víz;Szénhidrátok, fehérjék, zsírok, vitaminok, ásványi anyagok és víz;Egyik sem;gasztronómia;nehéz
+Mennyi a hivatalos élelmiszercsoportok száma az USDA élelmiszerpiramisában?;6;5;4;7;gasztronómia;nehéz
+Egy személy napi kalóriabevitelének ___________-át szénhidrátnak kell kitennie.;55-65%;40-50%;60-70%;45-55%;gasztronómia;nehéz
+Mi a szénhidrátok két formája?;Egyszerű és összetett;Egyszeres és Dupla;Cukrok és keményítők;Cukrok és zsírok;gasztronómia;nehéz
+Az alábbiak közül melyik a szénhidrátok fő célja a szervezetben?;Mindenki számára ezek a fő energiaforrások;Segítenek a hormonok szabályozásában és a testhőmérséklet fenntartásában.;Vegyszerekkel látják el a sejteket, és segítik az emésztést.;Egyik sem;gasztronómia;nehéz
+Mi történhet azzal a személlyel, aki idővel túl sok szénhidrátot eszik?;Cukorbetegség vagy hipoglikémia;Szívbetegség vagy rák;Hipertónia vagy COPD;Egyik sem;gasztronómia;nehéz
+A fehérjéknek a napi kalóriabevitel hány százalékát kell képezniük?;20-30%;30-40%;10-20%;40-50%;gasztronómia;nehéz
+Mi a fehérjék fő szerepe a szervezetben?;Segítenek a sejtek helyreállításában és segítik más tápanyagok feldolgozását.;Segítenek a testszövetek felépítésében és helyreállításában, valamint az enzimek szabályozásában is.;Segítenek az energiaképzésben és az emésztőrendszer kiürülésben.;Egyik sem;gasztronómia;nehéz
+Mi történik a szervezettel, ha valaki túlzott mennyiségű fehérjét fogyaszt?;Veseelégtelenség vagy kalciumvesztés alakulhat ki az illetőnél.;Májelégtelenség vagy magas vérnyomás alakulhat ki.;Az embernek kevesebb tápanyagot kell ennie;Semmi sem történne az emberrel.; gasztronómia;nehéz
+Melyik viaszos anyag található az összes állati fehérjeforrásban?;Koleszterin;Telítetlen zsír;Transz-zsír;A fentiek egyike sem;gasztronómia;nehéz
 Milyen történelmi esemény vezetett a makroökonómia területének létrejöttéhez?;A nagy gazdasági világválság;A második világháború vége;A Bretton Woods-i megállapodás;Az Egyesült Államok függetlenné válása Nagy-Britanniától;gazdaság;nehéz
 Mi a takarékosság paradoxona?;Az az elképzelés, hogy sok egyén, aki pénzt takarít meg, valójában rossz lehet a gazdaság számára;Az az elképzelés, hogy a pénzmegtakarítás valójában károsíthatja az ember pénzügyeit a jövőben;Amikor sokan pénzt fektetnek megtakarításokba, ez ösztönözheti az ország gazdasági növekedését;Ha szuperszép cuccokat találsz egy turkálóban;gazdaság;közepes
 Mit mér a bruttó hazai termék (GDP)?;A gazdaság által termelt összes áru és szolgáltatás összege;Annak a mértéke, hogy mennyi pénz van a gazdaságban;Az országban élők teljes fizetése, mínusz a környezeti hatás;A legundorítóbb termék az emberek otthonában minden évben;gazdaság;könnyű
