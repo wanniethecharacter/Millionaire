@@ -298,99 +298,99 @@ Ezen országok közül melyik használja a shillinget fizetőeszközként?;Kenya
 Melyik országnak van három fővárosa?;Dél-Afrika;Nepal;Marokkó;Bolívia;általános műveltség;nehéz
 Melyik országban van a legtöbb aktív vulkán?;Indonézia;Japán;Olaszország;Fülöp-szigetek;általános műveltség;nehéz
 Mi a világ legkisebb országa?;Vatikán;Liechtenstein;Monaco;Luxemburg;általános műveltség;közepes
-The Great Barrier Reef is off the coast of which country?;Australi;South Africa;Fiji;New Zealand;general knowledge;medium
-What is the world's most populated country?;China;India;Usa;Russia;general knowledge;medium
-Which country has the longest coastline in the world?;Canada;Australia;Indonesia;Russia;general knowledge;hard
-What is the Christian term for Father, Son and the Holy Spirit?;Trinity;Carnality;Panache;Pandemonium;general knowledge;hard
-What does "Renaissance" literally mean?;Rebirth;Knowledge;Discovery;Faith;general knowledge;hard
-What field studies various aspects of aging?;Gerontology;Physiology;Cardiology;Histology;general knowledge;hard
-What effect describes that a small change at one place can have a huge impact on the entire system?;Butterfly effect;Leidenfrost effect;Doppler effect;Stark effect;general knowledge;hard
-Who created with the "AK-47" the world's most produced weapon?;Mikhail Kalashnikov;Artem Mikoyan;Samuel Colt;John Browning;history;easy
-In the early 1800s, what ship came to symbolize the fight against the slave trade?;Amistad;Wawona;MV Semlow;Adventuress;history;hard
-When did Columbus discover the Bahamas?;1492;1776;1329;1615;history;easy
-Which Archduchess of Austria became Queen of France in 1774?;Marie Antoinette;Joan of Arc;Emma of Provence;Diane de Poitiers;history;medium
-Which of these leaders was Macedonian?;Alexander the Great;Hadrian;Augustus;Justin I;history;easy
-What country was invaded and annexed by Iraq in 1990?;Kuwait;Israel;Saudi Arabia;Turkey;history;hard
-Who became the first President of Russia after the dissolution of the USSR?;Boris Yeltsi;Leonid Brezhnev;Dmitry Medvedev;Vladimir Putin;history;medium
-What was a gateway for millions of immigrants to the United States?;Ellis Island;Newfoundland;Jamaica;La Paz;history;hard
-In what year did the United States enter World War I?;1917;1920;1914;1915;history;medium
-What king of the Franks was the first to be crowned Holy Roman Emperor?;Charlemagne;Frederick I;Clothar I;Barbarossa;history;hard
-Who was the inventor of movable type printing in Europe?;Johannes Gutenberg;Friedrich Schiller;Leonardo da Vinci;Johann Wolfgang von Goethe;history;easy
-The Terracotta Army depicts the army of an emperor of …?;China;Russia;Sudan;India;history;easy
-Who was the leader of the SS in Nazi Germany?;Heinrich Himmler;Hans Biebow;Hermann Goering;Joseph Goebbels;history;hard
-When was the first Academy Awards ceremony held?;1929;1909;1919;1899;history;hard
-What happened right after the American Revolution (1775-1783) in the northern states?;Abolishment of slavery;Prohibition of alcohol;Women's suffrage;No fault divorce;history;easy
-Where was Solomon's Temple located?;Jerusalem;Haifa;Bethlehem;Tel Aviv;history;easy
-In which town did the "Gunfight at the O.K. Corral" take place?;Tombstone;Blackwell;Las Vegas;Newton;history;hard
-The Forbidden City in Beijing was built during what dynasty?;Ming;Liao;Xin;Song;history;easy
-Which of these countries was once part of the Soviet Union?;Belarus;France;United Kingdom;Italy;history;easy
-Who cried "Eureka!" after making an important finding?;Archimedes;Socrates;Seneca;Aristotle;history;medium
-What country sent the first human to outer space?;Soviet Union;USA;Mexico;China;history;medium
-Where can we find Nova Scotia?;Canada;Australia;Greenland;Denmark;geography;medium
-What is true for Italy?;It borders Switzerland;It is landlocked;Its main language is French;Its capital is Vienna;geography;easy
-Phoenix is the capital of …?;Arizona;Maine;Iowa;Delaware;geography;hard
-In which US state is the private research university named MIT located?;Massachusetts;California;Oregon;Tennesse;geography;medium
-The Colorado river flows through the …?;Rocky Mountains;Himalayas;Transantarctic mountains;Andes;geography;medium
-What is the capital of Indonesia?;Jakarta;Bandung;Kuching;Singapore;geography;medium
-What is the home of the dwarf planet Pluto?;Kuiper Belt;Mariana Trench;Strait of Canso;Maliku Kandu;geography;hard
-What is the largest metropole in Japan?;Tokyo;Osaka;Kyoto;Yokohama;geography;medium
-What is the capital of Texas?;Austin;Dallas;Phoenix;Lubbock;geography;hard
-What is the largest state of Germany by area?;Bavaria;Berlin;Hesse;Bremen;geography;hard
-What is the capital of Denmark?;Copenhagen;Amsterdam;Stockholm;Berlin;geography;easy
-What is "12" on the Beaufort scale?;Hurricane force;Violent storm;Strong gale;Strong breeze;geography;hard
-Where can we find St. Paul's Cathedral?;London;Rome;Sydney;Madrid;geography;easy
-Which planet has the most prominent ring system?;Saturn;Jupiter;Mars;Venus;geography;hard
-What is the capital of Australia?;Canberra;Adelaide;Melbourne;Sydney;geography;hard
-In which country is the world's highest waterfall?;Venezuela;Usa;Brazil;South africa;geography;hard
-What is the capital of the Philippines?;Manilla;Jakarta;Dili;Marawi;geography;hard
-In which country is Mount Fuji located?;Japan;China;Peru;North korea;geography;easy
-In which country is the Cape of Good Hope?;South africa;Australia;Candada;Usa;geography;easy
-The Sierra Madre Oriental is a mountain range in which country?;Mexico;China;Peru;Argentina;geography;easy
-In which ocean is the island of Madagascar?;Indian;Pacific;Arctic;Atlantic;geography;hard
-What is the study of human beings and their cultures?;Anthropology;Anthology;Geography;Apiology;geography;easy
-What group of people inhabits the Arctic regions of Greenland, Canada and Alaska?;Inuit;Nenets;Cossacks;Aztec;geography;hard
-What is the largest island?;Greenland;Borneo;New Guinea;Madagascar;geography;hard
-Which of these rivers is the longest?;Amazon;Yangtze;Ganges;Mississippi;geography;hard
-Hong Kong is located at the southern coast of …?;China;Vietnam;Japan;Taiwan;geography;hard
-What is the most populous state of the USA?;California;Illinois;Indiana;Florida;geography;hard
-In what SI unit is the Planck constant expressed?;Joule seconds;Henry volt;Sievert watt;Candela per square meter;physics;medium
-What semiconductor element can switch or amplify electronic signals?;Transistor;Capacitor;Anode;Resistor;physics;easy
-What does the transformer in a power adapter modify?;Voltage;Waveform;Capacitance;Resistance;physics;easy
-Which of these technologies is the newest?;Laser;Atomic Bomb;Television;Kodachrome;physics;easy
-For what does the "L" in LASER stand?;Light;Large;Long;Low;physics;easy
-What theory describes the start of our universe?;Big Bang;Supernova;Special relativity;Standard model;physics;easy
-Radiocarbon is produced in the atmosphere as a result of..?;collision between fast neutrons and nitrogen nuclei present in the atmosphere;action of ultraviolet light from the sun on atmospheric oxygen;action of solar radiations particularly cosmic rays on carbon dioxide present in the atmosphere;lightning discharge in atmosphere;physics;hard
-It is easier to roll a stone up a sloping road than to lift it vertical upwards because?;work done in rolling a stone is less than in lifting it;work done in both is same but the rate of doing work is less in rolling;work done in lifting the stone is equal to rolling it;work done in rolling is more than in lifting;physics;easy
-Siphon will fail to work if?;the level of the liquid in the two vessels are at the same height;the densities of the liquid in the two vessels are equal;both its limbs are of unequal length;the temperature of the liquids in the two vessels are the same;physics;easy
-Large transformers, when used for some time, become very hot and are cooled by circulating oil. The heating of the transformer is due to?;both the heating effect of current and hysteresis loss;intense sunlight at noon;hysteresis loss alone;the heating effect of current alone;physics;hard
-Light year is a unit of?;distance;time;light;intensity of light;physics;easy
-Mirage is due to?;unequal heating of different parts of the atmosphere;magnetic disturbances in the atmosphere;depletion of ozone layer in the atmosphere;equal heating of different parts of the atmosphere;physics;hard
-Light from the Sun reaches us in nearly?;8 minutes;16 minutes;4 minutes;2 minutes;physics;easy
-Stars appears to move from east to west because?;the earth rotates from east to west;the earth rotates from west to east;all stars move from east to west;the background of the stars moves from west to east;physics;easy
-Pa(Pascal) is the unit for?;pressure;thrust;frequency;conductivity;physics;easy
-Planets do not twinkle because?;they are nearer to earth and hence we receive a greater amount of light and, therefore minor variations in the intensity are not noticeable;they are very far away from the earth resulting in decrease in intensity of light;their distance from the earth does not change with time;they emit light of a constant intensity;physics;hard
-Metals are good conductors of electricity because?;they contain free electrons;the atoms are lightly packed;they have high melting point;All of the above;physics;easy
-Let a thin capillary tube be replaced with another tube of insufficient length then, we find water?;will not rise;will overflow;depressed;change its meniscus;physics;easy
-Out of the following pairs, choose the pair in which the physical quantities do not have identical dimension?;Impulse and moment of force;Force and rate of change of linear momentum;Planck's constant and Angular momentum;Pressure and Young's modules;physics;hard
-On a clean glass plate a drop of water spreads to form a thin layer whereas a drop of mercury remains almost spherical because?;cohesion of mercury is greater than its adhesion with glass;cohesion of water is greater than its adhesion with glass;density of mercury is greater than that of water;mercury is a metal;physics;hard
-If two bodies of different masses, initially at rest, are acted upon by the same force for the same time, then the both bodies acquire the same?;momentum;velocity;acceleration;kinetic energy hard;physics;hard
-Pick out the scalar quantity?;pressure;force;velocity;acceleration;physics;hard
-Rectifiers are used to convert?;Alternating current to Direct current;Direct current to Alternating current;high voltage to low voltage;low voltage to high voltage;physics;hard
-Out of the following, which is not emitted by radioactive substance?;Neutrons;Alpha particles;Electromagnetic radiations;Electrons;physics;hard
-Sound waves in air are?;longitudinal;transverse;electromagnetic;polarised;physics;medium
-Magnetism at the centre of a bar magnet is?;zero;maximum;minimum;minimum or maximum;physics;easy
-On a rainy day, small oil films on water show brilliant colours. This is due to?;interference;diffraction;polarization;dispersion;physics;easy
-Sound of frequency below 20 Hz is called?;infrasonic;audio sounds;ultrasonic;supersonics;physics;hard
-What is a solid form of carbon dioxide?;Dry Ice;Resin;Butter;Chocolate;chemistry;easy
-For what does the chemical symbol "Pb" stand?;Lead;Plutonium;Palladium;Lithium;chemistry;easy
-What do we call the center of an atom?;Nucleus;Pivot;Epicenter;Fulcrum;chemistry;easy
-What is a solid whose molecules are arranged in an orderly, repeating pattern?;Crystal;Granite;Basalt;Conglomerate;chemistry;easy
-What is the second lightest chemical element?;Helium;Carbon;Hydrogen;Radium;chemistry;easy
-Which molecule does NOT have oxygen in its structure?;Ammonia;Water;Ethanol;Ozone;chemistry;easy
-What is the most abundant element of the universe?;Hydrogen;Nitrogen;Sodium;Oxygen;chemistry;easy
-What chemical element is liquid at room temperature?;Bromine;Thulium;Tungsten;Helium;chemistry;hard
-According to Brønsted, a substance that is able to accept protons is a …?;Base;Acid;Metal;Salt;chemistry;hard
-Which is a form of ascorbic acid?;Vitamin C;Hydrochloric acid;Ammonia;LSD;chemistry;hard
+Melyik ország partjainál található a Nagy Korallzátony?;Ausztrália;Dél-Afrika;Fidzsi-szigetek;Új-Zéland;általános műveltség;közepes
+Melyik a világ legnépesebb országa?;Kína;India;USA;Oroszország;általános műveltség;közepes
+Melyik országnak van a világ leghosszabb tengerpartja?;Kanada;Ausztrália;Indonézia;Oroszország;általános műveltség;nehéz
+Mi az Atya, Fiú és Szentlélek keresztény kifejezése?;Szentháromság;Testiség;Panache;Pandemonium;általános műveltség;nehéz
+Mit jelent a "reneszánsz" szó szerint?;Újjászületés;Tudás;Felfedezés;Hit;általános műveltség;nehéz
+Melyik terület vizsgálja az öregedés különböző aspektusait?;Gerontológia;Élettan;Kardiológia;Szövettan;általános műveltség;nehéz
+Milyen hatásnak hívjuk azt, hogy egy helyen egy kis változás óriási hatással lehet az egész rendszerre?;Pillangó-effektus;Leidenfrost-effektus;Doppler-effektus;Stark-effektus;általános műveltség;nehéz
+Ki alkotta meg az „AK-47”-tel a világ legtöbbet gyártott fegyverét?;Mihail Kalasnyikov;Artem Mikoyan;Samuel Colt;John Browning;történelem;könnyű
+Az 1800-as évek elején melyik hajó jelképezte a rabszolga-kereskedelem elleni küzdelmet?;Amistad;Wawona;MV Semlow;Adventuress;történelem;nehéz
+Mikor fedezte fel Kolumbusz a Bahamákat?;1492;1776;1329;1615;történelem;könnyű
+Melyik osztrák főhercegnő lett Franciaország királynője 1774-ben?;Marie Antoinette;Joan of Arc;Provence-i Emma;Diane de Poitiers;történelem;közepes
+Melyik vezető volt macedón?;Nagy Sándor;Hadrianus;Augusztus;I.Jusztinus;történelem;könnyű
+Melyik országot támadta meg és annektálta Irak 1990-ben?;Kuwait;Izrael;Szaúd-Arábia;Törökország;történelem;nehéz
+Ki lett Oroszország első elnöke a Szovjetunió felbomlása után?;Borisz Jelcin;Leonid Brezsnyev;Dmitrij Medvegyev;Vlagyimir Putyin;történelem;közepes
+Mi volt a bevándorlók millióinak "kapuja" az Egyesült Államokba?;Ellis-sziget;Új-Foundland;Jamaica;La Paz;történelem;nehéz
+Melyik évben lépett be az Egyesült Államok az első világháborúba?;1917;1920;1914;1915;történelem;nehéz
+Melyik frank királyt koronázták először római császárrá?;Nagy Károly;I. Frigyes;I.Klotár;Barbarossa;történelem;nehéz
+Ki volt a mozgatható betűnyomtatás feltalálója Európában?;Johannes Gutenberg;Friedrich Schiller;Leonardo da Vinci;Johann Wolfgang von Goethe;történelem;könnyű
+Az Agyag Hadsereg a melyik ország uralkodójának hadseregét jelképezi?;Kína;Oroszország;Szudán;India;történelem;könnyű
+Ki volt az SS vezetője a náci Németországban?;Heinrich Himmler;Hans Biebow;Hermann Goering;Joseph Goebbels;történelem;nehéz
+Mikor volt az első Oscar-díjátadó?;1929;1909;1919;1899;történelem;nehéz
+Mi történt közvetlenül az amerikai forradalom (1775-1783) után az északi államokban?;A rabszolgaság eltörlése;Az alkohol tilalma;Női választójog;Válóok nélküli válás;történelem;könnyű
+Hol volt Salamon temploma?;Jeruzsálem;Haifa;Betlehem;Tel Aviv;történelem;könnyű
+Melyik városban zajlott a "lövöldözés az O.K. Corral"?;Tombstone;Blackwell;Las Vegas;Newton;történelem;nehéz
+Melyik dinasztia idején épült a pekingi Tiltott Város?;Ming;Liao;Xin;Song;történelem;könnyű
+Melyik ország volt valaha a Szovjetunió része?;Fehéroroszország;Franciaország;Egyesült Királyság;Olaszország;történelem;könnyű
+Ki kiáltotta: "Eureka!" egy fontos megállapítás után?;Arkhimédész;Szókratész;Seneca;Arisztotelész;történelem;közepes
+Melyik ország küldte az első embert a világűrbe?;Szovjetunió;USA;Mexikó;Kína;történelem;közepes
+Hol található Nova Scotia?;Kanada;Ausztrália;Grönland;Dánia;földrajz;közepes
+Mi igaz Olaszországra?;Svájccal határos;Tengerparthoz nem tartozik;Fő nyelve a francia;Fővárosa Bécs;földrajz;könnyű
+Minek a fővárosa Phoenix?;Arizona;Maine;Iowa;Delaware;földrajz;nehéz
+Melyik amerikai államban található az MIT nevű magánkutató egyetem?;Massachusetts;Kalifornia;Oregon;Tennesse;földrajz;közepes
+Min halad át a Colorado folyó?;Sziklás-hegység;Himalája;Transzantarktisz-hegység;Andok;földrajz;közepes
+Mi Indonézia fővárosa?;Jakarta;Bandung;Kuching;Szingapúr;földrajz;közepes
+Hol található a Plútó törpebolygó?;Kuiper-öv;Mariana-árok;Canso-szoros;Maliku Kandu;földrajz;nehéz
+Mi Japán legnagyobb metropolisza?;Tokió;Oszaka;Kiotó;Jokohama;földrajz;közepes
+Mi Texas fővárosa?;Austin;Dallas;Phoenix;Lubbock;földrajz;nehéz
+Melyik Németország legnagyobb állama területe alapján?;Bajorország;Berlin;Hesse;Bréma;földrajz;nehéz
+Mi Dánia fővárosa?;Koppenhága;Amszterdam;Stockholm;Berlin;földrajz;könnyű
+Mit jelent a „12”-es a Beaufort-skálán?;Hurrikán erősség;Erős vihar;Erős szélvihar;Erős szellő;földrajz;nehéz
+Hol található a Szent Pál székesegyház?;London;Róma;Sydney;Madrid;földrajz;könnyű
+Melyik bolygónak van a legkiemelkedőbb gyűrűrendszere?;Szaturnusz;Jupiter;Mars;Vénusz;földrajz;nehéz
+Mi Ausztrália fővárosa?;Canberra;Adelaide;Melbourne;Sydney;földrajz;nehéz
+Melyik országban található a világ legmagasabb vízesése?;Venezuela;Usa;Brazília;Dél-Afrika;földrajz;nehéz
+Mi a Fülöp-szigetek fővárosa?;Manilla;Jakarta;Dili;Marawi;földrajz;nehéz
+Melyik országban található a Fuji-hegy?;Japán;Kína;Peru;Észak-Korea;földrajz;könnyű
+Melyik országban található a Jóreménység foka?;Dél-Afrika;Ausztrália;Kanada;Usa;földrajz;könnyű
+Melyik országban található a Sierra Madre Oriental hegység?;Mexikó;Kína;Peru;Argentína;földrajz;könnyű
+Melyik óceánon található Madagaszkár szigete?;Indiai;Csendes-óceáni;Sarkvidéki;Atlanti;földrajz;nehéz
+Mi az emberi lények és kultúráik tanulmányozásának tudománya?;Antropológia;Antológia;Földrajz;Apiológia;földrajz;könnyű
+Milyen népcsoport él Grönland, Kanada és Alaszka sarkvidéki régióiban?;Inuit;Nyenyec;Kozák;Azték;földrajz;nehéz
+Melyik a legnagyobb sziget?;Grönland;Borneo;Új-Guinea;Madagaszkár;földrajz;nehéz
+Melyik a leghosszabb folyó?;Amazon;Jangce;Gange;Mississippi;földrajz;nehéz
+Melyik ország déli partján található HongKong?;Kína;Vietnam;Japán;Tajvan;földrajz;nehéz
+Melyik az USA legnépesebb állama?;Kalifornia;Illinois;Indiana;Florida;földrajz;nehéz
+Milyen SI-egységben van kifejezve a Planck-állandó?;Joule másodperc;Henry volt;Sievert watt;Candela per négyzetméter;fizika;közepes
+Melyik félvezető elem képes az elektronikus jelek kapcsolására vagy erősítésére?;Tranzisztor;Kondenzátor;Anód;Ellenállás;fizika;könnyű
+Mit módosít a tápegységben lévő transzformátor?;Feszültség;Hullámforma;Kapacitás;Ellenállás;fizika;könnyű
+Melyik technológia a legújabb?;Lézer;Atombomba;Televízió;Kodachrome;fizika;könnyű
+Mit jelent az "L" a LASER-ben?;Light;Large;Large;Low;fizika;könnyű
+Melyik elmélet írja le univerzumunk kezdetét?;Ősrobbanás;Szupernova;Speciális relativitáselmélet;Szabványmodell;fizika;könnyű
+Minek az eredményeképpen keletkezik Radiokarbon a légkörben?;Gyors neutronok és a légkörben jelenlévő nitrogénatommagok ütközése;A nap ultraibolya fényének a légköri oxigénre gyakorolt hatása;A napsugárzás, különösen a kozmikus sugarak hatása a légkörben lévő szén-dioxidra. légkör;Villámkisülés a légkörben;fizika;nehéz
+Könnyebb lejtős úton felfelé görgetni egy követ, mint függőlegesen felfelé emelni, mert?;Egy kő gördítésekor végzett munka kevesebb, mint az emelésénél;Mindkettőben azonos, de hengerlésnél kisebb a munkavégzés aránya;A kő felemelésével végzett munka egyenlő a hengerítéssel;A hengerezéssel végzett munka több, mint az emeléssel;fizika;könnyű
+A szifon nem fog működni, ha?;A folyadék szintje a két edényben azonos magasságban van;A folyadék sűrűsége a két edényben egyenlő;Mindkét szárának hossza nem egyenlő;A folyadékok hőmérséklete az edényben két edény ugyanaz;fizika;könnyű
+A nagy transzformátorok, ha hosszabb ideig használják, nagyon felforrósodnak, és a keringető olaj lehűti őket. A transzformátor forrósodása a következőknek köszönhető:;Mind az áram, mind a hiszterézis veszteség fűtő hatása;Intenzív napfény délben;Egyedül a hiszterézis veszteség;Egyedül az áram fűtő hatása;fizika;nehéz
+A fényév minek a mértékegysége?;Távolság;Idő;fény;Fényintenzitás;fizika;könnyű
+Mi a délibáb oka?;A légkör különböző részeinek egyenlőtlen fűtése;A légkör mágneses zavarai;A légkör ózonrétegének csökkenése;A légkör különböző részeinek egyenlő felmelegedése;fizika;nehéz
+A Nap fénye közel mennyi idő alatt ér el minket?;8 perc;16 perc;4 perc;2 perc;fizika;könnyű
+Úgy tűnik, hogy a csillagok keletről nyugatra mozognak, mert?;A Föld keletről nyugat felé forog;A Föld nyugatról keletre forog;Minden csillag keletről nyugatra mozog;A csillagok háttere nyugatról keletre mozog;fizika;könnyű
+Minek a mértékegysége a Pa (Pascal)?;Nyomás;Tolóerő;Frekvencia;Vezetőképesség;fizika;könnyű
+A bolygók azért nem pislákolnak, mert?;Közelebb vannak a Földhöz, és ezért nagyobb mennyiségű fényt kapunk, ezért az intenzitás kisebb eltérései nem észrevehetők;Nagyon távol vannak a Földtől, ami a fény intenzitásának csökkenését eredményezi;A Földtől való távolság nem változik az idő múlásával;Állandó intenzitású fényt bocsátanak ki;fizika;nehéz
+A fémek jó elektromos vezetők, mert?;Szabad elektronokat tartalmaznak;Az atomok enyhén pakolódnak;Magas olvadáspontjuk;A fentiek mindegyike;fizika;könnyű
+Cseréljünk ki egy vékony kapilláris csövet egy nem megfelelő hosszúságú csőre. Mi történik ekkor a vízzel?;Nem tör elő;Túlcsordul;Lecsökken;Megváltozik a folyadkék határfelülete;fizika;könnyű
+A következő párok közül válassza ki azt a párat, amelyben a fizikai mennyiségek mérete nem azonos?;Impulzus és erőnyomaték;Lineáris impulzuserő és változási sebesség;Planck-állandó és szögimpulzus;Nyomás- és Young-modulok;fizika;nehéz
+A tiszta üveglapon egy vízcsepp vékony réteget képez, míg a higanycsepp szinte gömb alakú marad, mert?;A higany kohéziója nagyobb, mint az üveghez való tapadása;A víz kohéziója nagyobb, mint az üveghez való tapadása;A higany nagyobb, mint a víz;a higany fém;fizika;nehéz
+Ha két különböző tömegű, kezdetben nyugalmi testre ugyanaz az erő hat ugyanannyi ideig, akkor mindkét test megegyező _____ kap?;Impulzus;Sebesség;Gyorsulás;Mozgási energia;fizika;nehéz
+Válassza ki a skaláris mennyiséget!;Nyomás;Erő;Sebesség;Gyorsulás;fizika;nehéz
+Mire használják az egyenirányítókat?;Váltakozó áram egyenárammá konvertálása;Egyenáram váltakozó árammá konvertálása;Magas feszültség alacsony feszültséggé konvertálása;Alacsony feszültség magas feszültséggé konvertálása;fizika;nehéz
+Az alábbiak közül melyiket nem bocsát ki radioaktív anyag?;Neutronok;Alfa-részecskék;Elektromágneses sugárzások;Elektronok;fizika;nehéz
+Milyenek a levegőben lévő hanghullámok?;Hosszirányú;Transzverzális;Elektromágneses;Polarizált;fizika;közepes
+A rúdmágnes közepén lévő mágnesesség mértéke mekkora?;Nulla;Maximum;Minimum;Minimális vagy maximum;fizika;könnyű
+Esős napon a vízen lévő kis olajfilmek ragyogó színeket mutatnak. Ennek oka?;Interferencia;Diffrakció;Polarizáció;Diszperzió;fizika;könnyű
+A 20 Hz alatti frekvenciájú hangot hogyan nevezzük?;Infrahang;Audiohang;Ultrahang;Szuperszonikus;fizika;nehéz
+Mi a szén-dioxid szilárd formája?;Szárazjég;Gyanta;Vaj;Csokoládé;kémia;könnyű
+Mit jelent a "Pb" vegyjel?;Ólom;Plutónium;Palladium;Lítium;kémia;könnyű
+Mit nevezünk egy atom középpontjának?;Atommag;Pivot;Epicentrum;Fulcrum;kémia;könnyű
+Mi az a szilárd anyag, amelynek molekulái rendezett, ismétlődő mintázatban helyezkednek el?;Kristály;Gránit;Bazalt;Konglomerátum;kémia;könnyű
+Mi a második legkönnyebb kémiai elem?;Hélium;Szén;Gidrogén;Rádium;kémia;könnyű
+Melyik molekula szerkezetében NINCS oxigén?;Ammónia;Víz;Etanol;Ózon;kémia;könnyű
+Melyik a világegyetem legnagyobb mennyiségben előforduló eleme?;Hidrogén;Nitrogén;Nátrium;Oxigén;kémia;könnyű
+Melyik kémiai elem folyékony szobahőmérsékleten?;Bróm;Thulium;Tungsten;Hélium;kémia;nehéz
+Brønsted szerint a protonok befogadására képes anyag?;Bázis;Sav;Fém;Só;kémia;nehéz
+Melyik az aszkorbinsav formája?;C-vitamin;Sósav;Ammónia;LSD;kémia;nehéz
 Mit tiltottak be szinte minden országban az 1987-es "Montreali Protokoll" miatt?;CFC-k;LSD;USW-k;FM;kémia;nehéz
 Melyik a réz réz-szulfát oldatából történő kinyerésére használt fém?;Fe;Hg;Ag;Na;kémia;könnyű
 Melyik gáz molekulái rendelkeznek a legnagyobb sebességgel?;H2 -73 °C-on;CH4 300 K-on;N2 1027 °C-on;O2 0 °C-on;kémia;nehéz
