@@ -295,9 +295,9 @@ In what French museum is Mona Lisa exhibited?;Louvre;Orsay;Rodin;Cluny;general k
 Which of these is an example of a palindrome?;Radar;Massive;Monkey;Idiotic;general knowledge;medium
 Where was the hottest temperature ever recorded?;Libya;Mexico;Peru;India;general knowledge;hard
 Which of these countries uses the Shilling as its currency?;Kenya;Seychelles;Zimbabwe;Malta;general knowledge;hard
-Which of these countries has three national capitals?;South africa;Mepal;Morroco;Bolivia;general knowledge;hard
+Which of these countries has three national capitals?;South africa;Nepal;Morroco;Bolivia;general knowledge;hard
 What country has the greatest number of active volcanoes?;Indonesia;Japan;Italy;Philippines;general knowledge;hard
-What is the World's Smallest Country?;Vatican city;Lichtenstein;Moncao;Luxemburg;general knowledge;medium
+What is the World's Smallest Country?;Vatican city;Liechtenstein;Moncao;Luxemburg;general knowledge;medium
 The Great Barrier Reef is off the coast of which country?;Australi;South Africa;Fiji;New Zealand;general knowledge;medium
 What is the world's most populated country?;China;India;Usa;Russia;general knowledge;medium
 Which country has the longest coastline in the world?;Canada;Australia;Indonesia;Russia;general knowledge;hard

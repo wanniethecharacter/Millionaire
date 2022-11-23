@@ -242,68 +242,62 @@ Billie Eilish 2019-ben adta ki első albumát. Mi a neve?;When We All Fall Aslee
 Melyik országból származik Rita Ora?;Jugoszlávia (ma Koszovó);Franciaország;Dánia;Wales;zene;közepes
 Melyik West End musicalben szerepelt Anne-Marie 6 évesen?;A nyomorultak (Les Misérables);Chicago;Macskák (Cats);Rocksuli (School of Rock);zene;nehéz
 Eritrea, amely 1993-ban az ENSZ 182. tagja lett, melyik kontinensen található?;Afrika;Ázsia;Európa;Ausztrália;földrajz;közepes
-Grand Central Terminal, Park Avenue, New York..;A világ legnagyobb vasútállomása;A világ legmagasabb pályaudvara;A világ leghosszabb vasútállomás;A fentiek egyike sem;földrajz;közepes
-Mi az FFC jelentése?;Film Finance Corporation;Foreign Finance Corporation;Federation of Football Council;A fentiek egyike sem;általános műveltség;közepes
+Grand Central Terminal, Park Avenue, New York..;A világ legnagyobb vasútállomása;A világ legmagasabb pályaudvara;A világ leghosszabb vasútállomás;Egyik sem;földrajz;közepes
+Mi az FFC jelentése?;Film Finance Corporation;Foreign Finance Corporation;Federation of Football Council;Egyik sem;általános műveltség;közepes
 Epsom (Anglia) az a hely, amelyhez a ____ kapcsolódik?;Lóverseny;Lovaspóló;Céllövészet;Sznúker;sport;közepes
-Mikor hajtotta végre az első emberi szívátültetés műtétet Dr. Christiaan Barnard Louis Washkanskyn..?;1967;1968;1958;1922;általános műveltség;nehéz
-A következő angol törvény: Habeas Corpus Act, 1679...;A fentiek mindegyike;megvédte az emberek személyes szabadságjogait a király parancsa általi önkényes bebörtönzés ellen;lehetőséget biztosított a fogoly számára, hogy gyors tárgyalást vagy óvadék ellenében szabadulhasson; kimondja, hogy senkit sem kell bebörtönözni az ellene felhozott vádat tartalmazó végzés vagy parancs nélkül;történelem;kemény
-A napfénynek való kitettség javítja egészségi állapotát, mert…?;az ultraibolya sugarak a bőr olaját D-vitaminná alakítják; a bőr pigmentsejtjei stimulálódnak, és egészséges barnulást eredményeznek; az ellenálló képesség megnő; az infravörös fény elpusztítja a baktériumokat a szervezetben ;biológia;médium
-Vijay Singh golfjátékos melyik országhoz tartozik?;Fidzsi-szigetek;USA;India;UK;sport;hard
-Az első afgán háború ben zajlott:
-Az első kínai háború között zajlott?;Kína és Nagy-Britannia;Kína és Franciaország;Kína és Egyiptom;Kína és Görögország;történelem;könnyű
-Olimpián és világbajnokságon mekkora a kosárlabdapálya méretei?; 26 m x 14 m; 28 m x 15 m; 27 m x 16 m; 28 m x 16 m; sport; kemény
-Habeas Corpus Act 1679..;All of the above;safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders;provided facilities to a prisoner to obtain either speedy trial or release in bail;states that no one was to be imprisoned without a writ or warrant stating the charge against him;history;hard
-Exposure to sunlight helps a person improve his health because..?;the ultraviolet rays convert skin oil into Vitamin D;the pigment cells in the skin get stimulated and produce a healthy tan;resistance power increases;the infrared light kills bacteria in the body;biology;medium
-Golf player Vijay Singh belongs to which country?;Fiji;USA;India;UK;sports;hard
-First Afghan War took place in..?;1839;1843;1833;1848;history;hard
-First China War was fought between?;China and Britain;China and France;China and Egypt;China and Greek;history;easy
-For the Olympics and World Tournaments, the dimensions of basketball court are..?;26 m x 14 m;28 m x 15 m;27 m x 16 m;28 m x 16 m;sports;hard
-Federation Cup, World Cup, Allywyn International Trophy and Challenge Cup are awarded to winners of..?;Volleyball;Tennis;Basketball;Cricket;sports;medium
-Each year World Red Cross and Red Crescent Day is celebrated on?;May 8;May 18;June 8;June 18;general knowledge;medium
-Gravity setting chambers are used in industries to remove?;suspended particulate matter;CO;NOx;SOx;chemistry;medium
-During eleventh Antarctic Expedition in Nov. 1991/March 1992 ____ was installed.;SODAR (SOnic Detection And Ranging);Second Permanent Station 'Maitree';First permanent station 'Dakshin Gangotri';None of the above;history;hard
-Friction can be reduced by changing from..?;sliding to rolling;rolling to sliding;potential energy to kinetic energy;dynamic to static;physics;medium
-Fire temple is the place of worship of which of the following religion?;Zoroastrianism (Parsi Religion);Judaism;Taoism;Shintoism;general knowledge;hard
-Hermann Scheer (Germany) received right Livelihood Award in 1999 for?;his indefatigable work for thepromotion of solar energy worldwide;his long standing efforts to end the impunity of dictators;showing that organic agriculture is a key to both environmental sustainability and food security;None of the above;physics;hard
-During World War II, when did Germany attack France?;1940;1941;1942;1943;history;medium
-Frederick Sanger is a twice recipient of the Nobel Prize for..?;Chemistry in 1958 and 1980;Physics in 1956 and 1972;Chemistry in 1954 and Peace in 1962;Physics in 1903 and Chemistry in 1911;general knowledge;hard
-The ozone layer restricts..;Ultraviolet radiation;X-rays and gamma rays;Infrared radiation;Visible light;chemistry;easy
-Filaria is caused by?;Mosquito;Bacteria;Protozoa;Virus;biology;medium
-Eugenics is the study of?;altering human beings by changing their genetic components;people of European origin;different races of mankind;genetic of plants;biology;medium
-DRDL stands for?;Defence Research and Development Laboratary;Department of Research and Development Laboratory;Differential Research and Documentation Laboratary;None of the above;general knowledge;hard
-FRS stands for?;Fellow of Royal Society;Federation of Regulation Society;Fellow Research System;None of the above;general knowledge;hard
-Escape velocity of a rocket fired from the earth towards the moon is a velocity to get rid of the..?;Earth's gravitational pull;Moon's gravitational pull;Centripetal force due to the earth's rotation;Pressure of the atmosphere;physics;medium
-For safety, the fuse wire used in the mains for household supply of electricity must be made of metal having..;low melting point;high resistance;high melting point;low specific heat;physics;medium
-During World War I Germany was defeated in the Battle of Verdun on the western front and Romania declared war on the eastern front in the year?;1916;1915;1914;1917;history;hard
-Headquarters of UNO are situated at?;New York, USA;Hague (Netherlands);Geneva;Paris;general knowledge;easy
-First International Peace Congress was held in London in?;1843;1901;1798;1564;history;hard
-For seeing objects at the surface of water from a submarine under water, the instrument used is?;periscope;kaleidoscope;spectroscope;telescope;physics;easy
-Fathometer is used to measure?;Ocean depth;Sound intensity;Rainfall;Earthquakes;geography;medium
-For galvanizing iron which of the following metals is used?;Zinc;Lead;Copper;Aluminium;chemistry;medium
-For purifying drinking water alum is used?;for coagulation of mud particles;to kill bacteria;to remove salts;to remove gases;chemistry;medium
-Hockey was introduced in the Asian Games in?;1958 in Tokyo;1962 in Jakarta;1966 in Bangkok;1970 in Bangkok;sports;hard
-Himalayan Mountaineering Institute is at?;Darjeeling;Dehradun;Marmago;Dispur;sports;hard
-Gabriel Daniel Fahrenheit was?;All of the above;a German Physicist;developed the mercury thermometer in 1714;devised temperature scale;physics;hard
-During the first crusade, crusaders reached Jerusalem and captured it in?;1099;1000;1200;1515;history;medium
-Dr. Linus Carl Pauling is the only person to have won two Nobel prizes individually for..?;Chemistry in 1954, Peace Prize in 1962;Peace Prize in 1954, Chemistry in 1962;Physics in 1954, Medicine in 1962;Medicine in 1954, Physics in 1962;general knowledge;hard
-East Timor, which became the 191st member of the UN, is in the continent of..?;Asia;Africa;Europe;South America;geography;medium
-Excessive secretion from the pituitary gland in the children results in?;increased height;retarded growth;weakening of bones;None of the above;biology;hard
-Free surface of a liquid behaves like a sheet and tends to contract to the smallest possible area due to the?;force of cohesion;centrifugal force;force of friction;force of adhesion;physics;medium
-For what does the "C" in "SCUBA diving" stand?;Contained;Cartilage;Collateral;Champion;general knowledge;easy
-What was the first artificial satellite that was sent into Earth's orbit?;Sputnik I;EchoStar I;Galaxy I;Astra I;general knowledge;easy
-People that have what condition should avoid milk products?;Lactose Intolerance;Sickle-cell disease;Cystic fibrosis;Color blindness;general knowledge;easy
-What was the first name of the physicist Newton?;Isaac;Herbert;Albert;Luigi;general knowledge;easy
-How often do we usually have a leap year?;Every four years;Every year;Every two years;Every six years;general knowledge;easy
-What is the result of mixing yellow and red paint?;Orange;Violet;Blue;Brown;general knowledge;easy
-What do we call the sound that is caused by a lightning?;Thunder;Gong;Clang;Sonar;general knowledge;medium
-How many eyes does a cyclops have?;1;0;3;2;general knowledge;medium
-In what French museum is Mona Lisa exhibited?;Louvre;Orsay;Rodin;Cluny;general knowledge;medium
-Which of these is an example of a palindrome?;Radar;Massive;Monkey;Idiotic;general knowledge;medium
-Where was the hottest temperature ever recorded?;Libya;Mexico;Peru;India;general knowledge;hard
-Which of these countries uses the Shilling as its currency?;Kenya;Seychelles;Zimbabwe;Malta;general knowledge;hard
-Which of these countries has three national capitals?;South africa;Mepal;Morroco;Bolivia;general knowledge;hard
-What country has the greatest number of active volcanoes?;Indonesia;Japan;Italy;Philippines;general knowledge;hard
-What is the World's Smallest Country?;Vatican city;Lichtenstein;Moncao;Luxemburg;general knowledge;medium
+Mikor hajtotta végre az első emberi szívátültetést Dr. Christiaan Barnard Louis Washkanskyn?;1967;1968;1958;1922;általános műveltség;nehéz
+A következő angol törvény: Habeas Corpus Act, 1679...;A fentiek mindegyike;Megvédte az emberek személyes szabadságjogait a király parancsa általi önkényes bebörtönzés ellen;Lehetőséget biztosított a fogoly számára, hogy gyors tárgyalást kapjon vagy óvadék ellenében szabadulhasson;Kimondja, hogy senkit sem kell bebörtönözni az ellene felhozott vádat tartalmazó végzés vagy parancs nélkül;történelem;nehéz
+A napfénynek való kitettség javítja egészségi állapotát, mert…?;Az ultraibolya sugarak a bőrben lévő zsírt D-vitaminná alakítják;A bőr pigmentsejtjei stimulálódnak, és egészséges barnulást eredményeznek;Az ellenálló képesség megnő;Az infravörös fény elpusztítja a baktériumokat a szervezetben;biológia;közepes
+Vijay Singh golf játékos melyik országhoz tartozik?;Fidzsi-szigetek;USA;India;UK;sport;nehéz
+Melyik évben zajlott az első afgán háború?;1839;1843;1833;1848;történelem;nehéz
+Az első kínai háború melyik országok között zajlott?;Kína és Nagy-Britannia;Kína és Franciaország;Kína és Egyiptom;Kína és Görögország;történelem;könnyű
+Olimpián és világbajnokságokon mekkora a kosárlabdapálya méretei?;26 m x 14 m;28 m x 15 m;27 m x 16 m;28 m x 16 m;sport;nehéz
+A Szövetségi Kupát, a Világkupát, az Allywyn International Trophyt és a Challenge Cupot a következő versenyek győztesei kapják..?;Röplabda;Tenisz;Kosárlabda,Krikett,sport,közepes
+Mikor van a Vöröskereszt és a Vörös Félhold világnapja?;Május 8;Május 18;Június 8;Június 18;általános műveltség;közepes
+A gravitációs ülepítőkamrákat az iparban minek az eltávolítására használják?;lebegő részecskék;CO;NOx;SOx;kémia;közepes
+A tizenegyedik antarktiszi expedíció során, (1991. november/1992. március) milyen eszközt indítottak el?;SODAR (Hang alapú távérzékelés);Második állandó állomás „Maitree”;Első állandó állomás „Dakshin Gangotri”;Egyik sem;történelem;nehéz
+A súrlódás csökkenthető azáltal, hogy...?;Csúszásról gördülésre váltunk;Gördülésről csúszásra váltunk;Potenciális energiáról kinetikus energiára váltunk;Dinamikusról statikusra váltunk;fizika;közepes
+A tűztemplom az alábbi vallások közül melyiknek a kultikus helye?;Zoroasztrianizmus (párszi vallás);Judaizmus;Taoizmus;Sintoizmus;általános műveltség;nehéz
+Miért kapta Hermann Scheer (Németország) 1999-ben a "Right Livelihood Award" díjat?;A napenergia világszintű népszerűsítéséért végzett fáradhatatlan munkájáért;A diktátorok büntetlenségének megszüntetésére irányuló hosszú távú erőfeszítéseiért;Megmutatta, hogy a biogazdálkodás kulcsfontosságú mind a környezeti fenntarthatóság, mind az élelmezésbiztonság szempontjából;Egyik sem;fizika;nehéz
+A második világháború alatt mikor támadta meg Németország Franciaországot?;1940;1941;1942;1943;történelem;közepes
+Melyik két szakterületen kapott Frederick Sanger Nobel-díjat?;Kémia 1958-ban és 1980-ban;Fizika 1956-ban és 1972-ben;Kémia 1954-ben és Béke 1962-ben;Fizika 1903-ban és Kémia 1911-ben;általános műveltség;nehéz
+Az ózonréteg mit szűr meg?;Ultraibolya sugárzás;Röntgen- és gamma-sugárzás;Infravörös sugárzás;Látható fény;kémia;könnyű
+Mi terjeszti a filáriát?;Szúnyogok;Baktériumok;Protozák;Vírusok;biológia;közepes
+Az eugenika minek a tudománya?;Az emberi lények megváltoztatása genetikai összetevőik megváltoztatásával;Európai származású emberek;Különböző emberi fajok;Növények genetikája;biológia;közepes
+Mi a DRDL?;Védelmi Kutatási és Fejlesztési Laboratórium (Defence Research and Development Laboratary);Kutatási és Fejlesztési Laboratóriumi Osztály (Department of Research and Development Laboratory);Differenciális Kutatási és Dokumentációs Laboratórium (Differential Research and Documentation Laboratary);Egyik sem;általános műveltség;nehéz
+Mi az FRS?;Fellow of Royal Society;Federation of Regulation Society;Fellow Research System;Egyik sem;általános műveltség;nehéz
+A Földről a Hold felé kilőtt rakéta szökési sebessége az a sebesség, amellyel megszabadulhat a...?;A Föld gravitációs vonzása;A Hold gravitációs vonzása;A Föld forgásából adódó centrális erő;A légkör nyomása;fizika;nehéz
+A biztonság kedvéért a háztartási villamosenergia-ellátáshoz használt biztosíték vezetékének fémből kell készülnie, amelynek...;Alacsony az olvadáspontja;Nagy az ellenállása;Magas az olvadáspontja;Alacsony a fajhője;fizika;közepes
+Az első világháborúban Németország vereséget szenvedett a verduni csatában a nyugati fronton, Románia pedig a következő évben háborút indított a keleti fronton..;1916;1915;1914;1917;történelem;nehéz
+Az ENSZ központja hol található?;New York, USA;Hága (Hollandia);Genf;Párizs;általános műveltség;könnyű
+Az első nemzetközi békekongresszust Londonban tartották. Melyik évben?;1843;1901;1798;1564;történelem;nehéz
+A víz alatti tengeralattjáróból a víz felszínén lévő tárgyak megtekintésére a következő eszközt használják:;Periszkóp;Kaleidoszkóp;Spektroszkóp;Teleszkóp;fizika;könnyű
+Fatométert minek a mérésre használnak?;Óceánmélység;Hangintenzitás;Csapadék;Földrengések;földrajz;közepes
+A vas horganyzásához az alábbi fémek közül melyiket használják?;Cink;Ólom;Réz;Alumínium;kémia;közepes
+Az ivóvíz tisztításánál mire használják a timsót?;Iszaprészecskék koagulálására;Baktériumok elpusztítására;Sók eltávolítására;Gázok eltávolítására;kémia;közepes
+Melyik évben mutatták be a jégkorongot az Ázsiai Játékokon?;1958-ban Tokióban;1962-ben Jakartában;1966-ban Bangkokban;1970-ben Bangkokban;sport;nehéz
+Hol található a Himalájai Hegymászó Intézet?;Darjeeling;Dehradun;Marmago;Dispur;sport;nehéz
+Ki volt Gabriel Daniel Fahrenheit?;A fentiek mindegyike;Német fizikus;Kifejlesztette a higanyhőmérőt 1714-ben;Kidolgozta a hőmérsékleti skálát;fizika;nehéz
+Az első keresztes hadjárat során a keresztesek elérték Jeruzsálemet és elfoglalták. Melyik évben?;1099;1000;1200;1515;történelem;közepes
+Dr. Linus Carl Pauling az egyetlen személy, aki egyénileg két Nobel-díjat kapott...;Kémia 1954-ben, békedíj 1962-ben;Békedíj 1954-ben, kémia 1962-ben;Fizika 1954-ben, orvostudomány 1962-ben;Orvostudomány 1954-ben, fizika 1962-ben;általános műveltség;nehéz
+Kelet-Timor, amely az ENSZ 191. tagja lett, a következő kontinensen található..;Ázsia;Afrika;Európa;Dél-Amerika;földrajz;közepes
+Az agyalapi mirigy túlzott kiválasztása gyermekeknél mit okoz?;Magasságnövekedés;Elmaradott növekedés;Csontok gyengülése;Egyik sem;biológia;nehéz
+A folyadék szabad felülete lapként viselkedik, és hajlamos a lehető legkisebb területre összehúzódni. Mi okozza?;Kohéziós erő;Centrifugális erő;Súrlódási erő;Tapadóerő;fizika;közepes
+Mit jelent a "C" a "SCUBA diving" kifejezésben?;Contained;Partilage;Follateralék;Champion;általános műveltség;könnyű
+Melyik volt az első mesterséges műhold, amelyet a Föld pályájára küldtek?;Sputnik I;EchoStar I;Galaxy I;Astra I;általános műveltség;könnyű
+Milyen állapotban lévőknek kell kerülniük a tejtermékeket?;Laktóz-intolerancia;Sarlósejtes betegség;Cisztás fibrózis;Színvakság;általános műveltség;könnyű
+Mi volt Newton fizikus keresztneve?;Isaac;Herbert;Albert;Luigi;általános műveltség;könnyű
+Általában milyen gyakran van szökőévünk?;Négyévente;Évente;Kétévente;Hatévente;általános műveltség;könnyű
+Mi az eredménye a sárga és piros festék keverésének?;Narancs;Lila;Kék;Barna;általános műveltség;könnyű
+Hogyan nevezzük a villámlás által keltett hangot?;Mennydörgés;Gong;Clang;Sonar;általános műveltség;közepes
+Hány szeme van egy küklopsznak?;1;0;3;2;általános műveltség;közepes
+Melyik francia múzeumban van kiállítva a Mona Lisa?;Louvre;Orsay;Rodin;Cluny;általános műveltség;közepes
+Ezek közül melyik példa a palindromra?;Radar;Masszív;Majom;Idióta;általános műveltség;közepes
+Hol volt a valaha mért legmelegebb hőmérséklet?;Líbia;Mexikó;Peru;India;általános műveltség;nehéz
+Ezen országok közül melyik használja a shillinget fizetőeszközként?;Kenya;Seychelle-szigetek;Zimbabwe;Málta;általános műveltség;nehéz
+Melyik országnak van három fővárosa?;Dél-Afrika;Nepal;Marokkó;Bolívia;általános műveltség;nehéz
+Melyik országban van a legtöbb aktív vulkán?;Indonézia;Japán;Olaszország;Fülöp-szigetek;általános műveltség;nehéz
+Mi a világ legkisebb országa?;Vatikán;Liechtenstein;Monaco;Luxemburg;általános műveltség;közepes
 The Great Barrier Reef is off the coast of which country?;Australi;South Africa;Fiji;New Zealand;general knowledge;medium
 What is the world's most populated country?;China;India;Usa;Russia;general knowledge;medium
 Which country has the longest coastline in the world?;Canada;Australia;Indonesia;Russia;general knowledge;hard
