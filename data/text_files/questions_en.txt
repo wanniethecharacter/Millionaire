@@ -514,7 +514,7 @@ What instrument does the concertmaster (leader) of an orchestra play?;Violin;Tub
 Anthony Kiedis, Flea, Chad Smith, and John Frusciante founded which American rock band?;Red Hot Chilli Peppers;Foo Fighters;Pearl Jam;Stone Temple Pilots;music;medium
 Name the debut hit from Britney Spears released in 1999.;Hit My Baby One More Time;From the bottom of my broken heart;You drive me crazy;The Beat Goes On;music;hard
 ‘Bad Blood’, ‘Love Story’, and ‘Cardigan’ are hits for which best-selling American singer?;Taylor Swift;Tina Turner;Whitney Houston;Christina Aguilera;music;medium
-Celine Dion had a hit with ‘My Heart Will Go On’ from the soundtrack of which movie?;Titanic;The Lion King;;Frozen;Good Will Hunting;music;easy
+Celine Dion had a hit with ‘My Heart Will Go On’ from the soundtrack of which movie?;Titanic;The Lion King;Frozen;Good Will Hunting;music;easy
 ‘Hotel California’ was a hit for which American band?;Eagles;Paris;Bang;Sorcery;music;easy
 Immigrant Song was a hit for which band in 1970?;Led Zeppelin;Aerosmith;Pink Floyd;Eagles;music;medium
 Which artist is also known as Slim Shady?;Enimem;Tech N9ne;Jay-Z;Lil Wayne;music;easy
@@ -572,7 +572,7 @@ Which of these is the job of the Federal Reserve?;All of the above;Being a lende
 What did Keynes say he wished he would have done more of at the end of his life?;He wished he’d drunk more champagne;He wished he’d lived a simpler life;He wished he’s spent more time with his family (the greatest asset of all);He wished he’d gotten around to writing that rap battle;economy;hard
 When you buy the stock of a company because you think your friends are going to buy it, and your friends plan to buy it because they think their friends will buy it, you are all participating in:;A Keynesian beauty contest;The plot of Ocean’s 14;The wisdom of the crowd;Fundamental stock analysis;economy;medium
 The investment concept that you probably can’t outperform the overall stock market by picking individual stocks is called the:;Efficient market hypothesis;Diversification doldrums;Pessimism paradox;Tragedy of the common stockpicker;economy;hard
-The life-cycle hypothesis states that people tend to borrow when they’re young, save more in middle age and spend down their savings in old age. It is a long-term application of what’s known as:;Consumption smoothing;Basic borrowing;Money laundering;None of the above;economny;easy
+The life-cycle hypothesis states that people tend to borrow when they’re young, save more in middle age and spend down their savings in old age. It is a long-term application of what’s known as:;Consumption smoothing;Basic borrowing;Money laundering;None of the above;economy;easy
 The risk that sharply rising prices will erode the value of your bonds is known as:;Inflation risk;Longevity risk;Default risk;Interest rate risk;economy;easy
 Stocks are similar to bonds in that:;None of the above; Both have credit ratings;Both give you ownership in a company;Both are guaranteed to return your initial investment;economy;hard
 Financial bubbles are exacerbated by:;All of the above;Herd behavior;Excessive optimism;FOMO;economy;medium
@@ -602,7 +602,7 @@ In what year was the first edition of The Hundred cricket tournament?;2021;2022;
 Which Irish footballer was sent home before the start of the 2002 FIFA World Cup after a public quarrel with his manager?;Roy Keane;Shay Given;Kiely Dean;Nick Colgan;sports;medium
 Ricky Hatton’s first career loss was to which other boxer?;Floyd Mayweather Jr.;Rocky Marciano;Manny Pacquiao;Joe Louis;sports;hard
 What date do all racehorses in the Northern Hemisphere celebrate their birthday?;1st January;31st December;16th May;6th January;sports;medium
-In which sport would you commonly use the terms; chukka, neckshot and millionaire’s shot?;Polo;Shooting;Archery;Horse Riding;sports;medium
+In which sport would you commonly use the terms: chukka, neckshot and millionaire’s shot?;Polo;Shooting;Archery;Horse Riding;sports;medium
 Which French city is known for its 24 hour motor race?;Le Mans;Marseille;Paris;Nizza;sports;easy
 What is the name of the only racehorse to win the Grand National 3 times?;Red Rum;Arkle;American Pharaoh;Winx;sports;easy
 Which football club has stands named after Graham Taylor and Sir Elton John?;Watford FC;Wulfrunians FC;Ashton FC;Bashley FC;sports;hard

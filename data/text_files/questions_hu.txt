@@ -252,7 +252,7 @@ Vijay Singh golf játékos melyik országhoz tartozik?;Fidzsi-szigetek;USA;India
 Melyik évben zajlott az első afgán háború?;1839;1843;1833;1848;történelem;nehéz
 Az első kínai háború melyik országok között zajlott?;Kína és Nagy-Britannia;Kína és Franciaország;Kína és Egyiptom;Kína és Görögország;történelem;könnyű
 Olimpián és világbajnokságokon mekkora a kosárlabdapálya méretei?;26 m x 14 m;28 m x 15 m;27 m x 16 m;28 m x 16 m;sport;nehéz
-A Szövetségi Kupát, a Világkupát, az Allywyn International Trophyt és a Challenge Cupot a következő versenyek győztesei kapják..?;Röplabda;Tenisz;Kosárlabda,Krikett,sport,közepes
+A Szövetségi Kupát, a Világkupát, az Allywyn International Trophyt és a Challenge Cupot a következő versenyek győztesei kapják..?;Röplabda;Tenisz;Kosárlabda;Krikett;sport;közepes
 Mikor van a Vöröskereszt és a Vörös Félhold világnapja?;Május 8;Május 18;Június 8;Június 18;általános műveltség;közepes
 A gravitációs ülepítőkamrákat az iparban minek az eltávolítására használják?;lebegő részecskék;CO;NOx;SOx;kémia;közepes
 A tizenegyedik antarktiszi expedíció során, (1991. november/1992. március) milyen eszközt indítottak el?;SODAR (Hang alapú távérzékelés);Második állandó állomás „Maitree”;Első állandó állomás „Dakshin Gangotri”;Egyik sem;történelem;nehéz
@@ -423,7 +423,7 @@ Milyen állat a "Lappantyú"?;Madár;Rágcsáló;Hal;Hüllő;biológia;könnyű
 Hol található az emberi testben az epiglottis?;Gége;Fül;Gyomor;Máj;biológia;nehéz
 Mi a tyúktojás "fehérje"?;Albumen;Vitellum;Globulin;Tojássárga;biológia;könnyű
 A Mycobacterium leprae leprát okoz, a Corynebacterium diphtheria diftériát. Mit okoz a Vibrio comma?;Kolera;Influenza;Tetanusz;Tífusz;biológia;nehéz
-A ptyalin egy enzim. Hol termelődik?;Nyálmirigyekben;Agyalapi mirigyekben,Pajzsmirigyekben,Hasnyálmirigyben,biológia,nehéz
+A ptyalin egy enzim. Hol termelődik?;Nyálmirigyekben;Agyalapi mirigyekben;Pajzsmirigyekben;Hasnyálmirigyben;biológia;nehéz
 A szél általi beporzást hogy hívják?;Anemofíliának;Hidrofíliának;Zoofíliának;Entomofíliának;biológia;nehéz
 Mi a mutáció?;Öröklődő változás;Olyan változás, amely csak az F2 generáció utódait érinti;A növények növekedéséért felelős tényező;Olyan változás, amely a szülőket érinti;biológia;nehéz
 Az átlagos hőmérsékleten és nedvesség alatt növekvő növényeket hogyan nevezzük?;Mezofiták;Xerofiták;Hidrofiták;Halofiták;biológia;nehéz
@@ -443,6 +443,7 @@ Ha valaki 10 km/óra helyett 14 km/h-val gyalogol, akkor 20 km-rel többet gyalo
 Egy busz sebessége megállás nélkül 54 km/óra, megállásokkal együtt pedig 45 km/óra. Hány percig áll a busz óránként?;10;9;12;20;matematika;közepes
 2006. január 1. vasárnap volt. Milyen nap volt 2010. január 1.?;Péntek;Szerda;Szombat;Vasárnap;matematika;könnyű
 Oldja meg a következőt: 7(2x-2)=3(x-4)+9;x=1;x=2;x=4;x=3;matematika;közepes
+Oldja meg a következőt: 2a+5=a+7;a=2;a=3;a=4;a=1;matematika;közepes
 Ki alkotta meg az egyenlőségjelet?;Robert Recorde;William Playfair;Thales;Gerolamo Cardano;matematika;nehéz
 Hány oldala van az „enneadecagon”-nak?;19;20;21;17;matematika;nehéz
 Mit jelent a „crore” kifejezés?;Tízmillió;Tízezer;Tízmilliárd;Tízbillió;matematika;nehéz
@@ -455,7 +456,7 @@ Mi a világ legnagyobb ismert száma?;Googolplex;Googol;Eddington-szám;Graham-s
 Hogyan nevezzük a két egymást követő prímszámot, amelyek kettővel különböznek?;Ikerprímek;Unokatestvér prímek;Faktoriális prímek;Jó prímek;matematika;nehéz
 K=2πr minek a képlete?;kör kerülete;háromszög kerülete;kör területe;Egyik sem;matematika;közepes
 Mi a képlet a négyzet területére?;T=a^^2;T=a;T=a^^3;T=a + a;matematika;közepes
-Melyik a kotangens képlete?;Cotθ = szomszédos/szemközti oldalak; Cotθ = a szög melletti befogó / szöggel szembeni befogó;Cotθ = a szög melletti befogó * szöggel szembeni befogó; Cotθ = szöggel szembeni befogó / a szög melletti befogó; Cotθ = a szög melletti befogó / átfogó;matematika;közepes
+Melyik a kotangens képlete?;Cotθ = a szög melletti befogó / szöggel szembeni befogó;Cotθ = a szög melletti befogó * szöggel szembeni befogó;Cotθ = szöggel szembeni befogó / a szög melletti befogó;Cotθ = a szög melletti befogó / átfogó;matematika;közepes
 2 × (L+W) minek a képlete?;Téglalap kerülete;háromszög kerülete;Ötszög kerülete;Ötszög területe;matematika;közepes
 Hol található a Stonehenge?;Anglia;Wales;Skócia;Írország;művészet;közepes
 Melyik spanyol festő volt ismert hallucinációs festményeiről?;Salvador Dalí;Francisco de Zurbarán;Johannes Vermeer;Georges Seurat;művészet;nehéz
@@ -487,8 +488,8 @@ Milyen típusú művészet az art deco?;Építészet;Szobrászat;Festészet;A fe
 Melyik híres női fáraó mellszobrát faragta Thutmose?;Nefertiti;Hatsepszut;Kleopátra;Ashotep;művészet;könnyű
 Melyik városban található Michelangelo Dávidja?;Firenze;Róma;Nápoly;Ravenna;művészet;könnyű
 Melyik városban található a Manneken Pis?;Brüsszel, Belgium;Genf, Svájc;Toulouse, Franciaország;Milano, Olaszország;művészet;könnyű
-Milyen márkájú leveskonzerv látható a híres Andy Warhol festményen?;Campbell's;Nestle;General Mills;Kraft Heinz;művészet könnyű
-Melyik a világ leglátogatottabb múzeuma?;Louvre;Ermitázs;Vatikáni Múzeum;British Museum;művészet könnyű
+Milyen márkájú leveskonzerv látható a híres Andy Warhol festményen?;Campbell's;Nestle;General Mills;Kraft Heinz;művészet;könnyű
+Melyik a világ leglátogatottabb múzeuma?;Louvre;Ermitázs;Vatikáni Múzeum;British Museum;művészet;könnyű
 Melyik országban találhatók az agyagharcosok?;Kína;Oroszország;India;Észak-Korea;művészet;könnyű
 Melyik országból származik Gustav Klimt?;Ausztria;Csehország;Németország;Franciaország;művészet;könnyű
 Melyik filozófus írta a "Túl a jón és a rosszon" ("Beyond Good and Evil") című könyvet?;Friedrich Nietzsche;Georg W. F. Hegel;Gilles Deleuze;Arthur Schopenhauer;irodalom;nehéz
@@ -513,7 +514,7 @@ Milyen hangszeren játszik egy zenekar koncertmestere (vezetője)?;Hegedű;Tuba;
 Melyik amerikai rockzenekart alapította Anthony Kiedis, Flea, Chad Smith és John Frusciante?;Red Hot Chilli Peppers;Foo Fighters;Pearl Jam;Stone Temple Pilots;zene;közepes
 Nevezze meg Britney Spears 1999-ben kiadott debütáló slágerét.;Hit My Baby One More Time;From the bottom of my broken heart;You drive me crazy;The Beat Goes On;zene;nehéz
 A „Bad Blood”, a „Love Story” és a „Cardigan” a legkelendőbb amerikai énekesnő slágerei?;Taylor Swift;Tina Turner;Whitney Houston;Christina Aguilera;zene;közepes
-Celine Dion melyik film filmzenéje volt nagy slágere a My Heart Will Go On-el?;Titanic;Az oroszlánkirály;;Frozen;Good Will Hunting;zene;könnyű
+Celine Dion "My Heart Will Go On" slágere melyik híres film betétdala?;Titanic;Az oroszlánkirály;Frozen;Good Will Hunting;zene;könnyű
 Melyik amerikai együttes slágere volt a „Hotel California”?;Eagles;Paris;Bang;Sorcery;zene;könnyű
 Melyik zenekar slágere volt 1970-ben az Immigrant Song?;Led Zeppelin;Aerosmith;Pink Floyd;Eagles;zene;közepes
 Melyik előadót ismerik Slim Shady néven is?;Enimem;Tech N9ne;Jay-Z;Lil Wayne;zene;könnyű
@@ -558,40 +559,40 @@ Az alábbiak közül melyik a szénhidrátok fő célja a szervezetben?;Mindenki
 Mi történhet azzal a személlyel, aki idővel túl sok szénhidrátot eszik?;Cukorbetegség vagy hipoglikémia;Szívbetegség vagy rák;Hipertónia vagy COPD;Egyik sem;gasztronómia;nehéz
 A fehérjéknek a napi kalóriabevitel hány százalékát kell képezniük?;20-30%;30-40%;10-20%;40-50%;gasztronómia;nehéz
 Mi a fehérjék fő szerepe a szervezetben?;Segítenek a sejtek helyreállításában és segítik más tápanyagok feldolgozását.;Segítenek a testszövetek felépítésében és helyreállításában, valamint az enzimek szabályozásában is.;Segítenek az energiaképzésben és az emésztőrendszer kiürülésben.;Egyik sem;gasztronómia;nehéz
-Mi történik a szervezettel, ha valaki túlzott mennyiségű fehérjét fogyaszt?;Veseelégtelenség vagy kalciumvesztés alakulhat ki az illetőnél.;Májelégtelenség vagy magas vérnyomás alakulhat ki.;Az embernek kevesebb tápanyagot kell ennie;Semmi sem történne az emberrel.; gasztronómia;nehéz
+Mi történik a szervezettel, ha valaki túlzott mennyiségű fehérjét fogyaszt?;Veseelégtelenség vagy kalciumvesztés alakulhat ki az illetőnél.;Májelégtelenség vagy magas vérnyomás alakulhat ki.;Az embernek kevesebb tápanyagot kell ennie;Semmi sem történne az emberrel.;gasztronómia;nehéz
 Melyik viaszos anyag található az összes állati fehérjeforrásban?;Koleszterin;Telítetlen zsír;Transz-zsír;A fentiek egyike sem;gasztronómia;nehéz
-Milyen történelmi esemény vezetett a makroökonómia területének létrejöttéhez?;A nagy gazdasági világválság;A második világháború vége;A Bretton Woods-i megállapodás;Az Egyesült Államok függetlenné válása Nagy-Britanniától;gazdaság;nehéz
-Mi a takarékosság paradoxona?;Az az elképzelés, hogy sok egyén, aki pénzt takarít meg, valójában rossz lehet a gazdaság számára;Az az elképzelés, hogy a pénzmegtakarítás valójában károsíthatja az ember pénzügyeit a jövőben;Amikor sokan pénzt fektetnek megtakarításokba, ez ösztönözheti az ország gazdasági növekedését;Ha szuperszép cuccokat találsz egy turkálóban;gazdaság;közepes
-Mit mér a bruttó hazai termék (GDP)?;A gazdaság által termelt összes áru és szolgáltatás összege;Annak a mértéke, hogy mennyi pénz van a gazdaságban;Az országban élők teljes fizetése, mínusz a környezeti hatás;A legundorítóbb termék az emberek otthonában minden évben;gazdaság;könnyű
-Ezek közül melyik *nem* az üzleti ciklus szakasza?;Regresszió;Csúcspont;Recesszió;Mélypont;gazdaság;közepes
-Mi az anti-ciklikus politika?;Az üzleti ciklussal ellentétes politikai nyomás;Az újrahasznosítás elleni politikák;A közvélekedéssel ellentétes politika (gyakran a gazdaság nevében);Olyan politika, amelynek nem tűnik logikusnak, de végül a gazdaság hasznára válik;gazdaság;nehéz
-Az alábbiak közül melyik *nem* járul hozzá az inflációhoz?;A Fed bejelentette, hogy kamatemelést tervez;Az emberek attól tartanak, hogy az árak emelkedni fognak;A termékek iránti kereslet a kínálathoz képest növekszik;Kormányzati kiadások;gazdaság;közepes
-Ezek közül melyik okozza a strukturális munkanélküliséget?;A technológiai fejlődésből eredő munkahelyek elvesztése;Valaki munkát keres, de nem érdekli a heti 40 órás munkavégzés, mert túl sokat vesz el az életéből;Profi Mikulások munkát keresnek júniusban;gazdaság;könnyű
-Ezek közül melyik a Federal Reserve feladata?;A fentiek mindegyike;Az Egyesült Államok bankrendszerének végső hitelezése;A munkanélküliség alacsony szinten tartása;Az infláció kordában tartása;gazdaság;nehéz
-Mit mondott Keynes élete végén, bárcsak mit tett volna többször?;Bárcsak több pezsgőt ivott volna;Bárcsak egyszerűbb életet élt volna;Bárcsak több időt töltött volna a családjával (a a legnagyobb érték az összes közül);Bárcsak megírta volna azt a rap párbajt;gazdaság;nehéz
-Amikor egy cég részvényeit vásárolja meg, mert úgy gondolja, hogy a barátai meg fogják venni, a barátai pedig azért tervezik megvenni, mert azt hiszik, hogy a barátaik meg fogják vásárolni, akkor mindannyian részt vesznek:;Egy keynesi szépségversenyen;"The plot of Ocean's 14"-ban;A tömeg bölcsességében;Alapvető részvényelemzésben;gazdaság;közepes
-Azt a befektetési koncepciót, amely szerint egyes részvények kiválasztásával valószínűleg nem lehet felülmúlni a teljes tőzsdét, a következő:;Hatékony piaci hipotézis;Diverzifikációs válság;Pesszimizmus paradoxona;A közönséges készletező tragédiája;gazdaság;nehéz
-Az életciklus-hipotézis szerint az emberek fiatal korukban hajlamosak hitelt felvenni, középkorukban többet megtakarítani, idős korukban pedig elkölteni megtakarításaikat. Ez az úgynevezett hosszú távú alkalmazás úgy ismert, mint?;Fogyasztás kiegyenlítése;Alap hitelfelvétel;Pénzmosás;A fentiek egyike sem;gazdaság;könnyű
-Azt a kockázatot, hogy a meredeken emelkedő árak erodálják kötvényei értékét, a következőképpen ismert:;Inflációs kockázat;Hosszú élettartam kockázata;Nemteljesítési kockázat;Kamatlábkockázat;gazdaság;könnyű
-A részvények abban hasonlítanak a kötvényekhez, hogy:;A fentiek egyike sem;Mindkettő rendelkezik hitelminősítéssel;Mindkettő tulajdonjogot ad Önnek egy vállalatban;Mindkettő garantáltan megtéríti kezdeti befektetését;gazdaság;nehéz
-A pénzügyi buborékokat súlyosbítják a következők:;A fentiek mindegyike;Csordaösztön;Túlzott optimizmus;FOMO;gazdaság;közepes
-Amikor megkísérel vásárolni egy házat, amelyről tudja, hogy túlárazott, mert azt tervezi, hogy gyorsan eladja egy nagyobb baleknak még magasabb áron, vállalva annak kockázatát, hogy ha az ár csökkenni kezd, akkor a tulajdonosa marad, ezzel megerősíti:;A nagyobb bolond elméletet;A szerencsés vesztes hipotézisét;A balekok paradicsomi javaslatait;A gombostűfej felvetést;gazdaság;könnyű
-Soha nem lesz több mint...;21 millió Bitcoin;13.000 Bitcoin;57 milliárd Bitcoin;Eh! Nincs is Bitcoin mennyiségi korlát.;gazdaság;könnyű
-Mely állítási ódák nem kapcsolódnak a közgazdász szerepéhez?;A társadalom igazságosabbá tételének módjainak meghatározása;A kormánypolitika változásának hatásainak előrejelzése;Kísérlet a gazdasági jelenségek okainak magyarázatára;Általános árszínvonal-változások mérése;gazdaság;könnyű
-Az adásvétel szükségessége azért van, mert?;Létezik a specializáció és a munkamegosztás;A csere következtében csökken a munkanélküliség;Az ingyenes áruknak nincs alternatív költsége;A fogyasztóknak egyaránt vannak vágyai és szükségletei; gazdaság;könnyű
-Adam Smith egy ____ _____ volt.;skót közgazdász;amerikai filozófus;walesi geológus;angol költő;gazdaság;könnyű
-Melyik állítás írja le legjobban a „gazdasági problémát”?;A végtelen szükségletek és a korlátozott erőforrások párosítása;Az a tény, hogy a gazdaságok gyakran recesszióba kerülnek;A magas szintű munkanélküliség;Az a probléma, hogy a magas árfolyamok visszatartják az exportot;gazdaság;könnyű
-Adam Smith, a közgazdaságtan alapító atyja az ármechanizmust a következőkhöz hasonlította:;Láthatatlan kéz;Állatcsorda;Számítógép;Gép;gazdaság;közepes
-Az alternatív költség a legjobban a következőképpen definiálható:;Egy döntés költsége a következő legjobb alternatívában kifejezve;Hogyan szenved a gazdaság recesszióban;Egy döntés költsége pénzben kifejezve;Az áruk előállításához kapcsolódó pénzügyi költségek és szolgáltatások;gazdaság;közepes
-Melyik "vegyes" gazdaság?;Vannak növekedési és recessziós időszakok;Az erőforrásokat az ármechanizmuson és a kormányon keresztül allokálják;Minden erőforrást az ármechanizmuson keresztül allokálnak;A kormányok irányítják az összes erőforrás felhasználását;gazdaság;közepes
-Pozitív állítás az, amely:;Tesztelhető és ellenőrizhető;Nem tesztelhető vagy ellenőrizhető;Véleményen alapul;Értékítéleten alapul;gazdaság;nehéz
-Melyik nem pozitív kijelentés?;Az árak csökkenése jót tesz a fogyasztóknak;A házak árának emelkedése hatással lesz a reáljövedelmekre;Az emelkedő árak ösztönözhetik a termelést;Az árak esése ösztönözheti a fogyasztói költekezést;gazdaság;nehéz
-Melyik állítás pozitív?;A növekedés üteme 2007-ben nagyobb volt, mint 2018-ban;A hallgatókat nagyobb anyagi támogatásban kell részesíteni, amikor egyetemre mennek;Bizonyos szűkös forrásokat jobb kihasználatlanul hagyni;A közgazdász szerepe egyre nagyobb fontossággal bír;gazdaság;nehéz
-Az alábbi állítások közül melyik normatív?;A szegénységet a társadalomnak csökkentenie kell;Nem minden erőforrásnál tapasztalható az áremelkedés;A lakásárak emelkedése valószínűleg a kereslet csökkenéséhez vezet;A Föld szűkös erőforrásainak egy része nem megújuló;gazdaság;nehéz
-Az ármechanizmus „arányozó” funkciója az alábbi módok közül melyikkel magyarázható?;Az erőforrások növekvő felhasználásával az árak emelkednek, ami lassítja a felhasználás ütemét;Az árak a fogyasztók igényeit és szükségleteit tükrözik;A kormányok korlátozzák a szűkös erőforrások kínálatát háború idején;Ha az árak esnek, a beszállítók valószínűleg több árut szállítanak;gazdaság;nehéz
-Az alábbiak közül melyik példa közvetlen adóra?;Társasági adó;ÁFA;Parkolási díj;Forgalmi adó;gazdaság;nehéz
-A kormány úgy dönt, hogy támogatja az új házak építését. Valószínűleg melyik helyzet vezet az új házak építésének legkisebb növekedéséhez:;A telekkínálat rugalmassága kisebb, mint 1;A házak iránti kereslet kínálatának rugalmassága kisebb, mint 1;A telekkínálat rugalmassága nagyobb, mint 1;Földterületek bőséges hozzáférhetősége;gazdaság;nehéz
-Az alábbiak közül melyik valószínűsíthető indítéka egy meghatározott egységadó kivetésének?;A káros és ártalmas áruk fogyasztásának csökkentése;Az árura vagy szolgáltatásra fordított kiadások ösztönzése;Pozitív externáliákat generáló áruk fogyasztásának ösztönzése;Jótékony érdemi javak fogyasztásának csökkentése;gazdaság;nehéz
+Milyen történelmi esemény vezetett a makroökonómia területének létrejöttéhez?;A nagy gazdasági világválság;A második világháború vége;A Bretton Woods-i megállapodás;Az Egyesült Államok függetlenné válása Nagy-Britanniától;közgazdaságtan;nehéz
+Mi a takarékosság paradoxona?;Az az elképzelés, hogy sok egyén, aki pénzt takarít meg, valójában rossz lehet a gazdaság számára;Az az elképzelés, hogy a pénzmegtakarítás valójában károsíthatja az ember pénzügyeit a jövőben;Amikor sokan pénzt fektetnek megtakarításokba, ez ösztönözheti az ország gazdasági növekedését;Ha szuperszép cuccokat találsz egy turkálóban;közgazdaságtan;közepes
+Mit mér a bruttó hazai termék (GDP)?;A gazdaság által termelt összes áru és szolgáltatás összege;Annak a mértéke, hogy mennyi pénz van a gazdaságban;Az országban élők teljes fizetése, mínusz a környezeti hatás;A legundorítóbb termék az emberek otthonában minden évben;közgazdaságtan;könnyű
+Ezek közül melyik *nem* az üzleti ciklus szakasza?;Regresszió;Csúcspont;Recesszió;Mélypont;közgazdaságtan;közepes
+Mi az anti-ciklikus politika?;Az üzleti ciklussal ellentétes politikai nyomás;Az újrahasznosítás elleni politikák;A közvélekedéssel ellentétes politika (gyakran a gazdaság nevében);Olyan politika, amelynek nem tűnik logikusnak, de végül a gazdaság hasznára válik;közgazdaságtan;nehéz
+Az alábbiak közül melyik *nem* járul hozzá az inflációhoz?;A Fed bejelentette, hogy kamatemelést tervez;Az emberek attól tartanak, hogy az árak emelkedni fognak;A termékek iránti kereslet a kínálathoz képest növekszik;Kormányzati kiadások;közgazdaságtan;közepes
+Ezek közül melyik okozza a strukturális munkanélküliséget?;A technológiai fejlődésből eredő munkahelyek elvesztése;Valaki munkát keres, de nem érdekli a heti 40 órás munkavégzés, mert túl sokat vesz el az életéből;Profi Mikulások munkát keresnek júniusban;Egyik sem;közgazdaságtan;könnyű
+Ezek közül melyik a Federal Reserve feladata?;A fentiek mindegyike;Az Egyesült Államok bankrendszerének végső hitelezése;A munkanélküliség alacsony szinten tartása;Az infláció kordában tartása;közgazdaságtan;nehéz
+Mit mondott Keynes élete végén, bárcsak mit tett volna többször?;Bárcsak több pezsgőt ivott volna;Bárcsak egyszerűbb életet élt volna;Bárcsak több időt töltött volna a családjával (a a legnagyobb érték az összes közül);Bárcsak megírta volna azt a rap párbajt;közgazdaságtan;nehéz
+Amikor egy cég részvényeit vásárolja meg, mert úgy gondolja, hogy a barátai meg fogják venni, a barátai pedig azért tervezik megvenni, mert azt hiszik, hogy a barátaik meg fogják vásárolni, akkor mindannyian részt vesznek:;Egy keynesi szépségversenyen;"The plot of Ocean's 14"-ban;A tömeg bölcsességében;Alapvető részvényelemzésben;közgazdaságtan;közepes
+Azt a befektetési koncepciót, amely szerint egyes részvények kiválasztásával valószínűleg nem lehet felülmúlni a teljes tőzsdét, a következő:;Hatékony piaci hipotézis;Diverzifikációs válság;Pesszimizmus paradoxona;A közönséges készletező tragédiája;közgazdaságtan;nehéz
+Az életciklus-hipotézis szerint az emberek fiatal korukban hajlamosak hitelt felvenni, középkorukban többet megtakarítani, idős korukban pedig elkölteni megtakarításaikat. Ez az úgynevezett hosszú távú alkalmazás úgy ismert, mint?;Fogyasztás kiegyenlítése;Alap hitelfelvétel;Pénzmosás;A fentiek egyike sem;közgazdaságtan;könnyű
+Azt a kockázatot, hogy a meredeken emelkedő árak erodálják kötvényei értékét, a következőképpen ismert:;Inflációs kockázat;Hosszú élettartam kockázata;Nemteljesítési kockázat;Kamatlábkockázat;közgazdaságtan;könnyű
+A részvények abban hasonlítanak a kötvényekhez, hogy:;A fentiek egyike sem;Mindkettő rendelkezik hitelminősítéssel;Mindkettő tulajdonjogot ad Önnek egy vállalatban;Mindkettő garantáltan megtéríti kezdeti befektetését;közgazdaságtan;nehéz
+A pénzügyi buborékokat súlyosbítják a következők:;A fentiek mindegyike;Csordaösztön;Túlzott optimizmus;FOMO;közgazdaságtan;közepes
+Amikor megkísérel vásárolni egy házat, amelyről tudja, hogy túlárazott, mert azt tervezi, hogy gyorsan eladja egy nagyobb baleknak még magasabb áron, vállalva annak kockázatát, hogy ha az ár csökkenni kezd, akkor a tulajdonosa marad, ezzel megerősíti:;A nagyobb bolond elméletet;A szerencsés vesztes hipotézisét;A balekok paradicsomi javaslatait;A gombostűfej felvetést;közgazdaságtan;könnyű
+Soha nem lesz több mint...;21 millió Bitcoin;13.000 Bitcoin;57 milliárd Bitcoin;Eh! Nincs is Bitcoin mennyiségi korlát.;közgazdaságtan;könnyű
+Mely állítási ódák nem kapcsolódnak a közgazdász szerepéhez?;A társadalom igazságosabbá tételének módjainak meghatározása;A kormánypolitika változásának hatásainak előrejelzése;Kísérlet a gazdasági jelenségek okainak magyarázatára;Általános árszínvonal-változások mérése;közgazdaságtan;könnyű
+Az adásvétel szükségessége azért van, mert?;Létezik a specializáció és a munkamegosztás;A csere következtében csökken a munkanélküliség;Az ingyenes áruknak nincs alternatív költsége;A fogyasztóknak egyaránt vannak vágyai és szükségletei;közgazdaságtan;könnyű
+Adam Smith egy ____ _____ volt.;skót közgazdász;amerikai filozófus;walesi geológus;angol költő;közgazdaságtan;könnyű
+Melyik állítás írja le legjobban a „gazdasági problémát”?;A végtelen szükségletek és a korlátozott erőforrások párosítása;Az a tény, hogy a gazdaságok gyakran recesszióba kerülnek;A magas szintű munkanélküliség;Az a probléma, hogy a magas árfolyamok visszatartják az exportot;közgazdaságtan;könnyű
+Adam Smith, a közgazdaságtan alapító atyja az ármechanizmust a következőkhöz hasonlította:;Láthatatlan kéz;Állatcsorda;Számítógép;Gép;közgazdaságtan;közepes
+Az alternatív költség a legjobban a következőképpen definiálható:;Egy döntés költsége a következő legjobb alternatívában kifejezve;Hogyan szenved a gazdaság recesszióban;Egy döntés költsége pénzben kifejezve;Az áruk előállításához kapcsolódó pénzügyi költségek és szolgáltatások;közgazdaságtan;közepes
+Melyik "vegyes" gazdaság?;Vannak növekedési és recessziós időszakok;Az erőforrásokat az ármechanizmuson és a kormányon keresztül allokálják;Minden erőforrást az ármechanizmuson keresztül allokálnak;A kormányok irányítják az összes erőforrás felhasználását;közgazdaságtan;közepes
+Pozitív állítás az, amely:;Tesztelhető és ellenőrizhető;Nem tesztelhető vagy ellenőrizhető;Véleményen alapul;Értékítéleten alapul;közgazdaságtan;nehéz
+Melyik nem pozitív kijelentés?;Az árak csökkenése jót tesz a fogyasztóknak;A házak árának emelkedése hatással lesz a reáljövedelmekre;Az emelkedő árak ösztönözhetik a termelést;Az árak esése ösztönözheti a fogyasztói költekezést;közgazdaságtan;nehéz
+Melyik állítás pozitív?;A növekedés üteme 2007-ben nagyobb volt, mint 2018-ban;A hallgatókat nagyobb anyagi támogatásban kell részesíteni, amikor egyetemre mennek;Bizonyos szűkös forrásokat jobb kihasználatlanul hagyni;A közgazdász szerepe egyre nagyobb fontossággal bír;közgazdaságtan;nehéz
+Az alábbi állítások közül melyik normatív?;A szegénységet a társadalomnak csökkentenie kell;Nem minden erőforrásnál tapasztalható az áremelkedés;A lakásárak emelkedése valószínűleg a kereslet csökkenéséhez vezet;A Föld szűkös erőforrásainak egy része nem megújuló;közgazdaságtan;nehéz
+Az ármechanizmus „arányozó” funkciója az alábbi módok közül melyikkel magyarázható?;Az erőforrások növekvő felhasználásával az árak emelkednek, ami lassítja a felhasználás ütemét;Az árak a fogyasztók igényeit és szükségleteit tükrözik;A kormányok korlátozzák a szűkös erőforrások kínálatát háború idején;Ha az árak esnek, a beszállítók valószínűleg több árut szállítanak;közgazdaságtan;nehéz
+Az alábbiak közül melyik példa közvetlen adóra?;Társasági adó;ÁFA;Parkolási díj;Forgalmi adó;közgazdaságtan;nehéz
+A kormány úgy dönt, hogy támogatja az új házak építését. Valószínűleg melyik helyzet vezet az új házak építésének legkisebb növekedéséhez:;A telekkínálat rugalmassága kisebb, mint 1;A házak iránti kereslet kínálatának rugalmassága kisebb, mint 1;A telekkínálat rugalmassága nagyobb, mint 1;Földterületek bőséges hozzáférhetősége;közgazdaságtan;nehéz
+Az alábbiak közül melyik valószínűsíthető indítéka egy meghatározott egységadó kivetésének?;A káros és ártalmas áruk fogyasztásának csökkentése;Az árura vagy szolgáltatásra fordított kiadások ösztönzése;Pozitív externáliákat generáló áruk fogyasztásának ösztönzése;Jótékony érdemi javak fogyasztásának csökkentése;közgazdaságtan;nehéz
 Hol voltak az első modern Nyári olimpiai játékok 1896-ban?;Athén;Sydney;Róma;Párizs;sport;könnyű
 Mi az Arsenal FC beceneve?;The Gunners;The Sky Blues;The Citizens;The Red Devils;sport;könnyű
 Milyen számú mezt hord egy hátvéd a rögbi szövetségben?;15;18;21;13;sport;közepes
@@ -613,6 +614,6 @@ Mit jelent a golflyukon elért 1-gyel magasabb pontszám?;Bogey;Birdie;Ace;Eagle
 Melyik teniszversenyen szerezte meg Andy Murray első Grand Slam-bajnoki címét?;US Open;Australian Open;Roland Garros (French Open);Wimbledon;sport;könnyű
 Melyik futballstadionban találná a The Shankly Gates-t?;Anfield, Liverpool;Wembley, London;Old Trafford, Manchester;Westfalenstadion, Dortmund;sport;könnyű
 Hány olimpiai aranyérmet nyert Michael Phelps?;23;24;25;30;sport;nehéz
-Melyik sportágat űzi a New York Giants?Amerikai futball;Futball;Röplabda;Kosárlabda;sport;könnyű
+Melyik sportágat űzi a New York Giants?;Amerikai futball;Futball;Röplabda;Kosárlabda;sport;könnyű
 Mi Japán nemzeti sportja?;Szumóbirkózás;Karate;Dzsúdó;Dzsúdzsucu;sport;könnyű
 A Boat Race egy éves rendezvény. Mely két egyetem között zajlik?;Oxford & Cambridge;MIT & Chicago;Yale & Harvard;Boston & Chicago;sport;közepes
