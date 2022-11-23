@@ -455,49 +455,49 @@ How many sides does an “enneadecagon” have?;19;20;21;17;mathematics;hard
 What does the term ‘crore’ mean?;Ten Million;Ten Thousand;Ten Billion;Ten Trillion;mathematics;hard
 What was the original name for the number 0?;Cipher;Nil;Nol;Cero;mathematics;hard
 In 1940, what number one followed by 100 zeros was used by Milton Sirotta for the first time?;Googol;Googolplex;Eddington number;Graham's number;mathematics;hard
-What is the value of e?;2.718;3.14;42;3.6;mathematics;hard
-What is the name of the number system that has a base of two?;Binary;Ternary;Duodecimal;Duocentesimal;mathematics;hard
-Who considered the fastest human calculator?;Scott Flansburg;Jack Kilby;Edith Clarke;Blaise Pascal;mathematics;hard
-What is the world’s biggest known number?;Googolplex;Googol;Eddington number;Graham's number;mathematics;hard
-What do you call the two consecutive primes that differ by two?;Twin Primes;Cousin primes;Factorial primes;Good primes;mathematics;hard
-C=2πr is the formula for?;Circumference of a Circle;Circumference of a Triangle;Area of a Circle;None of these;mathematics;medium
-What is the formula for the area of a square?;A=s^^2;A=s;A=s^^3;A=s + s;mathematics;medium
-The formula for the cotangent is?;Cotθ = adjacent/opposite;Cotθ = adjacent x opposite;Cotθ = opposite/adjacent;Cotθ = opposite/hypotenuse;mathematics;medium
-2 × (L+W) is the formula for?;The perimeter of a rectangle;The perimeter of a triangle;The perimeter of a pentagon;The area of a pentagon;mathematics;medium
-Where can we find Stonehenge?;England;Wales;Scotland;Ireland;arts;medium
-Which Spanish painter was known for his hallucinatory paintings?;Salvador Dalí;Francisco de Zurbarán;Johannes Vermeer;Georges Seurat;arts;hard
-How many people are visible in The Last Supper by Leonardo da Vinci?;13;3;10;7;arts;easy
-Which sculptor is best known for his colossal Statue of Freedom?;Thomas Crawford;Hiram Powers;Clark Mills;Horatio Greenough;arts;hard
-Who is the creator of the famous sculptures The Thinker and The Kiss?;Auguste Rodin;Nicolai Abildgaard;Hans von Aachen;Dirck Jacobszoon;arts;hard
-In the quarrel of color versus drawing, what are the supporters of the supremacy of disegno (“drawing”) over color called?;Poussinist;Ancient;Rubenist;Modern;arts;hard
-In which year was the German art society Nazarene founded?;1809;1923;1924;1819;arts;hard
-Which one of these is not a well-known Indian sculptor?;Henry Moore;Ramkinkar Baij;Krishna Reddy;Kumaradeva;arts;hard
-Name the church where Leonardo da Vinci''s famous fresco the "Last Supper" is painted.;Santa Maria delle Grazie;San Nazaro in Brolo; Duomo di Milano;Basilica di Sant'Ambrogio;arts;hard
-Who painted "The Starry Night"?;Vincent van Gogh;Georges Seurat;Pierre-Auguste Renoir;Paul Gauguin;arts;easy
-What was the artistic movement that originated in Italy in the early 20th-century?;Futurism;Suprematism;Stridentism;Neoplasticism;arts;medium
-Which art movement flourished in Zurich, Switzerland, during the early 20th century?;Dada;Rococo;Modern art;Pop art;arts;medium
-The first artist to receive the MacArthur Foundation "genius" award was:;Robert Irwin;Mary Corse;Barnett Newman;Larry Bell;arts;hard
-Which art technique uses light and shadow to define three-dimensional objects?;Chiaroscuro;Grisaille;Impasto;Oil painting;arts;hard
-Who was the teacher of Leonardo da Vinci?;Andrea del Verrocchio;Raphael;Giorgio Vasari;Sandro Botticelli;arts;hard
-During whose reign did the Carolingian art begin?;Charlemagne;Pepin the Short;Desiderius;Clovis I;arts;medium
-When did Constructivism in art begin?;1913;1886;1770;1600;arts;easy
-Who is the founder of the Rayonism art movement?;Mikhail Fyodorovich Larionov;Franz Marc;Robert Delaunay;Albert Gleizes;arts;hard
-Which American filmmaker is also known as one of the originators of the assemblage form of sculpture?;Joseph Cornell;Joseph Bard;Robert Motherwell;Elieen Agar;arts;hard
-Name the art group formed from the initials of the founders'' home cities;COBRA;De Stijl;Section d''Or;Puteaux group;arts;medium
-The motto "Art for art''s sake" belongs to which art movement?;Aestheticism;Costumbrismo;Mannerism;Expressionism;arts;easy
-What type of painting depicts scenes from everyday life in a realistic manner?;Genre painting;Bark painting;Metaphysical painting;Deccani painting;arts;medium
-Who painted the ceiling of the Sistine Chapel?;Michelangelo;Botticelli;Leonard da Vinci;Raffaello;arts;easy
-In ‘The Birth of Venus’ by Sandro Botticelli, on what does the goddess stand?;A giant scallop shell;On a giant skull;On a cliff;On a giant whale;arts;easy
-In which city can you find the British Museum?;London;Manchester;Oxford;Liverpool;arts;easy
-Which country is Claude Monet from?;France;Germany;Switzerland;England;arts;easy
-What type of art is art deco?;Architecture;Sculpture;Painting;None of the above;arts;easy
-Which famous female pharaoh bust was sculpted by Thutmose?;Nefertiti;Hatshepsut;Cleopatra;Ashotep;arts;easy
-In which city can you find David by Michelangelo?;Florence;Rome;Naples;Ravenna;arts;easy
-In which city can you find the Manneken Pis?;Brussels, Belgium;Genf, Switzerland;Toulouse, France;Milano, Italy;arts;easy
-Which brand are the Soup Cans on the famous Andy Warhol painting?;Campbell's;Nestle;General Mills;Kraft Heinz;arts;easy
-What is the world’s most visited museum?;Le Louvre;State Hermitage;Vatican Museums;British Museum;arts;easy
-In which country can you find the Terracota warriors?;China;Russia;India;North Korea;arts;easy
-Which country is Gustav Klimt from?;Austria;Czech Republic;Germany;France;arts;easy
+Mi az "e" értéke?;2,718;3,14;42;3,6;matematika;nehéz
+Mi a neve annak a számrendszernek, amelynek alapja kettes szám?;Bináris;Hármas;Duodecimális;Duocentezimális;matematika;nehéz
+Ki gondolta ki a leggyorsabb emberi számológépet?;Scott Flansburg;Jack Kilby;Edith Clarke;Blaise Pascal;matematika;nehéz
+Mi a világ legnagyobb ismert száma?;Googolplex;Googol;Eddington-szám;Graham-szám;matematika;nehéz
+Hogyan nevezzük a két egymást követő prímszámot, amelyek kettővel különböznek?;Ikerprímek;Unokatestvér prímek;Faktoriális prímek;Jó prímek;matematika;nehéz
+K=2πr minek a képlete?;kör kerülete;háromszög kerülete;kör területe;Egyik sem;matematika;közepes
+Mi a képlet a négyzet területére?;T=a^^2;T=a;T=a^^3;T=a + a;matematika;közepes
+Melyik a kotangens képlete?;Cotθ = szomszédos/szemközti oldalak; Cotθ = a szög melletti befogó / szöggel szembeni befogó;Cotθ = a szög melletti befogó * szöggel szembeni befogó; Cotθ = szöggel szembeni befogó / a szög melletti befogó; Cotθ = a szög melletti befogó / átfogó;matematika;közepes
+2 × (L+W) minek a képlete?;Téglalap kerülete;háromszög kerülete;Ötszög kerülete;Ötszög területe;matematika;közepes
+Hol található a Stonehenge?;Anglia;Wales;Skócia;Írország;művészet;közepes
+Melyik spanyol festő volt ismert hallucinációs festményeiről?;Salvador Dalí;Francisco de Zurbarán;Johannes Vermeer;Georges Seurat;művészet;nehéz
+Hány ember látható Leonardo da Vinci Utolsó Vacsoráján?;13;3;10;7;művészet;könnyű
+Melyik szobrász vált ismertté a kolosszális Szabadság-szobráról?;Thomas Crawford;Hiram Powers;Clark Mills;Horatio Greenough;művészet;nehéz
+Ki az alkotója a híres szobroknak, "A gondolkodó" és "A csók"?;Auguste Rodin;Nicolai Abildgaard;Hans von Aachen;Dirck Jacobszoon;művészet;nehéz
+A szín versus rajz viszályában hogy hívják a disegno („rajz”) szín feletti fölényének követőit?;Pousszinisták;Egyetemesek;Rubenisták;Modernisták;művészet;nehéz
+Melyik évben alapították a német Nazarene művészeti társaságot?;1809;1923;1924;1819;művészet;nehéz
+Ezek közül melyik nem egy jól ismert indiai szobrász?;Henry Moore;Ramkinkar Baij;Krishna Reddy;Kumaradeva;művészet;nehéz
+Nevezze meg a templomot, ahol Leonardo da Vinci híres freskója, az "Utolsó vacsora" található!;Santa Maria delle Grazie;San Nazaro in Brolo;Duomo di Milano;Basilica di Sant'Ambrogio;művészet;nehéz
+Ki festette a "Csillagos éjszakát"?;Vincent van Gogh;Georges Seurat;Pierre-Auguste Renoir;Paul Gauguin;művészet;könnyű
+Mi volt az a művészeti mozgalom, amely a 20. század elején indult ki Olaszországból?;Futurizmus;Szuprematizmus;Stridentizmus;Neoplaszticizmus;művészet;közepes
+Melyik művészeti mozgalom virágzott a svájci Zürichben a 20. század elején?;Dadaizmus;Rokokó;Modern művészet;Pop art;művészet;közepes
+Az első művész, aki megkapta a MacArthur Alapítvány "géniusz" díját:;Robert Irwin;Mary Corse;Barnett Newman;Larry Bell;művészet;nehéz
+Melyik művészeti technika használja a fényt és az árnyékot a háromdimenziós objektumok meghatározására?;Chiaroscuro;Grisaille;Impasto;Olajfestmény;művészet;nehéz
+Ki volt Leonardo da Vinci tanára?;Andrea del Verrocchio;Raphael;Giorgio Vasari;Sandro Botticelli;művészet;nehéz
+Kinek az uralkodása alatt kezdődött a Karoling művészet?;Nagy Károly;Kis Pipin;Desiderius;I. Klodvig;művészet;közepes
+Mikor kezdődött a konstruktivizmus a művészetben?;1913;1886;1770;1600;művészet;könnyű
+Ki a Rajonizmus művészeti mozgalom alapítója?;Mihail Fjodorovics Larionov;Franz Marc;Robert Delaunay;Albert Gleizes;művészet;nehéz
+Melyik amerikai filmrendezőt ismerik az új-realizmus szobrászat egyik megalkotójaként?;Joseph Cornell;Joseph Bard;Robert Motherwell;Elieen Agar;művészet;nehéz
+Nevezze meg az alapítók szülővárosának kezdőbetűiből létrehozott művészeti csoportot;COBRA;De Stijl;Section d''Or;Puteaux csoport;művészet;közepes
+A "Művészet a művészetért" mottó melyik művészeti irányzathoz tartozik?;Esztétizmus;Costumbrismo;Manierizmus;Expresszionizmus;művészet;könnyű
+Milyen típusú festmény ábrázolja valósághűen a mindennapi élet jeleneteit?;Zsánerkép festészet;Kéregfestészet;Metafizikai festészet;Deccani-festészet;művészet;közepes
+Ki festette a Sixtus-kápolna mennyezetét?;Michelangelo;Botticelli;Leonardo da Vinci;Raffaello;művészet;könnyű
+Sandro Botticelli „Vénusz születése” c. festményén min áll az istennő?;Óriás fésűkagylón;Óriás koponyán;Egy sziklán;Óriási bálnán;művészet;könnyű
+Melyik városban található a British Museum?;London;Manchester;Oxford;Liverpool;művészet;könnyű
+Melyik országból származik Claude Monet?;Franciaország;Németország;Svájc;Anglia;művészet;könnyű
+Milyen típusú művészet az art deco?;Építészet;Szobrászat;Festészet;A fentiek egyike sem;művészet;könnyű
+Melyik híres női fáraó mellszobrát faragta Thutmose?;Nefertiti;Hatsepszut;Kleopátra;Ashotep;művészet;könnyű
+Melyik városban található Michelangelo Dávidja?;Firenze;Róma;Nápoly;Ravenna;művészet;könnyű
+Melyik városban található a Manneken Pis?;Brüsszel, Belgium;Genf, Svájc;Toulouse, Franciaország;Milano, Olaszország;művészet;könnyű
+Milyen márkájú leveskonzerv látható a híres Andy Warhol festményen?;Campbell's;Nestle;General Mills;Kraft Heinz;művészet könnyű
+Melyik a világ leglátogatottabb múzeuma?;Louvre;Ermitázs;Vatikáni Múzeum;British Museum;művészet könnyű
+Melyik országban találhatók az agyagharcosok?;Kína;Oroszország;India;Észak-Korea;művészet;könnyű
+Melyik országból származik Gustav Klimt?;Ausztria;Csehország;Németország;Franciaország;művészet;könnyű
 Melyik filozófus írta a "Túl a jón és a rosszon" ("Beyond Good and Evil") című könyvet?;Friedrich Nietzsche;Georg W. F. Hegel;Gilles Deleuze;Arthur Schopenhauer;irodalom;nehéz
 Minden szó tartalmaz legalább egy …?;Szótag;Zárójel;Tárgy;Felirat;irodalom;könnyű
 Ki vált ismertté a "The Art of War" (Háború művészete) megírásáról?;Sun Tzu;Pythagoras;Seneca;Arisztotelész;irodalom;nehéz
