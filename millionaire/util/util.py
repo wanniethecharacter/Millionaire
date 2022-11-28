@@ -3,30 +3,64 @@ import os
 import pathlib
 import time
 from collections import namedtuple
+from enum import Enum
 
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "1"
 import pygame
 
 operating_system = os.name
-available_languages = ["en", "hu"]
-game_language = available_languages[0]
+
+
+class Language(Enum):
+    ENGLISH = 0
+    HUNGARIAN = 1
+
+
+class Topics(Enum):
+    ALL = 0
+    GENERAL_KNOWLEDGE = 1
+    HISTORY = 3
+    GEOGRAPHY = 4
+    PHYSICS = 5
+    CHEMISTRY = 6
+    BIOLOGY = 7
+    MATHEMATICS = 8
+    ARTS = 9
+    LITERATURE = 10
+    MUSIC = 11
+    GASTRONOMY = 12
+    ECONOMY = 13
+    SPORTS = 14
+
+
+class Difficulty(Enum):
+    ALL = 0
+    EASY = 1
+    Medium = 2
+    HARD = 3
+
+
+available_languages = [item.name.capitalize() for item in Language]
+game_language = Language.ENGLISH.name.capitalize()
+question_difficulty = Difficulty.ALL.name.capitalize()
+question_topics = Topics.ALL.name.capitalize()
 language_dictionary = {}
-question_topics = "All "
-question_difficulty = ""
+topics = [topic.name for topic in Topics]
+difficulty_levels = [level.name for level in Difficulty]
 
 
 def init():
     pygame.mixer.init()
-    init_settings(available_languages[0])
+    init_settings(game_language)
 
 
-def init_settings(selected_lang: str):
+def init_settings(selected_lang: str, reset_settings=False):
     global game_language
     global question_topics
     global language_dictionary
     global question_difficulty
 
-    if os.path.isfile("settings.json"):
+    if os.path.isfile("settings.json") and reset_settings == False:
         file_path = "settings.json"
         with open(file_path, encoding="UTF-8") as json_file:
             data = json.load(json_file)
@@ -44,7 +78,6 @@ def init_settings(selected_lang: str):
             lang_dict = read_json_dict(selected_lang)
             language_dictionary.update({lang: custom_dictionary_decoder(lang_dict)})
             game_language = selected_lang
-            question_topics = language_dictionary[game_language].menu.settings_menu_question_topics[0]
 
 
 def set_game_language(selected_lang: str):
