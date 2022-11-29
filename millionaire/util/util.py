@@ -18,7 +18,7 @@ class Language(Enum):
 
 class Topics(Enum):
     ALL = 0
-    GENERAL_KNOWLEDGE = 1
+    GENERAL = 1
     HISTORY = 3
     GEOGRAPHY = 4
     PHYSICS = 5
@@ -36,18 +36,18 @@ class Topics(Enum):
 class Difficulty(Enum):
     ALL = 0
     EASY = 1
-    Medium = 2
+    MEDIUM = 2
     HARD = 3
 
 
-available_languages = [item.name.capitalize() for item in Language]
-game_language = Language.ENGLISH.name.capitalize()
-question_difficulty = Difficulty.ALL.name.capitalize()
-question_topics = Topics.ALL.name.capitalize()
+available_languages = [item.name for item in Language]
+game_language = Language.ENGLISH.name
+question_difficulty = Difficulty.ALL.name
+question_topics = Topics.ALL.name
 language_dictionary = {}
 topics = [topic.name for topic in Topics]
 difficulty_levels = [level.name for level in Difficulty]
-
+system_volume = True
 
 def init():
     pygame.mixer.init()
@@ -59,6 +59,7 @@ def init_settings(selected_lang: str, reset_settings=False):
     global question_topics
     global language_dictionary
     global question_difficulty
+    global system_volume
 
     if os.path.isfile("settings.json") and reset_settings == False:
         file_path = "settings.json"
@@ -73,6 +74,7 @@ def init_settings(selected_lang: str, reset_settings=False):
             lang_dict = read_json_dict(game_language)
             language_dictionary.update({game_language: custom_dictionary_decoder(lang_dict)})
             question_topics = data["topic"]
+            system_volume = data["volume"]
     else:
         for lang in available_languages:
             lang_dict = read_json_dict(selected_lang)
@@ -82,12 +84,10 @@ def init_settings(selected_lang: str, reset_settings=False):
 
 def set_game_language(selected_lang: str):
     global game_language
-    global question_topics
     for lang in available_languages:
         lang_dict = read_json_dict(selected_lang)
         language_dictionary.update({lang: custom_dictionary_decoder(lang_dict)})
         game_language = selected_lang
-        question_topics = language_dictionary[game_language].menu.settings_menu_question_topics[0]
 
 
 def set_question_topics(selected_topic: str):
@@ -108,10 +108,11 @@ def clear_screen():
 
 
 def play_sound(filename, starting_time, volume=0.07):
-    file_path = get_data_path() + "/sound_files/" + filename
-    pygame.mixer.music.load(file_path)
-    pygame.mixer.music.set_volume(volume)
-    pygame.mixer.music.play(0, starting_time)
+    if system_volume:
+        file_path = get_data_path() + "/sound_files/" + filename
+        pygame.mixer.music.load(file_path)
+        pygame.mixer.music.set_volume(volume)
+        pygame.mixer.music.play(0, starting_time)
 
 
 def get_data_path() -> str:
@@ -124,8 +125,8 @@ def get_data_path() -> str:
     return data_path
 
 
-def open_file(filename: str, mode: str, separator=",") -> list:
-    file_path = get_data_path() + "/text_files/" + filename
+def open_file(filename: str, mode: str, separator=",", filepath="/text_files/") -> list:
+    file_path = get_data_path() + filepath + filename + ".txt"
     with open(file_path, mode, encoding="UTF-8") as file:
         list_of_file = []
         for line in file:
@@ -135,7 +136,8 @@ def open_file(filename: str, mode: str, separator=",") -> list:
 
 
 def stop_sound():
-    pygame.mixer.music.stop()
+    if system_volume:
+        pygame.mixer.music.stop()
 
 
 def read_json_dict(file_name: str) -> {}:

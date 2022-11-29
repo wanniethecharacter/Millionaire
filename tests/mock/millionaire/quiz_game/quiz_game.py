@@ -34,24 +34,52 @@ def play(inputs: dict):
     util.clear_screen()
     util.play_sound("lom.mp3", 0)
     time.sleep(2)
-    question_file = 'questions_' + game_language + ".txt"
-    question_lines = util.open_file(question_file, "r", ";")
-    random.shuffle(question_lines)
-    if question_topics != util.Topics.ALL.name:
-        populated = filter(lambda c: c[5] == str(question_topics).lower().strip(), question_lines)
-        question_lines = list(populated)
-    if question_difficulty != util.Difficulty.ALL.name:
-        populated = filter(lambda c: c[6] == str(question_difficulty).lower().strip(), question_lines)
-        question_lines = list(populated)
+    question_lines = []
+    question_lines_easy = []
+    question_lines_medium = []
+    question_lines_hard = []
+    if question_topics == util.Topics.ALL.name:
+        for topic in util.Topics:
+            if topic.name != util.Topics.ALL.name and question_difficulty != util.Difficulty.ALL.name:
+                for level in util.Difficulty:
+                    if question_difficulty == level.name:
+                        for line in util.open_file(level.name, "r", ";",
+                                                   "/text_files/topics/" + game_language + "/" + topic.name + "/" + level.name + "/"):
+                            question_lines.append(line)
+            else:
+                if topic.name != util.Topics.ALL.name:
+                    for line in util.open_file(util.Difficulty.EASY.name, "r", ";",
+                                               "/text_files/topics/" + game_language + "/" + topic.name + "/" + util.Difficulty.EASY.name + "/"):
+                        question_lines_easy.append(line)
+                    for line in util.open_file(util.Difficulty.MEDIUM.name, "r", ";",
+                                               "/text_files/topics/" + game_language + "/" + topic.name + "/" + util.Difficulty.MEDIUM.name + "/"):
+                        question_lines_medium.append(line)
+                    for line in util.open_file(util.Difficulty.HARD.name, "r", ";",
+                                               "/text_files/topics/" + game_language + "/" + topic.name + "/" + util.Difficulty.HARD.name + "/"):
+                        question_lines_hard.append(line)
     else:
-        populated_easy_questions = filter(lambda c: c[6] == str(language_dictionary[game_language].menu.question_difficulty_levels[1]).lower().strip(), question_lines)
-        question_lines_easy = list(populated_easy_questions)
-        populated_medium_questions = filter(lambda c: c[6] == str(language_dictionary[game_language].menu.question_difficulty_levels[2]).lower().strip(), question_lines)
-        question_lines_medium = list(populated_medium_questions)
-        populated_hard_questions = filter(lambda c: c[6] == str(language_dictionary[game_language].menu.question_difficulty_levels[3]).lower().strip(), question_lines)
-        question_lines_hard = list(populated_hard_questions)
+        for level in util.Difficulty:
+            if question_difficulty == level.name and level.name != util.Difficulty.ALL.name:
+                for line in util.open_file(level.name, "r", ";",
+                                           "/text_files/topics/" + game_language + "/" + level.name + "/" + level.name + "/"):
+                    question_lines.append(line)
+            else:
+                if level.name != util.Difficulty.ALL.name:
+                    for line in util.open_file(util.Difficulty(level).name, "r", ";",
+                                               "/text_files/topics/" + game_language + "/" + question_topics + "/" + util.Difficulty(
+                                                   level).name + "/"):
+                        if level.name == util.Difficulty.EASY.name:
+                            question_lines_easy.append(line)
+                        if level.name == util.Difficulty.MEDIUM.name:
+                            question_lines_medium.append(line)
+                        if level.name == util.Difficulty.HARD.name:
+                            question_lines_hard.append(line)
+    random.shuffle(question_lines)
+    random.shuffle(question_lines_easy)
+    random.shuffle(question_lines_medium)
+    random.shuffle(question_lines_hard)
     for i in range(15):
-        if question_difficulty == "":
+        if question_difficulty == util.Difficulty.ALL.name:
             if i < 5:
                 question_lines = question_lines_easy
             elif i < 10:
@@ -59,14 +87,12 @@ def play(inputs: dict):
             else:
                 question_lines = question_lines_hard
         question = question_lines[i][0]
-        print(question)
         answers = {"a": question_lines[i][1], "b": question_lines[i][2], "c": question_lines[i][3],
                    "d": question_lines[i][4]}
         answer_list = list(answers.values())
         random.shuffle(answer_list)
         shuffled_answers = dict(zip(answers, answer_list))
-        for k in range(len(answer_list)):
-            print(list(answers.keys())[k] + ": " + answer_list[k])
+        print_question(question, shuffled_answers)
         correct_answer_key = get_dictionary_key_by_value(shuffled_answers, question_lines[i][1])
         correct_answer_value = question_lines[i][1]
         if game_inputs[i] == "OK":
@@ -80,23 +106,22 @@ def play(inputs: dict):
         while answer not in list(answers.keys()):
             if answer == "t":
                 util.clear_screen()
-                print(question)
-                for k in range(len(answer_list)):
-                    print(list(answers.keys())[k] + ": " + answer_list[k])
+                print_question(question, shuffled_answers)
                 util.play_sound("music_off.mp3", 0)
                 if out_of_game_inputs[0] == "OK":
                     answer = safe_input(language_dictionary[game_language].quiz.select_answer_out,
-                        ["a", "b", "c", "d"], correct_answer_key)
+                                        ["a", "b", "c", "d"], correct_answer_key)
                 else:
                     answer = safe_input(language_dictionary[game_language].quiz.select_answer_out,
                                         ["a", "b", "c", "d"], out_of_game_inputs[0])
-                time.sleep(2)
                 util.clear_screen()
+                print_question(question, shuffled_answers, answer, "blue")
                 util.play_sound("marked.mp3", 0)
                 time.sleep(2)
                 is_correct = check_answer(answer, correct_answer_key)
                 if is_correct:
                     util.clear_screen()
+                    print_question(question, shuffled_answers, answer, "green")
                     if i > 9:
                         print(bg.orange + show_prize(9) + bg.rs)
                         time.sleep(1)
@@ -110,7 +135,8 @@ def play(inputs: dict):
                         time.sleep(1)
                 else:
                     util.play_sound("bad_answer.mp3", 0)
-                    print(fg.green + correct_answer_value + fg.rs)
+                    util.clear_screen()
+                    print_question(question, shuffled_answers, answer, "blue", correct_answer=correct_answer_key)
                     print(fg.red + language_dictionary[game_language].quiz.incorrect_answer + fg.rs)
                     util.play_sound("so_sorry.mp3", 0)
                     time.sleep(1)
@@ -121,6 +147,8 @@ def play(inputs: dict):
                 util.clear_screen()
                 return
             if answer == "h":
+                util.clear_screen()
+                print_question(question, shuffled_answers)
                 help_functions = {"audience": audience_help, "halving": halving, "telephone": telephone_help}
                 help_inputs = [audience_inputs, halving_inputs, phone_inputs]
                 chosen_help = str
@@ -150,6 +178,7 @@ def play(inputs: dict):
                                                                                     correct_answer_value)
                                 for a in range(len(answer_list)):
                                     answer_list[a] = list(shuffled_answers.values())[a]
+                                print_question(question, shuffled_answers)
                             if chosen_help == "audience":
                                 list(help_functions.values())[x](question, shuffled_answers, correct_answer_value)
                             if chosen_help == "phone":
@@ -179,34 +208,49 @@ def play(inputs: dict):
 
                 time.sleep(2)
                 util.clear_screen()
+                print_question(question, shuffled_answers, answer, "orange")
         util.play_sound("marked.mp3", 0)
-        time.sleep(2)
         is_correct = check_answer(answer, correct_answer_key)
         time.sleep(2)
         if is_correct:
             if i < 14:
                 util.play_sound("correct_answer.mp3", 0)
+                util.clear_screen()
+                print_question(question, shuffled_answers, answer, "green")
+                time.sleep(2)
+                util.clear_screen()
                 if i == 4:
-                    print(fg.yellow + language_dictionary[game_language].quiz.guaranteed_prize + show_prize(i) + fg.rs)
+                    print("\n" + " " * 20 + fg.yellow + language_dictionary[
+                        game_language].quiz.guaranteed_prize + show_prize(i) + fg.rs)
                     util.play_sound("won_hundred_bucks.mp3", 0)
-                    time.sleep(1)
+                    print("-" * (len(question) + len(show_prize(i)) + 8))
+                    print("|", bg.orange, fg.black, " " * (int(len(question) / 2)) + show_prize(i), fg.rs,
+                          " " * (int(len(question) / 2)), bg.rs, "|")
+                    print("-" * (len(question) + len(show_prize(i)) + 8))
+                    time.sleep(3)
                 elif i == 9:
-                    print(fg.yellow + language_dictionary[game_language].quiz.guaranteed_prize + show_prize(i) + fg.rs)
+                    print("\n" + " " * 20 + fg.yellow + language_dictionary[
+                        game_language].quiz.guaranteed_prize + show_prize(i) + fg.rs)
                     util.play_sound("now_comes_hard_part.mp3", 0)
-                    time.sleep(1)
+                    print("-" * (len(question) + len(show_prize(i)) + 8))
+                    print("|", bg.orange, fg.black, " " * (int(len(question) / 2)) + show_prize(i), fg.rs,
+                          " " * (int(len(question) / 2)), bg.rs, "|")
+                    print("-" * (len(question) + len(show_prize(i)) + 8))
+                    time.sleep(3)
                 else:
-                    print(fg.green + language_dictionary[game_language].quiz.correct_answer + fg.rs)
-                    util.clear_screen()
-                    print(bg.orange + show_prize(i) + bg.rs)
+                    print("-" * (len(question) + len(show_prize(i)) + 8))
+                    print("|", bg.orange, fg.black, " " * (int(len(question) / 2)) + show_prize(i), fg.rs,
+                          " " * (int(len(question) / 2)), bg.rs, "|")
+                    print("-" * (len(question) + len(show_prize(i)) + 8))
                     time.sleep(2)
             else:
-                util.play_sound("great_logic.mp3", 0)
-                time.sleep(1)
+                util.play_sound("bad_answer.mp3", 0)
                 util.clear_screen()
-                print(fg.purple + language_dictionary[game_language].quiz.won_prize + show_prize(i) + " !" + fg.rs)
-                util.play_sound("winning_theme.mp3", 0)
-                time.sleep(35)
+                print_question(question, shuffled_answers, answer, "orange", correct_answer=correct_answer_key)
+                time.sleep(2)
+                print(fg.red + language_dictionary[game_language].quiz.incorrect_answer + fg.rs)
                 menu.return_prompt()
+                util.clear_screen()
         else:
             util.play_sound("bad_answer.mp3", 0)
             print(fg.green + correct_answer_value + fg.rs)
@@ -219,8 +263,8 @@ def play(inputs: dict):
             return
         util.clear_screen()
 
-    if score != 0:
-        write_content_to_file("scores.json", {"user": player_name, "topic": question_topics, "score": score,"time": time.ctime(time.time())})
+    write_content_to_file("scores.json", {"user": player_name, "topic": question_topics, "score": score,
+                                          "time": time.ctime(time.time())})
     return
 
 
@@ -247,7 +291,7 @@ def check_answer(answer: str, correct_answer: str) -> bool:
 
 
 def show_prize(round_number: int) -> str:
-    prizes = util.open_file("prizes_" + game_language + ".txt", "r")
+    prizes = util.open_file("prizes_" + game_language, "r")
     return prizes[round_number]
 
 
@@ -276,11 +320,10 @@ def print_phone_conversation(text: list, question: str, answers: {}, good_answer
 def telephone_help(question: str, answers: {}, correct_answer: str, hotkey: str):
     phone = safe_input(language_dictionary[game_language].quiz.phone_prompt,
                        ["m", "d", "t", "y"], hotkey)
-    call_text_files = ["mum_phone_" + game_language + ".txt",
-                       "dad_phone_" + game_language + ".txt",
-                       "teacher_phone_" + game_language + ".txt",
-                       "yoda_master_phone_" + game_language + ".txt"
-                       ]
+    call_text_files = ["mum_phone_" + game_language,
+                       "dad_phone_" + game_language,
+                       "teacher_phone_" + game_language,
+                       "yoda_master_phone_" + game_language]
     for i in range(len(call_text_files)):
         if phone.lower() == call_text_files[i][0]:
             conversation = (util.open_file(call_text_files[i], 'r', separator=";"))
@@ -292,10 +335,7 @@ def halving(question: str, answers: {}, correct_answer: str) -> dict:
     util.clear_screen()
     time.sleep(2)
     util.play_sound("halving.mp3", 0)
-    print(question)
     halved_answers = calculate_halved_answers(answers, correct_answer)
-    for i in halved_answers:
-        print(i + ": " + halved_answers[i])
     return halved_answers
 
 
@@ -322,8 +362,13 @@ def audience_help(question: str, answers: {}, correct_value: str):
     for i in range(len(answers_list)):
         print(question)
         chances = get_chances(answers, correct_value)
+        print("\n")
         for key, value in sorted(chances.items()):
-            print(key + " : " + str(answers[key]) + " || " + str(value) + "%")
+            string_value = str(value)
+            if len(string_value) == 1:
+                string_value = string_value + " "
+            print(key.upper() + " : " + string_value + "% " + bg.orange + value*" " + bg.rs + " " + str(answers[key]))
+            print("\n")
         time.sleep(1)
         if i != len(answers_list) - 1:
             util.clear_screen()
@@ -356,3 +401,51 @@ def write_content_to_file(filename: str, content: {}):
         with open(filename, "w", encoding="UTF-8") as outfile:
             json.dump([content], outfile)
 
+
+def print_question(question: str, answers_: {}, selected="", color="", correct_answer=""):
+    answer_values = list(answers_.values())
+    len_first_answer = len(list(answers_.items())[0][1])
+    len_second_answer = len(list(answers_.items())[1][1])
+    len_third_answer = len(list(answers_.items())[2][1])
+    len_fourth_answer = len(list(answers_.items())[3][1])
+    longest_string = list(sorted(answers_.values(), key=len))[-1]
+    len_separator = len(longest_string) * 2 + 30
+    table_length = 0
+    number_of_spaces = 0
+    if len_separator > len(question) + 6:
+        table_length = len_separator
+        if table_length % 2 == 0:
+            table_length += 1
+        number_of_spaces = int((table_length/2)-9)
+    else:
+        table_length = int(len(question)) + 6
+        if table_length % 2 == 0:
+            table_length += 1
+        number_of_spaces = int((table_length / 2) - 9)
+    if selected != "":
+        for i in answers_:
+            if correct_answer != "" and i == correct_answer:
+                answer_values[list(answers_).index(i)] = bg.green + fg.black + answers_[i] + fg.rs + bg.rs
+            if i == selected:
+                if color == "orange":
+                    answer_values[list(answers_).index(i)] = bg.orange + fg.black + answers_[i] + fg.rs + bg.rs
+                if color == "green":
+                    answer_values[list(answers_).index(i)] = bg.green + fg.black + answers_[i] + fg.rs + bg.rs
+                if color == "blue":
+                    answer_values[list(answers_).index(i)] = bg.blue + fg.black + answers_[i] + fg.rs + bg.rs
+
+    print("-" * (table_length))
+    print("| " + question + " " * (table_length - len(question) - 3) + "|")
+    print("-" * (table_length))
+    print("\n")
+    print("-" * table_length)
+    print("| " + list(answers_.items())[0][0].upper(), ": ", answer_values[0],
+          " " * (number_of_spaces - len_first_answer), "|",
+          list(answers_.items())[1][0].upper(), ": ", answer_values[1],
+          " " * (number_of_spaces - len_second_answer), "|")
+    print("-" * table_length)
+    print("| " + list(answers_.items())[2][0].upper(), ": ", answer_values[2],
+          " " * (number_of_spaces - len_third_answer), "|",
+          list(answers_.items())[3][0].upper(), ": ", answer_values[3],
+          " " * (number_of_spaces - len_fourth_answer), "|")
+    print("-" * table_length)
