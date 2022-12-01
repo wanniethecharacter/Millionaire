@@ -55,12 +55,12 @@ def play():
         for level in util.Difficulty:
             if question_difficulty == level.name and level.name != util.Difficulty.ALL.name:
                 for line in util.open_file(level.name, "r", ";",
-                                           "/text_files/topics/" + game_language + "/" + level.name + "/" + level.name + "/"):
+                                           "/text_files/topics/" + game_language + "/" + question_topics + "/" + level.name + "/"):
                     question_lines.append(line)
             else:
                 if level.name != util.Difficulty.ALL.name:
                     for line in util.open_file(util.Difficulty(level).name, "r", ";",
-                                               "/text_files/topics/" + game_language + "/" + question_topics + "/" + util.Difficulty(level).name + "/"):
+                                               "/text_files/topics/" + game_language + "/" + question_topics + "/" + level.name + "/"):
                         if level.name == util.Difficulty.EASY.name:
                             question_lines_easy.append(line)
                         if level.name == util.Difficulty.MEDIUM.name:
