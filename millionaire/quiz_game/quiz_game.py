@@ -26,8 +26,8 @@ def play():
     score = 0
     help_types = {"audience": True, "telephone": True, "halving": True}
     util.clear_screen()
-    util.play_sound("lom.mp3", 0)
-    time.sleep(2)
+    util.play_sound("start.mp3", 0)
+    time.sleep(4)
     question_lines = []
     question_lines_easy = []
     question_lines_medium = []
@@ -97,7 +97,8 @@ def play():
             if answer == "t":
                 util.clear_screen()
                 print_question(question, shuffled_answers)
-                util.play_sound("music_off.mp3", 0)
+                if util.game_language == util.Language.HUNGARIAN.name:
+                    util.play_sound("music_off.mp3", 0)
                 answer = safe_input(language_dictionary[game_language].quiz.select_answer_out,
                                     ["a", "b", "c", "d"])
                 util.clear_screen()
@@ -124,7 +125,8 @@ def play():
                     util.clear_screen()
                     print_question(question, shuffled_answers, answer, "blue", correct_answer=correct_answer_key)
                     print(fg.red + language_dictionary[game_language].quiz.incorrect_answer + fg.rs)
-                    util.play_sound("so_sorry.mp3", 0)
+                    if util.game_language == util.Language.HUNGARIAN.name:
+                        util.play_sound("so_sorry.mp3", 0)
                     time.sleep(1)
                 menu.return_prompt()
                 util.clear_screen()
@@ -181,7 +183,8 @@ def play():
                     time.sleep(3)
                 elif i == 9:
                     print("\n" + " " * 20 + fg.yellow + language_dictionary[game_language].quiz.guaranteed_prize + show_prize(i) + fg.rs)
-                    util.play_sound("now_comes_hard_part.mp3", 0)
+                    if util.game_language == util.Language.HUNGARIAN.name:
+                        util.play_sound("now_comes_hard_part.mp3", 0)
                     print("-" * (len(question) + len(show_prize(i)) + 8))
                     print("|", bg.orange, fg.black, " " * (int(len(question) / 2)) + show_prize(i), fg.rs,
                           " " * (int(len(question) / 2)), bg.rs, "|")
@@ -193,7 +196,8 @@ def play():
                     print("-" * (len(question)+len(show_prize(i))+8))
                     time.sleep(2)
             else:
-                util.play_sound("great_logic.mp3", 0)
+                if util.game_language == util.Language.HUNGARIAN.name:
+                    util.play_sound("great_logic.mp3", 0)
                 time.sleep(1)
                 util.clear_screen()
                 print("\n" + " " * 20 + fg.purple + language_dictionary[game_language].quiz.won_prize + show_prize(i) + " !" + fg.rs)
@@ -284,7 +288,8 @@ def telephone_help(question: str, answers: {}, correct_answer: str):
 
 
 def halving(question: str, answers: {}, correct_answer: str) -> dict:
-    util.play_sound("lets_take_two.mp3", 0)
+    if util.game_language == util.Language.HUNGARIAN.name:
+        util.play_sound("lets_take_two.mp3", 0)
     util.clear_screen()
     time.sleep(2)
     util.play_sound("halving.mp3", 0)
@@ -308,7 +313,8 @@ def calculate_halved_answers(answers: {}, correct_answer: str) -> {}:
 
 
 def audience_help(question: str, answers: {}, correct_value: str):
-    util.play_sound("push_your_buttons.mp3", 0)
+    if util.game_language == util.Language.HUNGARIAN.name:
+        util.play_sound("push_your_buttons.mp3", 0)
     time.sleep(3)
     util.clear_screen()
     answers_list = list(answers.keys())
