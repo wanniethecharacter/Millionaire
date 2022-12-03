@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "dev" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "dev" ]
 
 permissions:
   contents: read
@@ -25,8 +25,8 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
+        sudo python -m pip install --upgrade pip
+        sudo pip install flake8 pytest
         pip install pipreqs
         pipreqs .
         pip install -r requirements.txt
@@ -48,3 +48,4 @@ jobs:
         pip3 install sty
         pip install pytest
         python -m pytest quiz_game_test.py
+      

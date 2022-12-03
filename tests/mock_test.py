@@ -1,9 +1,4 @@
-import os, sys
-
-myPath = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, myPath + '/millionaire')
 from mock.millionaire import runner
-
 
 def main():
     test_select_correct_answers()
