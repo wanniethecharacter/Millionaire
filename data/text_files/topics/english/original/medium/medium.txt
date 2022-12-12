@@ -13,3 +13,9 @@ How many atoms of hydrogen are in one molecule of water?;Two;One;Four;Six
 In what city does the television drama "Homicide: Life on the Street" take place?;Baltimore;Los Angeles;Philadelphia;New York
 What is a glockenspiel?;Musical instrument;Sausage;Rifle;Car
 Which U.S. president is known as "The Great Communicator"?;Ronald Reagan;Lyndon Johnson;John F. Kennedy;Franklin J. Roosevelt
+In which musical is the lead character called a "flibbertigibbet, a will-o'-the-wisp,a clown"?;The Sound of Music;Oklahoma;Westside Story;Kiss Me Kate
+The phrase 'Richard of York gave battle in vain' is known as what?;Mnemonic;Oxymoron;Pangram;Simile
+The first winner of the Miss World contest represented which country?;Sweden;0Australia;Canada;Switzerland
+Which of these actors has not played Blofeld in the James Bond films?;Patric Macnee;Charles Gray;Telly Savalas;Donald Pleasence
+Which US state is nicknamed 'The Green Mountain State'?;Vermont;Montana;Delaware;Wyoming
+In philately, what does the 'C' in the abbreaviation FDC stand for?;Catalogue;Counterfeit;Cover;Condition

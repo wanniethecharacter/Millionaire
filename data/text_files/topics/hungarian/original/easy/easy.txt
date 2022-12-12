@@ -29,3 +29,8 @@ Ki volt a szegedi egyetem "fura ura"?;Horger Antal;Juhász Gyula;Havas Henrik;Sz
 Milyen eredetű a Mercédesz női név?;Spanyol;Görög;Német;Francia
 Hogy írjuk helyesen az alábbi szót?;Tehergépkocsi-vezető;Tehergépkocsivezető;Teher-gépkocsivezető;Tehergép-kocsivezető
 Milyen ruhája csupa tarka virág a Csinibabának az azonos című slágerben?;Karton;Muszlin;Dzsörzé;Perlon
+Mi a címe Várkonyi Zoltán Mándy Iván műve alapján készült filmjének "Csutak és a ...";Szürke ló;Kék gebe;Pepita orángután;Zöld teve
+Milyen "szelet" egy krémmel töltött ostyaalapokból álló közkedvelt édesség neve?;Nápolyi;Velencei;Pármai;Római
+Mit néz meg az, aki egy darab premierjére vált jegyet?;A bemutató előadást;Az olvasópróbát;A főpróbát;Az utolsó előadást
+Melyik hegységünkben található Galyatető?;Mátra;Bükk;Börzsöny;Pilis
+Melyik kémiai elem latin eredetű neve a sulfur?;Kén;Réz;Vas;Szelén
