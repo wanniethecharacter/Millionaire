@@ -76,7 +76,6 @@ def init_settings(selected_lang: str, reset_settings=False):
             language_dictionary.update({game_language: custom_dictionary_decoder(lang_dict)})
             question_topics = data["topic"]
             system_volume = data["volume"]
-
     else:
         for lang in available_languages:
             lang_dict = read_json_dict(selected_lang)
@@ -85,6 +84,7 @@ def init_settings(selected_lang: str, reset_settings=False):
             question_difficulty = Difficulty.ALL.name
             question_topics = Topics.ALL.name
             system_volume = True
+
 
 def set_game_language(selected_lang: str):
     global game_language
@@ -113,7 +113,7 @@ def clear_screen():
 
 def play_sound(filename, starting_time, file_type="mp3", volume=0.07):
     if system_volume:
-        file_path = get_data_path() + "/sound_files/" + game_language + "/" + filename + "." + file_type
+        file_path = get_data_path() + "/sound_files/" + str(game_language).lower() + "/" + filename + "." + file_type
         pygame.mixer.music.load(file_path)
         pygame.mixer.music.set_volume(volume)
         pygame.mixer.music.play(0, starting_time)
@@ -132,7 +132,7 @@ def get_data_path() -> str:
         path = str(pathlib.Path(__file__).parent.parent.parent.resolve())
         data_path = path + "/data"
     else:
-        data_path = "../data"
+        data_path = "./data"
 
     return data_path
 
@@ -153,7 +153,7 @@ def stop_sound():
 
 
 def read_json_dict(file_name: str) -> {}:
-    file_path = get_data_path() + "/language_files/" + file_name + ".json"
+    file_path = get_data_path() + "/language_files/" + file_name.lower() + ".json"
     with open(file_path, encoding="UTF-8") as json_file:
         data = json.load(json_file)
         return data
