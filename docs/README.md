@@ -73,6 +73,5 @@ Desktop launcher can be created by "create_linux_dekstop_launcher.sh"
 (Right click/Run as a Program)
 
 	Default color theme change to black:
-	![kép](https://user-images.githubusercontent.com/55703557/207856526-a618d9d8-abc1-451d-91bd-6cb3c53f225f.png)
-
+![kép](https://user-images.githubusercontent.com/55703557/207856799-e203ddcd-0bba-461b-8931-73a83e96a126.png)
 
