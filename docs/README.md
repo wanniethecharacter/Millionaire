@@ -72,3 +72,7 @@ Desktop launcher can be created by "create_windows_desktop_launcher.bat"
 Desktop launcher can be created by "create_linux_dekstop_launcher.sh" 
 (Right click/Run as a Program)
 
+	Default color theme change to black:
+	![kép](https://user-images.githubusercontent.com/55703557/207856526-a618d9d8-abc1-451d-91bd-6cb3c53f225f.png)
+
+
