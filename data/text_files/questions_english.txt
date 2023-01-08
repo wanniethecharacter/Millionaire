@@ -28,7 +28,7 @@ What is the capital of England?;London;Washington D.C.;Rome;Moscow;geography;eas
 Which one of the following is not an Ivy League University?;Hogwarts;Harvard;Princeton;Columbia;general knowledge;easy
 What is someone who collects coins called?;Numismatist;Professor;Chef;Psychiatrist;general knowledge;easy
 Which video game system does Sony produce?;PlayStation;Xbox;Atari;Game Boy;economy;easy
-What are the names of the Super Mario Bros.?;Mario and Luigi;Tim and Eric;Batman and Robin;Sonic and Tails;general knowledge;easy
+What are the names of the protagonists of Super Mario Bros.?;Mario and Luigi;Tim and Eric;Batman and Robin;Sonic and Tails;general knowledge;easy
 Which princess lost a glass slipper?;Cinderella;Snow White;Mulan;Belle;general knowledge;easy
 Which American car company makes the Mustang the F-150 and Escape?;Ford;Toyota;Volkswagen;Nissan;economy;easy
 Who was the first woman to fly solo across the Atlantic?;Amelia Earhart;Geraldine Ferraro;Martha Stewart;Sally Ride;history;hard
@@ -159,7 +159,7 @@ The first metal used by man was?;copper;iron;gold;bronze;chemistry;medium
 The items amenable to detection by soft x-rays are?;genuine coins from counterfeit coins;narcotics;lead in bullets;contrabands;chemistry;medium
 The main use of salt in the diet is to?;produce in small amounts the hydrochloric acid required for the digestion of food;make the taste of food better;ease the process of cooking;increase the solubility of food particles in water;chemistry;medium
 The most malleable metal is?;gold;platinum;silver;iron;chemistry;medium
-If David’s age is 27 years old in 2011. What was his age in 2003?;19 years;20 years;37 years;17 years;mathematics;easy
+If David’s age is 19 years old in 2023, what was his age in 2003?;19 years;20 years;37 years;17 years;mathematics;easy
 What is the value of x if x^2 = 169?;13;1;169;338;mathematics;easy
 If 5 boys take 7 hours to pack 35 cartoons, then how many boys can pack 65 cartoons in 3 hours?;None of these;45;39;26;mathematics;easy
 What's pi?;3,14;4.15;100;0.99;mathematics;easy
@@ -233,7 +233,7 @@ Which Queen song has the lyrics “Is this the real life? Is this just fantasy?�
 Which country is Gangnam Style singer PSY from?;South Korea;Canada;Germany;North Korea;music;easy
 In which year was Bruno Mars born?;1985;1987;1990;1992;music;medium
 Which legendary musician starred in the movie Labyrinth?;David Bowie;Matt Goss;Elvis Presley;Elton John;music;medium
-Which pop star's real name is Stefani Joanne Germanotta?;Lady Gaga;Pink;The singer from Florence and the Machnie;Olivia Rodrigo;music;easy
+Which pop star's real name is Stefani Joanne Germanotta?;Lady Gaga;Pink;Florence Welch;Olivia Rodrigo;music;easy
 How many members are in the K-Pop group Twice?;9;3;7;2;music;medium
 ABBA is a world-famous pop group from Sweden. Which member of the group is from Norway?;Anni-Frid Lyngstad;Agnetha Fältskog;Björn Ulvaeus;Benny Andersson;music;medium
 Which of the following instruments is Lizzo known for playing?;The flute;The harp;The guitar;The ocarina;music;easy
@@ -325,7 +325,7 @@ In which town did the "Gunfight at the O.K. Corral" take place?;Tombstone;Blackw
 The Forbidden City in Beijing was built during what dynasty?;Ming;Liao;Xin;Song;history;easy
 Which of these countries was once part of the Soviet Union?;Belarus;France;United Kingdom;Italy;history;easy
 Who cried "Eureka!" after making an important finding?;Archimedes;Socrates;Seneca;Aristotle;history;medium
-What country sent the first human to outer space?;Soviet Union;USA;Mexico;China;history;medium
+What country had the first human to go to outer space?;Soviet Union;USA;Mexico;China;history;medium
 Where can we find Nova Scotia?;Canada;Australia;Greenland;Denmark;geography;medium
 What is true for Italy?;It borders Switzerland;It is landlocked;Its main language is French;Its capital is Vienna;geography;easy
 Phoenix is the capital of …?;Arizona;Maine;Iowa;Delaware;geography;hard
@@ -512,15 +512,15 @@ In what unusual way was Athena born?;She sprang out of Zeus's head;She emerged f
 What is the name of Beethoven's Piano Sonata No. 14?;Moonlight Sonata;Sunshine Sonata;Venus Sonata;Sundance Sonata;music;easy
 What instrument does the concertmaster (leader) of an orchestra play?;Violin;Tuba;Horn;Cello;music;easy
 Anthony Kiedis, Flea, Chad Smith, and John Frusciante founded which American rock band?;Red Hot Chilli Peppers;Foo Fighters;Pearl Jam;Stone Temple Pilots;music;medium
-Name the debut hit from Britney Spears released in 1999.;Hit My Baby One More Time;From the bottom of my broken heart;You drive me crazy;The Beat Goes On;music;hard
+Name the debut hit song from Britney Spears released in 1999.;Hit My Baby One More Time;From the bottom of my broken heart;You drive me crazy;The Beat Goes On;music;hard
 ‘Bad Blood’, ‘Love Story’, and ‘Cardigan’ are hits for which best-selling American singer?;Taylor Swift;Tina Turner;Whitney Houston;Christina Aguilera;music;medium
-Celine Dion had a hit with ‘My Heart Will Go On’ from the soundtrack of which movie?;Titanic;The Lion King;Frozen;Good Will Hunting;music;easy
+Celine Dion had a hit with ‘My Heart Will Go On’, which is featured in the soundtrack of which movie?;Titanic;The Lion King;Frozen;Good Will Hunting;music;easy
 ‘Hotel California’ was a hit for which American band?;Eagles;Paris;Bang;Sorcery;music;easy
 Immigrant Song was a hit for which band in 1970?;Led Zeppelin;Aerosmith;Pink Floyd;Eagles;music;medium
 Which artist is also known as Slim Shady?;Enimem;Tech N9ne;Jay-Z;Lil Wayne;music;easy
 Who sang with the Wailers?;Bob Marley;John Lennon;Kim Carnes;Lionel Richie;music;hard
 Who went solo in 1987 with the song ‘Faith’?;George Michael;Dan Hill;Gregory Abbott;Whitney Houston;music;medium
-In which song did Queen sing: “I’ve fallen in love / I’ve fallen in love for the first time”?;I Want To Break Free;We Will Rock You;Love of My Life;Don't Stop Me Now;music;medium
+In which song did Queen's leader Freddie Mercury sing: “I’ve fallen in love / I’ve fallen in love for the first time”?;I Want To Break Free;We Will Rock You;Love of My Life;Don't Stop Me Now;music;medium
 In 2017 Luis Fonsi and Daddy Yankee topped the chart in 47 countries with which song?;Despacito;Macarena;Oye Cmo va;Bailando;music;easy
 Guy Berryman, Jon Buckland, Will Champion, Chris Martin are members of which band?;Coldplay;U2;Gorillaz;Villagers;music;medium
 With which Cuban-American singer did Shawn Mendes team up with on the track “Señorita”?;Camila Cabello;Shakira;Luis Fonsi;Paco de Lucia;music;easy
